@@ -1,2 +1,1 @@
-uls_events_vs_threads
-=====================
+Event driven architecture vs. thread architecture in ultra large scale systems
