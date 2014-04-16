@@ -1,0 +1,21 @@
+{
+    "name": "evt_node",
+    "description": "A node.js server for testing the single threaded, non-blocking, event based architecture of node.js.",
+    "version": "0.1.0",
+    "directories": {
+        "main": "./main",
+        "test": "./test",
+        "assets": "./assets"
+    },
+    "main": "./main/server.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "engines": {
+        "node": ">=0.10.24"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}

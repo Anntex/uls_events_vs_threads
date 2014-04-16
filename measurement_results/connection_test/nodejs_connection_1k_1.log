@@ -1,0 +1,2299 @@
+"C:\Program Files\Java\jdk1.8.0\bin\java" -Didea.launcher.port=7534 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.0.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\zipfs.jar;C:\Users\denni_000\IDE\workspace\github\event_vs_thread\loadtester\target\classes;C:\Users\denni_000\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\denni_000\.m2\repository\org\jfree\jfreechart\1.0.17\jfreechart-1.0.17.jar;C:\Users\denni_000\.m2\repository\org\jfree\jcommon\1.0.21\jcommon-1.0.21.jar;C:\Users\denni_000\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\denni_000\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\denni_000\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\denni_000\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.0.1\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain de.hdm.uls.loadtests.LoadTester
+2014-04-03 19:41:21 INFO  LoadTester:38 - -------- START TESTER USING GUI --- SCENARIO: CONNECTION --------
+2014-04-03 19:41:21 INFO  RealisticLoadGenerator:40 - -- Generator: RealisticLoadGenerator - clients: 1000 durationInMillis: 10000 profile: IncreasingClientsInjectionProfile
+2014-04-03 19:41:21 INFO  Environment:66 - -- Environment#create
+------------------------------
+2014-04-03 19:41:21 INFO  Environment:92 - -- Start server process successfully -- wait 10 seconds until the process has stabilized!
+Server started!
+GenericLoadTests started!
+2014-04-03 19:41:31 INFO  LoadGenerator:49 - -- LoadGenerator#run
+Load test overall execution time = 29,03 sec (total amount of clients: 1599)
+---------------------------
+Response times
+---------------------------
+MultiplexLoadInjector 0 - average response time: 3,37 ms -> 296fps (duration 10,02 sec - 1 clients)
+MultiplexLoadInjector 1 - average response time: 1,53 ms -> 652fps (duration 10,03 sec - 1 clients)
+MultiplexLoadInjector 2 - average response time: 0,6 ms -> 1673fps (duration 10,02 sec - 1 clients)
+MultiplexLoadInjector 3 - average response time: 0,56 ms -> 1781fps (duration 10,01 sec - 1 clients)
+MultiplexLoadInjector 4 - average response time: 0,58 ms -> 1711fps (duration 10 sec - 1 clients)
+MultiplexLoadInjector 5 - average response time: 0,61 ms -> 1628fps (duration 10 sec - 1 clients)
+MultiplexLoadInjector 6 - average response time: 0,67 ms -> 1493fps (duration 9,98 sec - 1 clients)
+MultiplexLoadInjector 7 - average response time: 1,6 ms -> 626fps (duration 9,97 sec - 1 clients)
+MultiplexLoadInjector 8 - average response time: 0,57 ms -> 1739fps (duration 9,96 sec - 1 clients)
+MultiplexLoadInjector 9 - average response time: 1,63 ms -> 614fps (duration 9,95 sec - 1 clients)
+MultiplexLoadInjector 10 - average response time: 0,66 ms -> 1515fps (duration 9,94 sec - 1 clients)
+MultiplexLoadInjector 11 - average response time: 0,65 ms -> 1546fps (duration 9,93 sec - 1 clients)
+MultiplexLoadInjector 12 - average response time: 1,63 ms -> 612fps (duration 9,92 sec - 1 clients)
+MultiplexLoadInjector 13 - average response time: 1,62 ms -> 615fps (duration 9,91 sec - 1 clients)
+MultiplexLoadInjector 14 - average response time: 0,61 ms -> 1635fps (duration 9,9 sec - 1 clients)
+MultiplexLoadInjector 15 - average response time: 0,68 ms -> 1479fps (duration 9,89 sec - 1 clients)
+MultiplexLoadInjector 16 - average response time: 0,65 ms -> 1544fps (duration 9,88 sec - 1 clients)
+MultiplexLoadInjector 17 - average response time: 1,6 ms -> 624fps (duration 9,87 sec - 1 clients)
+MultiplexLoadInjector 18 - average response time: 1,68 ms -> 593fps (duration 9,86 sec - 1 clients)
+MultiplexLoadInjector 19 - average response time: 0,66 ms -> 1518fps (duration 9,86 sec - 1 clients)
+MultiplexLoadInjector 20 - average response time: 0,55 ms -> 1827fps (duration 9,83 sec - 1 clients)
+MultiplexLoadInjector 21 - average response time: 0,6 ms -> 1677fps (duration 9,83 sec - 1 clients)
+MultiplexLoadInjector 22 - average response time: 1,62 ms -> 618fps (duration 9,82 sec - 1 clients)
+MultiplexLoadInjector 23 - average response time: 1,62 ms -> 617fps (duration 9,81 sec - 1 clients)
+MultiplexLoadInjector 24 - average response time: 1,63 ms -> 614fps (duration 9,8 sec - 1 clients)
+MultiplexLoadInjector 25 - average response time: 1,65 ms -> 606fps (duration 9,8 sec - 1 clients)
+MultiplexLoadInjector 26 - average response time: 0,66 ms -> 1506fps (duration 9,78 sec - 1 clients)
+MultiplexLoadInjector 27 - average response time: 1,63 ms -> 614fps (duration 9,77 sec - 1 clients)
+MultiplexLoadInjector 28 - average response time: 0,66 ms -> 1518fps (duration 9,76 sec - 1 clients)
+MultiplexLoadInjector 29 - average response time: 1,61 ms -> 620fps (duration 9,75 sec - 1 clients)
+MultiplexLoadInjector 30 - average response time: 1,64 ms -> 609fps (duration 9,74 sec - 1 clients)
+MultiplexLoadInjector 31 - average response time: 0,72 ms -> 1392fps (duration 9,73 sec - 1 clients)
+MultiplexLoadInjector 32 - average response time: 1,63 ms -> 613fps (duration 9,73 sec - 1 clients)
+MultiplexLoadInjector 33 - average response time: 0,67 ms -> 1485fps (duration 9,71 sec - 1 clients)
+MultiplexLoadInjector 34 - average response time: 1,64 ms -> 607fps (duration 9,7 sec - 1 clients)
+MultiplexLoadInjector 35 - average response time: 0,69 ms -> 1455fps (duration 9,69 sec - 1 clients)
+MultiplexLoadInjector 36 - average response time: 0,65 ms -> 1527fps (duration 9,68 sec - 1 clients)
+MultiplexLoadInjector 37 - average response time: 0,67 ms -> 1493fps (duration 9,67 sec - 1 clients)
+MultiplexLoadInjector 38 - average response time: 0,65 ms -> 1527fps (duration 9,66 sec - 1 clients)
+MultiplexLoadInjector 39 - average response time: 1,65 ms -> 607fps (duration 9,65 sec - 1 clients)
+MultiplexLoadInjector 40 - average response time: 0,61 ms -> 1627fps (duration 9,64 sec - 1 clients)
+MultiplexLoadInjector 41 - average response time: 1,44 ms -> 696fps (duration 9,64 sec - 1 clients)
+MultiplexLoadInjector 42 - average response time: 0,57 ms -> 1746fps (duration 9,62 sec - 1 clients)
+MultiplexLoadInjector 43 - average response time: 0,6 ms -> 1671fps (duration 9,6 sec - 1 clients)
+MultiplexLoadInjector 44 - average response time: 0,65 ms -> 1540fps (duration 9,6 sec - 1 clients)
+MultiplexLoadInjector 45 - average response time: 0,64 ms -> 1573fps (duration 9,59 sec - 1 clients)
+MultiplexLoadInjector 46 - average response time: 0,63 ms -> 1576fps (duration 9,58 sec - 1 clients)
+MultiplexLoadInjector 47 - average response time: 0,67 ms -> 1500fps (duration 9,58 sec - 1 clients)
+MultiplexLoadInjector 48 - average response time: 0,54 ms -> 1859fps (duration 9,56 sec - 1 clients)
+MultiplexLoadInjector 49 - average response time: 1,58 ms -> 633fps (duration 9,55 sec - 1 clients)
+MultiplexLoadInjector 50 - average response time: 1,56 ms -> 641fps (duration 9,53 sec - 1 clients)
+MultiplexLoadInjector 51 - average response time: 0,67 ms -> 1486fps (duration 9,53 sec - 1 clients)
+MultiplexLoadInjector 52 - average response time: 0,63 ms -> 1599fps (duration 9,52 sec - 1 clients)
+MultiplexLoadInjector 53 - average response time: 0,67 ms -> 1487fps (duration 9,51 sec - 1 clients)
+MultiplexLoadInjector 54 - average response time: 0,71 ms -> 1416fps (duration 9,51 sec - 1 clients)
+MultiplexLoadInjector 55 - average response time: 1,66 ms -> 603fps (duration 9,49 sec - 1 clients)
+MultiplexLoadInjector 56 - average response time: 1,67 ms -> 598fps (duration 9,48 sec - 1 clients)
+MultiplexLoadInjector 57 - average response time: 0,6 ms -> 1663fps (duration 9,47 sec - 1 clients)
+MultiplexLoadInjector 58 - average response time: 1,64 ms -> 611fps (duration 9,46 sec - 1 clients)
+MultiplexLoadInjector 59 - average response time: 0,57 ms -> 1756fps (duration 9,45 sec - 1 clients)
+MultiplexLoadInjector 60 - average response time: 1,64 ms -> 610fps (duration 9,45 sec - 1 clients)
+MultiplexLoadInjector 61 - average response time: 0,68 ms -> 1459fps (duration 9,43 sec - 1 clients)
+MultiplexLoadInjector 62 - average response time: 0,66 ms -> 1506fps (duration 9,42 sec - 1 clients)
+MultiplexLoadInjector 63 - average response time: 1,71 ms -> 586fps (duration 9,4 sec - 1 clients)
+MultiplexLoadInjector 64 - average response time: 1,66 ms -> 601fps (duration 9,4 sec - 1 clients)
+MultiplexLoadInjector 65 - average response time: 1,66 ms -> 601fps (duration 9,39 sec - 1 clients)
+MultiplexLoadInjector 66 - average response time: 0,62 ms -> 1614fps (duration 9,38 sec - 1 clients)
+MultiplexLoadInjector 67 - average response time: 0,71 ms -> 1411fps (duration 9,37 sec - 1 clients)
+MultiplexLoadInjector 68 - average response time: 1,66 ms -> 604fps (duration 9,37 sec - 1 clients)
+MultiplexLoadInjector 69 - average response time: 0,64 ms -> 1567fps (duration 9,35 sec - 1 clients)
+MultiplexLoadInjector 70 - average response time: 2,42 ms -> 412fps (duration 9,33 sec - 1 clients)
+MultiplexLoadInjector 71 - average response time: 0,66 ms -> 1506fps (duration 9,33 sec - 1 clients)
+MultiplexLoadInjector 72 - average response time: 1,68 ms -> 595fps (duration 9,32 sec - 1 clients)
+MultiplexLoadInjector 73 - average response time: 0,69 ms -> 1442fps (duration 9,31 sec - 1 clients)
+MultiplexLoadInjector 74 - average response time: 0,64 ms -> 1554fps (duration 9,31 sec - 1 clients)
+MultiplexLoadInjector 75 - average response time: 1,65 ms -> 605fps (duration 9,29 sec - 1 clients)
+MultiplexLoadInjector 76 - average response time: 0,63 ms -> 1575fps (duration 9,28 sec - 1 clients)
+MultiplexLoadInjector 77 - average response time: 1,66 ms -> 603fps (duration 9,27 sec - 1 clients)
+MultiplexLoadInjector 78 - average response time: 1,69 ms -> 593fps (duration 9,26 sec - 1 clients)
+MultiplexLoadInjector 79 - average response time: 1,64 ms -> 611fps (duration 9,25 sec - 1 clients)
+MultiplexLoadInjector 80 - average response time: 0,6 ms -> 1661fps (duration 9,24 sec - 1 clients)
+MultiplexLoadInjector 81 - average response time: 0,76 ms -> 1315fps (duration 9,23 sec - 1 clients)
+MultiplexLoadInjector 82 - average response time: 0,61 ms -> 1648fps (duration 9,23 sec - 1 clients)
+MultiplexLoadInjector 83 - average response time: 2,15 ms -> 465fps (duration 9,2 sec - 1 clients)
+MultiplexLoadInjector 84 - average response time: 1,6 ms -> 625fps (duration 9,19 sec - 1 clients)
+MultiplexLoadInjector 85 - average response time: 0,61 ms -> 1630fps (duration 9,18 sec - 1 clients)
+MultiplexLoadInjector 86 - average response time: 0,73 ms -> 1360fps (duration 9,18 sec - 1 clients)
+MultiplexLoadInjector 87 - average response time: 0,72 ms -> 1381fps (duration 9,16 sec - 1 clients)
+MultiplexLoadInjector 88 - average response time: 0,75 ms -> 1326fps (duration 9,15 sec - 1 clients)
+MultiplexLoadInjector 89 - average response time: 1,67 ms -> 599fps (duration 9,16 sec - 1 clients)
+MultiplexLoadInjector 90 - average response time: 1,65 ms -> 604fps (duration 9,13 sec - 1 clients)
+MultiplexLoadInjector 91 - average response time: 0,78 ms -> 1275fps (duration 9,12 sec - 1 clients)
+MultiplexLoadInjector 92 - average response time: 0,76 ms -> 1309fps (duration 9,11 sec - 1 clients)
+MultiplexLoadInjector 93 - average response time: 1,65 ms -> 607fps (duration 9,1 sec - 1 clients)
+MultiplexLoadInjector 94 - average response time: 1,63 ms -> 613fps (duration 9,09 sec - 1 clients)
+MultiplexLoadInjector 95 - average response time: 0,68 ms -> 1481fps (duration 9,08 sec - 1 clients)
+MultiplexLoadInjector 96 - average response time: 1,54 ms -> 650fps (duration 9,07 sec - 1 clients)
+MultiplexLoadInjector 97 - average response time: 1,37 ms -> 728fps (duration 9,08 sec - 1 clients)
+MultiplexLoadInjector 98 - average response time: 0,68 ms -> 1467fps (duration 9,05 sec - 1 clients)
+MultiplexLoadInjector 99 - average response time: 1,75 ms -> 569fps (duration 9,04 sec - 1 clients)
+MultiplexLoadInjector 100 - average response time: 1,63 ms -> 613fps (duration 9,04 sec - 1 clients)
+MultiplexLoadInjector 101 - average response time: 0,65 ms -> 1540fps (duration 9,02 sec - 1 clients)
+MultiplexLoadInjector 102 - average response time: 1,62 ms -> 617fps (duration 9,01 sec - 1 clients)
+MultiplexLoadInjector 103 - average response time: 1,52 ms -> 656fps (duration 9 sec - 1 clients)
+MultiplexLoadInjector 104 - average response time: 0,78 ms -> 1281fps (duration 9,01 sec - 1 clients)
+MultiplexLoadInjector 105 - average response time: 1,57 ms -> 635fps (duration 8,98 sec - 1 clients)
+MultiplexLoadInjector 106 - average response time: 0,76 ms -> 1315fps (duration 8,97 sec - 1 clients)
+MultiplexLoadInjector 107 - average response time: 0,65 ms -> 1529fps (duration 8,96 sec - 1 clients)
+MultiplexLoadInjector 108 - average response time: 1,61 ms -> 619fps (duration 8,95 sec - 1 clients)
+MultiplexLoadInjector 109 - average response time: 0,81 ms -> 1242fps (duration 8,94 sec - 1 clients)
+MultiplexLoadInjector 110 - average response time: 0,61 ms -> 1636fps (duration 8,93 sec - 1 clients)
+MultiplexLoadInjector 111 - average response time: 0,69 ms -> 1449fps (duration 8,92 sec - 1 clients)
+MultiplexLoadInjector 112 - average response time: 1,65 ms -> 606fps (duration 8,93 sec - 1 clients)
+MultiplexLoadInjector 113 - average response time: 1,63 ms -> 611fps (duration 8,91 sec - 1 clients)
+MultiplexLoadInjector 114 - average response time: 1,56 ms -> 640fps (duration 8,89 sec - 1 clients)
+MultiplexLoadInjector 115 - average response time: 1,66 ms -> 601fps (duration 8,89 sec - 1 clients)
+MultiplexLoadInjector 116 - average response time: 1,65 ms -> 606fps (duration 8,88 sec - 1 clients)
+MultiplexLoadInjector 117 - average response time: 0,8 ms -> 1249fps (duration 8,87 sec - 1 clients)
+MultiplexLoadInjector 118 - average response time: 0,7 ms -> 1423fps (duration 8,86 sec - 1 clients)
+MultiplexLoadInjector 119 - average response time: 0,56 ms -> 1785fps (duration 8,86 sec - 1 clients)
+MultiplexLoadInjector 120 - average response time: 1,58 ms -> 631fps (duration 8,84 sec - 1 clients)
+MultiplexLoadInjector 121 - average response time: 0,61 ms -> 1627fps (duration 8,83 sec - 1 clients)
+MultiplexLoadInjector 122 - average response time: 1,62 ms -> 617fps (duration 8,81 sec - 1 clients)
+MultiplexLoadInjector 123 - average response time: 0,8 ms -> 1257fps (duration 8,81 sec - 1 clients)
+MultiplexLoadInjector 124 - average response time: 0,87 ms -> 1145fps (duration 8,8 sec - 1 clients)
+MultiplexLoadInjector 125 - average response time: 0,78 ms -> 1282fps (duration 8,79 sec - 1 clients)
+MultiplexLoadInjector 126 - average response time: 0,53 ms -> 1873fps (duration 8,77 sec - 1 clients)
+MultiplexLoadInjector 127 - average response time: 1,67 ms -> 599fps (duration 8,78 sec - 1 clients)
+MultiplexLoadInjector 128 - average response time: 1,6 ms -> 624fps (duration 8,76 sec - 1 clients)
+MultiplexLoadInjector 129 - average response time: 1,65 ms -> 606fps (duration 8,75 sec - 1 clients)
+MultiplexLoadInjector 130 - average response time: 1,62 ms -> 617fps (duration 8,74 sec - 1 clients)
+MultiplexLoadInjector 131 - average response time: 1,68 ms -> 593fps (duration 8,73 sec - 1 clients)
+MultiplexLoadInjector 132 - average response time: 0,54 ms -> 1851fps (duration 8,71 sec - 1 clients)
+MultiplexLoadInjector 133 - average response time: 1,67 ms -> 599fps (duration 8,71 sec - 1 clients)
+MultiplexLoadInjector 134 - average response time: 1,65 ms -> 604fps (duration 8,71 sec - 1 clients)
+MultiplexLoadInjector 135 - average response time: 0,65 ms -> 1546fps (duration 8,69 sec - 1 clients)
+MultiplexLoadInjector 136 - average response time: 0,65 ms -> 1528fps (duration 8,68 sec - 1 clients)
+MultiplexLoadInjector 137 - average response time: 0,81 ms -> 1240fps (duration 8,67 sec - 1 clients)
+MultiplexLoadInjector 138 - average response time: 1,64 ms -> 610fps (duration 8,66 sec - 1 clients)
+MultiplexLoadInjector 139 - average response time: 1,68 ms -> 596fps (duration 8,65 sec - 1 clients)
+MultiplexLoadInjector 140 - average response time: 0,67 ms -> 1502fps (duration 8,64 sec - 1 clients)
+MultiplexLoadInjector 141 - average response time: 1,5 ms -> 666fps (duration 8,63 sec - 1 clients)
+MultiplexLoadInjector 142 - average response time: 0,64 ms -> 1573fps (duration 8,63 sec - 1 clients)
+MultiplexLoadInjector 143 - average response time: 1,77 ms -> 563fps (duration 8,61 sec - 1 clients)
+MultiplexLoadInjector 144 - average response time: 0,85 ms -> 1183fps (duration 8,6 sec - 1 clients)
+MultiplexLoadInjector 145 - average response time: 0,84 ms -> 1197fps (duration 8,59 sec - 1 clients)
+MultiplexLoadInjector 146 - average response time: 1,62 ms -> 616fps (duration 8,58 sec - 1 clients)
+MultiplexLoadInjector 147 - average response time: 0,99 ms -> 1009fps (duration 8,57 sec - 1 clients)
+MultiplexLoadInjector 148 - average response time: 0,62 ms -> 1608fps (duration 8,56 sec - 1 clients)
+MultiplexLoadInjector 149 - average response time: 1,62 ms -> 618fps (duration 8,56 sec - 1 clients)
+MultiplexLoadInjector 150 - average response time: 0,81 ms -> 1230fps (duration 8,54 sec - 1 clients)
+MultiplexLoadInjector 151 - average response time: 0,56 ms -> 1788fps (duration 8,52 sec - 1 clients)
+MultiplexLoadInjector 152 - average response time: 1,61 ms -> 619fps (duration 8,52 sec - 1 clients)
+MultiplexLoadInjector 153 - average response time: 1,63 ms -> 611fps (duration 8,51 sec - 1 clients)
+MultiplexLoadInjector 154 - average response time: 1,63 ms -> 613fps (duration 8,5 sec - 1 clients)
+MultiplexLoadInjector 155 - average response time: 0,69 ms -> 1449fps (duration 8,49 sec - 1 clients)
+MultiplexLoadInjector 156 - average response time: 0,81 ms -> 1238fps (duration 8,48 sec - 1 clients)
+MultiplexLoadInjector 157 - average response time: 0,63 ms -> 1575fps (duration 8,48 sec - 1 clients)
+MultiplexLoadInjector 158 - average response time: 1,59 ms -> 628fps (duration 8,45 sec - 1 clients)
+MultiplexLoadInjector 159 - average response time: 1,63 ms -> 611fps (duration 8,45 sec - 1 clients)
+MultiplexLoadInjector 160 - average response time: 0,62 ms -> 1614fps (duration 8,43 sec - 1 clients)
+MultiplexLoadInjector 161 - average response time: 1,7 ms -> 588fps (duration 8,43 sec - 1 clients)
+MultiplexLoadInjector 162 - average response time: 1,48 ms -> 677fps (duration 8,41 sec - 1 clients)
+MultiplexLoadInjector 163 - average response time: 0,95 ms -> 1054fps (duration 8,41 sec - 1 clients)
+MultiplexLoadInjector 164 - average response time: 0,61 ms -> 1645fps (duration 8,41 sec - 1 clients)
+MultiplexLoadInjector 165 - average response time: 0,82 ms -> 1226fps (duration 8,39 sec - 1 clients)
+MultiplexLoadInjector 166 - average response time: 1,61 ms -> 621fps (duration 8,37 sec - 1 clients)
+MultiplexLoadInjector 167 - average response time: 1,62 ms -> 616fps (duration 8,37 sec - 1 clients)
+MultiplexLoadInjector 168 - average response time: 1,6 ms -> 624fps (duration 8,36 sec - 1 clients)
+MultiplexLoadInjector 169 - average response time: 1,53 ms -> 653fps (duration 8,34 sec - 1 clients)
+MultiplexLoadInjector 170 - average response time: 0,72 ms -> 1392fps (duration 8,33 sec - 1 clients)
+MultiplexLoadInjector 171 - average response time: 0,84 ms -> 1186fps (duration 8,33 sec - 1 clients)
+MultiplexLoadInjector 172 - average response time: 0,91 ms -> 1096fps (duration 8,33 sec - 1 clients)
+MultiplexLoadInjector 173 - average response time: 1,6 ms -> 623fps (duration 8,31 sec - 1 clients)
+MultiplexLoadInjector 174 - average response time: 1,56 ms -> 640fps (duration 8,29 sec - 1 clients)
+MultiplexLoadInjector 175 - average response time: 0,53 ms -> 1879fps (duration 8,29 sec - 1 clients)
+MultiplexLoadInjector 176 - average response time: 1,58 ms -> 632fps (duration 8,28 sec - 1 clients)
+MultiplexLoadInjector 177 - average response time: 0,89 ms -> 1123fps (duration 8,27 sec - 1 clients)
+MultiplexLoadInjector 178 - average response time: 1,63 ms -> 612fps (duration 8,26 sec - 1 clients)
+MultiplexLoadInjector 179 - average response time: 0,54 ms -> 1841fps (duration 8,26 sec - 1 clients)
+MultiplexLoadInjector 180 - average response time: 1,6 ms -> 623fps (duration 8,24 sec - 1 clients)
+MultiplexLoadInjector 181 - average response time: 1,5 ms -> 664fps (duration 8,22 sec - 1 clients)
+MultiplexLoadInjector 182 - average response time: 1,48 ms -> 675fps (duration 8,21 sec - 1 clients)
+MultiplexLoadInjector 183 - average response time: 2,33 ms -> 428fps (duration 8,2 sec - 1 clients)
+MultiplexLoadInjector 184 - average response time: 0,58 ms -> 1723fps (duration 8,19 sec - 1 clients)
+MultiplexLoadInjector 185 - average response time: 0,58 ms -> 1723fps (duration 8,18 sec - 1 clients)
+MultiplexLoadInjector 186 - average response time: 0,65 ms -> 1542fps (duration 8,18 sec - 1 clients)
+MultiplexLoadInjector 187 - average response time: 0,57 ms -> 1758fps (duration 8,18 sec - 1 clients)
+MultiplexLoadInjector 188 - average response time: 1,56 ms -> 642fps (duration 8,15 sec - 1 clients)
+MultiplexLoadInjector 189 - average response time: 0,6 ms -> 1674fps (duration 8,14 sec - 1 clients)
+MultiplexLoadInjector 190 - average response time: 1,58 ms -> 631fps (duration 8,14 sec - 1 clients)
+MultiplexLoadInjector 191 - average response time: 0,98 ms -> 1021fps (duration 8,13 sec - 1 clients)
+MultiplexLoadInjector 192 - average response time: 1,57 ms -> 636fps (duration 8,11 sec - 1 clients)
+MultiplexLoadInjector 193 - average response time: 0,95 ms -> 1051fps (duration 8,11 sec - 1 clients)
+MultiplexLoadInjector 194 - average response time: 1,59 ms -> 628fps (duration 8,11 sec - 1 clients)
+MultiplexLoadInjector 195 - average response time: 1,55 ms -> 646fps (duration 8,08 sec - 1 clients)
+MultiplexLoadInjector 196 - average response time: 7,01 ms -> 142fps (duration 8,06 sec - 1 clients)
+MultiplexLoadInjector 197 - average response time: 1,79 ms -> 559fps (duration 8,06 sec - 1 clients)
+MultiplexLoadInjector 198 - average response time: 0,89 ms -> 1124fps (duration 8,06 sec - 1 clients)
+MultiplexLoadInjector 199 - average response time: 1,61 ms -> 620fps (duration 8,05 sec - 1 clients)
+MultiplexLoadInjector 200 - average response time: 0,88 ms -> 1132fps (duration 8,04 sec - 1 clients)
+MultiplexLoadInjector 201 - average response time: 1,62 ms -> 616fps (duration 8,03 sec - 1 clients)
+MultiplexLoadInjector 202 - average response time: 0,52 ms -> 1915fps (duration 8,03 sec - 1 clients)
+MultiplexLoadInjector 203 - average response time: 1,29 ms -> 775fps (duration 8 sec - 1 clients)
+MultiplexLoadInjector 204 - average response time: 0,97 ms -> 1029fps (duration 8 sec - 1 clients)
+MultiplexLoadInjector 205 - average response time: 0,54 ms -> 1864fps (duration 7,98 sec - 1 clients)
+MultiplexLoadInjector 206 - average response time: 0,6 ms -> 1659fps (duration 7,98 sec - 1 clients)
+MultiplexLoadInjector 207 - average response time: 1,75 ms -> 571fps (duration 7,97 sec - 1 clients)
+MultiplexLoadInjector 208 - average response time: 0,79 ms -> 1259fps (duration 7,96 sec - 1 clients)
+MultiplexLoadInjector 209 - average response time: 1,61 ms -> 621fps (duration 7,96 sec - 1 clients)
+MultiplexLoadInjector 210 - average response time: 1,61 ms -> 621fps (duration 7,93 sec - 1 clients)
+MultiplexLoadInjector 211 - average response time: 1,59 ms -> 627fps (duration 7,93 sec - 1 clients)
+MultiplexLoadInjector 212 - average response time: 0,61 ms -> 1640fps (duration 7,92 sec - 1 clients)
+MultiplexLoadInjector 213 - average response time: 0,9 ms -> 1107fps (duration 7,91 sec - 1 clients)
+MultiplexLoadInjector 214 - average response time: 0,62 ms -> 1612fps (duration 7,89 sec - 1 clients)
+MultiplexLoadInjector 215 - average response time: 0,86 ms -> 1159fps (duration 7,89 sec - 1 clients)
+MultiplexLoadInjector 216 - average response time: 0,53 ms -> 1895fps (duration 7,87 sec - 1 clients)
+MultiplexLoadInjector 217 - average response time: 1,54 ms -> 648fps (duration 7,88 sec - 1 clients)
+MultiplexLoadInjector 218 - average response time: 1,07 ms -> 936fps (duration 7,85 sec - 1 clients)
+MultiplexLoadInjector 219 - average response time: 1,83 ms -> 546fps (duration 7,85 sec - 1 clients)
+MultiplexLoadInjector 220 - average response time: 0,95 ms -> 1047fps (duration 7,84 sec - 1 clients)
+MultiplexLoadInjector 221 - average response time: 0,61 ms -> 1642fps (duration 7,82 sec - 1 clients)
+MultiplexLoadInjector 222 - average response time: 1,55 ms -> 646fps (duration 7,81 sec - 1 clients)
+MultiplexLoadInjector 223 - average response time: 1,7 ms -> 587fps (duration 7,8 sec - 1 clients)
+MultiplexLoadInjector 224 - average response time: 0,71 ms -> 1406fps (duration 7,81 sec - 1 clients)
+MultiplexLoadInjector 225 - average response time: 1,73 ms -> 579fps (duration 7,78 sec - 1 clients)
+MultiplexLoadInjector 226 - average response time: 1,69 ms -> 590fps (duration 7,77 sec - 1 clients)
+MultiplexLoadInjector 227 - average response time: 0,92 ms -> 1087fps (duration 7,76 sec - 1 clients)
+MultiplexLoadInjector 228 - average response time: 0,94 ms -> 1060fps (duration 7,75 sec - 1 clients)
+MultiplexLoadInjector 229 - average response time: 0,72 ms -> 1389fps (duration 7,74 sec - 1 clients)
+MultiplexLoadInjector 230 - average response time: 1,69 ms -> 591fps (duration 7,73 sec - 1 clients)
+MultiplexLoadInjector 231 - average response time: 0,67 ms -> 1501fps (duration 7,72 sec - 1 clients)
+MultiplexLoadInjector 232 - average response time: 1,12 ms -> 890fps (duration 7,73 sec - 1 clients)
+MultiplexLoadInjector 233 - average response time: 1,71 ms -> 585fps (duration 7,7 sec - 1 clients)
+MultiplexLoadInjector 234 - average response time: 1,67 ms -> 597fps (duration 7,69 sec - 1 clients)
+MultiplexLoadInjector 235 - average response time: 0,92 ms -> 1087fps (duration 7,68 sec - 1 clients)
+MultiplexLoadInjector 236 - average response time: 0,91 ms -> 1100fps (duration 7,67 sec - 1 clients)
+MultiplexLoadInjector 237 - average response time: 0,67 ms -> 1500fps (duration 7,66 sec - 1 clients)
+MultiplexLoadInjector 238 - average response time: 1,7 ms -> 588fps (duration 7,65 sec - 1 clients)
+MultiplexLoadInjector 239 - average response time: 0,93 ms -> 1077fps (duration 7,66 sec - 1 clients)
+MultiplexLoadInjector 240 - average response time: 0,96 ms -> 1042fps (duration 7,63 sec - 1 clients)
+MultiplexLoadInjector 241 - average response time: 1,54 ms -> 647fps (duration 7,62 sec - 1 clients)
+MultiplexLoadInjector 242 - average response time: 1,66 ms -> 602fps (duration 7,61 sec - 1 clients)
+MultiplexLoadInjector 243 - average response time: 1,5 ms -> 667fps (duration 7,6 sec - 1 clients)
+MultiplexLoadInjector 244 - average response time: 0,68 ms -> 1468fps (duration 7,59 sec - 1 clients)
+MultiplexLoadInjector 245 - average response time: 1,69 ms -> 591fps (duration 7,58 sec - 1 clients)
+MultiplexLoadInjector 246 - average response time: 1,67 ms -> 599fps (duration 7,57 sec - 1 clients)
+MultiplexLoadInjector 247 - average response time: 1,71 ms -> 585fps (duration 7,58 sec - 1 clients)
+MultiplexLoadInjector 248 - average response time: 1,14 ms -> 880fps (duration 7,55 sec - 1 clients)
+MultiplexLoadInjector 249 - average response time: 1,66 ms -> 603fps (duration 7,54 sec - 1 clients)
+MultiplexLoadInjector 250 - average response time: 1,65 ms -> 606fps (duration 7,53 sec - 1 clients)
+MultiplexLoadInjector 251 - average response time: 1,72 ms -> 581fps (duration 7,52 sec - 1 clients)
+MultiplexLoadInjector 252 - average response time: 1,63 ms -> 611fps (duration 7,52 sec - 1 clients)
+MultiplexLoadInjector 253 - average response time: 1,74 ms -> 576fps (duration 7,5 sec - 1 clients)
+MultiplexLoadInjector 254 - average response time: 1,66 ms -> 601fps (duration 7,51 sec - 1 clients)
+MultiplexLoadInjector 255 - average response time: 1,08 ms -> 930fps (duration 7,48 sec - 1 clients)
+MultiplexLoadInjector 256 - average response time: 0,93 ms -> 1070fps (duration 7,48 sec - 1 clients)
+MultiplexLoadInjector 257 - average response time: 1,64 ms -> 610fps (duration 7,46 sec - 1 clients)
+MultiplexLoadInjector 258 - average response time: 0,74 ms -> 1358fps (duration 7,45 sec - 1 clients)
+MultiplexLoadInjector 259 - average response time: 1,62 ms -> 619fps (duration 7,44 sec - 1 clients)
+MultiplexLoadInjector 260 - average response time: 1,74 ms -> 575fps (duration 7,44 sec - 1 clients)
+MultiplexLoadInjector 261 - average response time: 2,55 ms -> 391fps (duration 7,42 sec - 1 clients)
+MultiplexLoadInjector 262 - average response time: 1,03 ms -> 975fps (duration 7,43 sec - 1 clients)
+MultiplexLoadInjector 263 - average response time: 1,61 ms -> 620fps (duration 7,4 sec - 1 clients)
+MultiplexLoadInjector 264 - average response time: 1,6 ms -> 625fps (duration 7,39 sec - 1 clients)
+MultiplexLoadInjector 265 - average response time: 1,66 ms -> 601fps (duration 7,38 sec - 1 clients)
+MultiplexLoadInjector 266 - average response time: 1,68 ms -> 594fps (duration 7,37 sec - 1 clients)
+MultiplexLoadInjector 267 - average response time: 1,9 ms -> 525fps (duration 7,37 sec - 1 clients)
+MultiplexLoadInjector 268 - average response time: 1,74 ms -> 575fps (duration 7,35 sec - 1 clients)
+MultiplexLoadInjector 269 - average response time: 0,66 ms -> 1526fps (duration 7,36 sec - 1 clients)
+MultiplexLoadInjector 270 - average response time: 1,64 ms -> 608fps (duration 7,33 sec - 1 clients)
+MultiplexLoadInjector 271 - average response time: 0,69 ms -> 1443fps (duration 7,32 sec - 1 clients)
+MultiplexLoadInjector 272 - average response time: 0,76 ms -> 1307fps (duration 7,31 sec - 1 clients)
+MultiplexLoadInjector 273 - average response time: 1,68 ms -> 594fps (duration 7,3 sec - 1 clients)
+MultiplexLoadInjector 274 - average response time: 0,7 ms -> 1425fps (duration 7,29 sec - 1 clients)
+MultiplexLoadInjector 275 - average response time: 1,69 ms -> 591fps (duration 7,28 sec - 1 clients)
+MultiplexLoadInjector 276 - average response time: 1,71 ms -> 585fps (duration 7,27 sec - 1 clients)
+MultiplexLoadInjector 277 - average response time: 1,57 ms -> 636fps (duration 7,28 sec - 1 clients)
+MultiplexLoadInjector 278 - average response time: 0,68 ms -> 1461fps (duration 7,25 sec - 1 clients)
+MultiplexLoadInjector 279 - average response time: 1,64 ms -> 609fps (duration 7,24 sec - 1 clients)
+MultiplexLoadInjector 280 - average response time: 0,7 ms -> 1421fps (duration 7,23 sec - 1 clients)
+MultiplexLoadInjector 281 - average response time: 1,57 ms -> 637fps (duration 7,22 sec - 1 clients)
+MultiplexLoadInjector 282 - average response time: 2,4 ms -> 416fps (duration 7,2 sec - 1 clients)
+MultiplexLoadInjector 283 - average response time: 1,4 ms -> 716fps (duration 7,2 sec - 1 clients)
+MultiplexLoadInjector 284 - average response time: 1,48 ms -> 675fps (duration 7,21 sec - 1 clients)
+MultiplexLoadInjector 285 - average response time: 1,49 ms -> 672fps (duration 7,18 sec - 1 clients)
+MultiplexLoadInjector 286 - average response time: 1 ms -> 1001fps (duration 7,18 sec - 1 clients)
+MultiplexLoadInjector 287 - average response time: 1,68 ms -> 594fps (duration 7,16 sec - 1 clients)
+MultiplexLoadInjector 288 - average response time: 0,7 ms -> 1436fps (duration 7,15 sec - 1 clients)
+MultiplexLoadInjector 289 - average response time: 1,64 ms -> 609fps (duration 7,14 sec - 1 clients)
+MultiplexLoadInjector 290 - average response time: 1,01 ms -> 987fps (duration 7,14 sec - 1 clients)
+MultiplexLoadInjector 291 - average response time: 1,67 ms -> 599fps (duration 7,12 sec - 1 clients)
+MultiplexLoadInjector 292 - average response time: 1,03 ms -> 973fps (duration 7,13 sec - 1 clients)
+MultiplexLoadInjector 293 - average response time: 1,48 ms -> 677fps (duration 7,1 sec - 1 clients)
+MultiplexLoadInjector 294 - average response time: 0,66 ms -> 1524fps (duration 7,09 sec - 1 clients)
+MultiplexLoadInjector 295 - average response time: 1,52 ms -> 657fps (duration 7,08 sec - 1 clients)
+MultiplexLoadInjector 296 - average response time: 1,7 ms -> 588fps (duration 7,07 sec - 1 clients)
+MultiplexLoadInjector 297 - average response time: 1,79 ms -> 557fps (duration 7,05 sec - 1 clients)
+MultiplexLoadInjector 298 - average response time: 1,71 ms -> 586fps (duration 7,04 sec - 1 clients)
+MultiplexLoadInjector 299 - average response time: 2,64 ms -> 378fps (duration 7,06 sec - 1 clients)
+MultiplexLoadInjector 300 - average response time: 1,52 ms -> 659fps (duration 7,03 sec - 1 clients)
+MultiplexLoadInjector 301 - average response time: 0,68 ms -> 1459fps (duration 7,02 sec - 1 clients)
+MultiplexLoadInjector 302 - average response time: 1,56 ms -> 640fps (duration 7,01 sec - 1 clients)
+MultiplexLoadInjector 303 - average response time: 1,64 ms -> 610fps (duration 7 sec - 1 clients)
+MultiplexLoadInjector 304 - average response time: 1,7 ms -> 588fps (duration 6,99 sec - 1 clients)
+MultiplexLoadInjector 305 - average response time: 1,65 ms -> 606fps (duration 6,98 sec - 1 clients)
+MultiplexLoadInjector 306 - average response time: 1,1 ms -> 912fps (duration 6,98 sec - 1 clients)
+MultiplexLoadInjector 307 - average response time: 1,73 ms -> 576fps (duration 6,98 sec - 1 clients)
+MultiplexLoadInjector 308 - average response time: 1,61 ms -> 621fps (duration 6,95 sec - 1 clients)
+MultiplexLoadInjector 309 - average response time: 1,65 ms -> 606fps (duration 6,94 sec - 1 clients)
+MultiplexLoadInjector 310 - average response time: 1,06 ms -> 939fps (duration 6,94 sec - 1 clients)
+MultiplexLoadInjector 311 - average response time: 1,62 ms -> 618fps (duration 6,92 sec - 1 clients)
+MultiplexLoadInjector 312 - average response time: 1,72 ms -> 582fps (duration 6,91 sec - 1 clients)
+MultiplexLoadInjector 313 - average response time: 0,69 ms -> 1453fps (duration 6,9 sec - 1 clients)
+MultiplexLoadInjector 314 - average response time: 1,64 ms -> 609fps (duration 6,91 sec - 1 clients)
+MultiplexLoadInjector 315 - average response time: 0,76 ms -> 1322fps (duration 6,88 sec - 1 clients)
+MultiplexLoadInjector 316 - average response time: 0,67 ms -> 1492fps (duration 6,87 sec - 1 clients)
+MultiplexLoadInjector 317 - average response time: 1,66 ms -> 603fps (duration 6,86 sec - 1 clients)
+MultiplexLoadInjector 318 - average response time: 1,65 ms -> 604fps (duration 6,85 sec - 1 clients)
+MultiplexLoadInjector 319 - average response time: 1,65 ms -> 606fps (duration 6,84 sec - 1 clients)
+MultiplexLoadInjector 320 - average response time: 1,22 ms -> 817fps (duration 6,84 sec - 1 clients)
+MultiplexLoadInjector 321 - average response time: 2,53 ms -> 395fps (duration 6,82 sec - 1 clients)
+MultiplexLoadInjector 322 - average response time: 1 ms -> 995fps (duration 6,83 sec - 1 clients)
+MultiplexLoadInjector 323 - average response time: 1,48 ms -> 673fps (duration 6,8 sec - 1 clients)
+MultiplexLoadInjector 324 - average response time: 1,11 ms -> 903fps (duration 6,8 sec - 1 clients)
+MultiplexLoadInjector 325 - average response time: 1,66 ms -> 602fps (duration 6,78 sec - 1 clients)
+MultiplexLoadInjector 326 - average response time: 1,73 ms -> 576fps (duration 6,77 sec - 1 clients)
+MultiplexLoadInjector 327 - average response time: 1,67 ms -> 599fps (duration 6,76 sec - 1 clients)
+MultiplexLoadInjector 328 - average response time: 1,08 ms -> 929fps (duration 6,76 sec - 1 clients)
+MultiplexLoadInjector 329 - average response time: 1,71 ms -> 583fps (duration 6,76 sec - 1 clients)
+MultiplexLoadInjector 330 - average response time: 1,66 ms -> 601fps (duration 6,73 sec - 1 clients)
+MultiplexLoadInjector 331 - average response time: 1,67 ms -> 599fps (duration 6,72 sec - 1 clients)
+MultiplexLoadInjector 332 - average response time: 1,65 ms -> 607fps (duration 6,71 sec - 1 clients)
+MultiplexLoadInjector 333 - average response time: 2,6 ms -> 384fps (duration 6,7 sec - 1 clients)
+MultiplexLoadInjector 334 - average response time: 1,72 ms -> 582fps (duration 6,69 sec - 1 clients)
+MultiplexLoadInjector 335 - average response time: 1,7 ms -> 588fps (duration 6,68 sec - 1 clients)
+MultiplexLoadInjector 336 - average response time: 1,76 ms -> 567fps (duration 6,67 sec - 1 clients)
+MultiplexLoadInjector 337 - average response time: 1,69 ms -> 591fps (duration 6,68 sec - 1 clients)
+MultiplexLoadInjector 338 - average response time: 1,65 ms -> 604fps (duration 6,65 sec - 1 clients)
+MultiplexLoadInjector 339 - average response time: 1,12 ms -> 896fps (duration 6,65 sec - 1 clients)
+MultiplexLoadInjector 340 - average response time: 1,09 ms -> 913fps (duration 6,64 sec - 1 clients)
+MultiplexLoadInjector 341 - average response time: 1,51 ms -> 661fps (duration 6,62 sec - 1 clients)
+MultiplexLoadInjector 342 - average response time: 2 ms -> 499fps (duration 6,62 sec - 1 clients)
+MultiplexLoadInjector 343 - average response time: 1,07 ms -> 937fps (duration 6,61 sec - 1 clients)
+MultiplexLoadInjector 344 - average response time: 1,62 ms -> 615fps (duration 6,61 sec - 1 clients)
+MultiplexLoadInjector 345 - average response time: 1,68 ms -> 596fps (duration 6,58 sec - 1 clients)
+MultiplexLoadInjector 346 - average response time: 1,2 ms -> 832fps (duration 6,58 sec - 1 clients)
+MultiplexLoadInjector 347 - average response time: 1,7 ms -> 587fps (duration 6,56 sec - 1 clients)
+MultiplexLoadInjector 348 - average response time: 1,68 ms -> 594fps (duration 6,55 sec - 1 clients)
+MultiplexLoadInjector 349 - average response time: 2,64 ms -> 378fps (duration 6,54 sec - 1 clients)
+MultiplexLoadInjector 350 - average response time: 1,17 ms -> 854fps (duration 6,53 sec - 1 clients)
+MultiplexLoadInjector 351 - average response time: 1,58 ms -> 633fps (duration 6,52 sec - 1 clients)
+MultiplexLoadInjector 352 - average response time: 1,77 ms -> 565fps (duration 6,53 sec - 1 clients)
+MultiplexLoadInjector 353 - average response time: 1,74 ms -> 576fps (duration 6,5 sec - 1 clients)
+MultiplexLoadInjector 354 - average response time: 1,58 ms -> 634fps (duration 6,49 sec - 1 clients)
+MultiplexLoadInjector 355 - average response time: 1,85 ms -> 539fps (duration 6,48 sec - 1 clients)
+MultiplexLoadInjector 356 - average response time: 1,75 ms -> 570fps (duration 6,47 sec - 1 clients)
+MultiplexLoadInjector 357 - average response time: 1,7 ms -> 589fps (duration 6,46 sec - 1 clients)
+MultiplexLoadInjector 358 - average response time: 1,72 ms -> 579fps (duration 6,45 sec - 1 clients)
+MultiplexLoadInjector 359 - average response time: 1,76 ms -> 566fps (duration 6,46 sec - 1 clients)
+MultiplexLoadInjector 360 - average response time: 1,62 ms -> 618fps (duration 6,43 sec - 1 clients)
+MultiplexLoadInjector 361 - average response time: 1,6 ms -> 626fps (duration 6,42 sec - 1 clients)
+MultiplexLoadInjector 362 - average response time: 1,61 ms -> 620fps (duration 6,41 sec - 1 clients)
+MultiplexLoadInjector 363 - average response time: 2,11 ms -> 474fps (duration 6,41 sec - 1 clients)
+MultiplexLoadInjector 364 - average response time: 1,68 ms -> 595fps (duration 6,39 sec - 1 clients)
+MultiplexLoadInjector 365 - average response time: 1,71 ms -> 585fps (duration 6,38 sec - 1 clients)
+MultiplexLoadInjector 366 - average response time: 1,19 ms -> 843fps (duration 6,37 sec - 1 clients)
+MultiplexLoadInjector 367 - average response time: 1,72 ms -> 582fps (duration 6,38 sec - 1 clients)
+MultiplexLoadInjector 368 - average response time: 1,19 ms -> 838fps (duration 6,35 sec - 1 clients)
+MultiplexLoadInjector 369 - average response time: 1,71 ms -> 585fps (duration 6,34 sec - 1 clients)
+MultiplexLoadInjector 370 - average response time: 2,74 ms -> 365fps (duration 6,33 sec - 1 clients)
+MultiplexLoadInjector 371 - average response time: 1,27 ms -> 789fps (duration 6,32 sec - 1 clients)
+MultiplexLoadInjector 372 - average response time: 1,71 ms -> 584fps (duration 6,31 sec - 1 clients)
+MultiplexLoadInjector 373 - average response time: 1,2 ms -> 836fps (duration 6,3 sec - 1 clients)
+MultiplexLoadInjector 374 - average response time: 1,19 ms -> 842fps (duration 6,31 sec - 1 clients)
+MultiplexLoadInjector 375 - average response time: 1,19 ms -> 843fps (duration 6,28 sec - 1 clients)
+MultiplexLoadInjector 376 - average response time: 1,64 ms -> 609fps (duration 6,27 sec - 1 clients)
+MultiplexLoadInjector 377 - average response time: 1,67 ms -> 599fps (duration 6,26 sec - 1 clients)
+MultiplexLoadInjector 378 - average response time: 1,61 ms -> 619fps (duration 6,24 sec - 1 clients)
+MultiplexLoadInjector 379 - average response time: 1,18 ms -> 846fps (duration 6,24 sec - 1 clients)
+MultiplexLoadInjector 380 - average response time: 1,76 ms -> 568fps (duration 6,23 sec - 1 clients)
+MultiplexLoadInjector 381 - average response time: 2,93 ms -> 341fps (duration 6,22 sec - 1 clients)
+MultiplexLoadInjector 382 - average response time: 21,46 ms -> 46fps (duration 6,2 sec - 1 clients)
+MultiplexLoadInjector 383 - average response time: 16,77 ms -> 59fps (duration 12,32 sec - 2 clients)
+MultiplexLoadInjector 384 - average response time: 14,32 ms -> 69fps (duration 12,32 sec - 2 clients)
+MultiplexLoadInjector 385 - average response time: 1,36 ms -> 735fps (duration 6,16 sec - 1 clients)
+MultiplexLoadInjector 386 - average response time: 1,64 ms -> 611fps (duration 6,15 sec - 1 clients)
+MultiplexLoadInjector 387 - average response time: 2,08 ms -> 480fps (duration 6,14 sec - 1 clients)
+MultiplexLoadInjector 388 - average response time: 1,66 ms -> 601fps (duration 6,13 sec - 1 clients)
+MultiplexLoadInjector 389 - average response time: 0,84 ms -> 1185fps (duration 6,14 sec - 1 clients)
+MultiplexLoadInjector 390 - average response time: 1,65 ms -> 605fps (duration 6,11 sec - 1 clients)
+MultiplexLoadInjector 391 - average response time: 1,16 ms -> 863fps (duration 6,11 sec - 1 clients)
+MultiplexLoadInjector 392 - average response time: 1,79 ms -> 559fps (duration 6,08 sec - 1 clients)
+MultiplexLoadInjector 393 - average response time: 1,58 ms -> 633fps (duration 6,07 sec - 1 clients)
+MultiplexLoadInjector 394 - average response time: 9,2 ms -> 108fps (duration 6,06 sec - 1 clients)
+MultiplexLoadInjector 395 - average response time: 2,61 ms -> 382fps (duration 6,05 sec - 1 clients)
+MultiplexLoadInjector 396 - average response time: 1,7 ms -> 587fps (duration 6,05 sec - 1 clients)
+MultiplexLoadInjector 397 - average response time: 1,44 ms -> 696fps (duration 6,06 sec - 1 clients)
+MultiplexLoadInjector 398 - average response time: 2,9 ms -> 344fps (duration 6,04 sec - 1 clients)
+MultiplexLoadInjector 399 - average response time: 1,69 ms -> 592fps (duration 6,02 sec - 1 clients)
+MultiplexLoadInjector 400 - average response time: 1,7 ms -> 587fps (duration 6,01 sec - 1 clients)
+MultiplexLoadInjector 401 - average response time: 1,66 ms -> 603fps (duration 6 sec - 1 clients)
+MultiplexLoadInjector 402 - average response time: 1,53 ms -> 652fps (duration 5,99 sec - 1 clients)
+MultiplexLoadInjector 403 - average response time: 1,82 ms -> 548fps (duration 5,98 sec - 1 clients)
+MultiplexLoadInjector 404 - average response time: 1,7 ms -> 586fps (duration 5,97 sec - 1 clients)
+MultiplexLoadInjector 405 - average response time: 1,66 ms -> 600fps (duration 5,96 sec - 1 clients)
+MultiplexLoadInjector 406 - average response time: 1,8 ms -> 555fps (duration 5,95 sec - 1 clients)
+MultiplexLoadInjector 407 - average response time: 1,74 ms -> 575fps (duration 5,94 sec - 1 clients)
+MultiplexLoadInjector 408 - average response time: 1,68 ms -> 594fps (duration 5,93 sec - 1 clients)
+MultiplexLoadInjector 409 - average response time: 2,72 ms -> 367fps (duration 5,92 sec - 1 clients)
+MultiplexLoadInjector 410 - average response time: 1,88 ms -> 532fps (duration 5,91 sec - 1 clients)
+MultiplexLoadInjector 411 - average response time: 1,29 ms -> 775fps (duration 5,91 sec - 1 clients)
+MultiplexLoadInjector 412 - average response time: 1,28 ms -> 783fps (duration 5,91 sec - 1 clients)
+MultiplexLoadInjector 413 - average response time: 1,24 ms -> 806fps (duration 5,89 sec - 1 clients)
+MultiplexLoadInjector 414 - average response time: 1,34 ms -> 747fps (duration 5,88 sec - 1 clients)
+MultiplexLoadInjector 415 - average response time: 1,92 ms -> 520fps (duration 5,86 sec - 1 clients)
+MultiplexLoadInjector 416 - average response time: 1,68 ms -> 594fps (duration 5,85 sec - 1 clients)
+MultiplexLoadInjector 417 - average response time: 1,73 ms -> 577fps (duration 5,84 sec - 1 clients)
+MultiplexLoadInjector 418 - average response time: 1,77 ms -> 564fps (duration 5,83 sec - 1 clients)
+MultiplexLoadInjector 419 - average response time: 1,71 ms -> 586fps (duration 5,84 sec - 1 clients)
+MultiplexLoadInjector 420 - average response time: 1,8 ms -> 556fps (duration 5,81 sec - 1 clients)
+MultiplexLoadInjector 421 - average response time: 1,62 ms -> 615fps (duration 5,8 sec - 1 clients)
+MultiplexLoadInjector 422 - average response time: 1,26 ms -> 791fps (duration 5,8 sec - 1 clients)
+MultiplexLoadInjector 423 - average response time: 1,72 ms -> 582fps (duration 5,79 sec - 1 clients)
+MultiplexLoadInjector 424 - average response time: 1,71 ms -> 583fps (duration 5,77 sec - 1 clients)
+MultiplexLoadInjector 425 - average response time: 2,21 ms -> 452fps (duration 5,77 sec - 1 clients)
+MultiplexLoadInjector 426 - average response time: 1,68 ms -> 596fps (duration 5,75 sec - 1 clients)
+MultiplexLoadInjector 427 - average response time: 1,32 ms -> 759fps (duration 5,76 sec - 1 clients)
+MultiplexLoadInjector 428 - average response time: 1,69 ms -> 592fps (duration 5,73 sec - 1 clients)
+MultiplexLoadInjector 429 - average response time: 2,13 ms -> 469fps (duration 5,72 sec - 1 clients)
+MultiplexLoadInjector 430 - average response time: 1,73 ms -> 576fps (duration 5,71 sec - 1 clients)
+MultiplexLoadInjector 431 - average response time: 1,23 ms -> 814fps (duration 5,71 sec - 1 clients)
+MultiplexLoadInjector 432 - average response time: 1,7 ms -> 587fps (duration 5,69 sec - 1 clients)
+MultiplexLoadInjector 433 - average response time: 1,71 ms -> 584fps (duration 5,69 sec - 1 clients)
+MultiplexLoadInjector 434 - average response time: 1,74 ms -> 576fps (duration 5,69 sec - 1 clients)
+MultiplexLoadInjector 435 - average response time: 1,3 ms -> 767fps (duration 5,66 sec - 1 clients)
+MultiplexLoadInjector 436 - average response time: 1,36 ms -> 737fps (duration 5,66 sec - 1 clients)
+MultiplexLoadInjector 437 - average response time: 2,58 ms -> 387fps (duration 5,64 sec - 1 clients)
+MultiplexLoadInjector 438 - average response time: 2,7 ms -> 370fps (duration 5,63 sec - 1 clients)
+MultiplexLoadInjector 439 - average response time: 1,57 ms -> 635fps (duration 5,63 sec - 1 clients)
+MultiplexLoadInjector 440 - average response time: 2,72 ms -> 367fps (duration 5,61 sec - 1 clients)
+MultiplexLoadInjector 441 - average response time: 1,45 ms -> 689fps (duration 5,6 sec - 1 clients)
+MultiplexLoadInjector 442 - average response time: 1,32 ms -> 759fps (duration 5,61 sec - 1 clients)
+MultiplexLoadInjector 443 - average response time: 1,79 ms -> 558fps (duration 5,58 sec - 1 clients)
+MultiplexLoadInjector 444 - average response time: 2,14 ms -> 466fps (duration 5,57 sec - 1 clients)
+MultiplexLoadInjector 445 - average response time: 1,29 ms -> 776fps (duration 5,57 sec - 1 clients)
+MultiplexLoadInjector 446 - average response time: 1,73 ms -> 577fps (duration 5,55 sec - 1 clients)
+MultiplexLoadInjector 447 - average response time: 1,75 ms -> 570fps (duration 5,53 sec - 1 clients)
+MultiplexLoadInjector 448 - average response time: 1,78 ms -> 560fps (duration 5,52 sec - 1 clients)
+MultiplexLoadInjector 449 - average response time: 1,82 ms -> 548fps (duration 5,52 sec - 1 clients)
+MultiplexLoadInjector 450 - average response time: 1,85 ms -> 541fps (duration 5,51 sec - 1 clients)
+MultiplexLoadInjector 451 - average response time: 2,98 ms -> 335fps (duration 5,49 sec - 1 clients)
+MultiplexLoadInjector 452 - average response time: 1,29 ms -> 774fps (duration 5,5 sec - 1 clients)
+MultiplexLoadInjector 453 - average response time: 1,7 ms -> 588fps (duration 5,48 sec - 1 clients)
+MultiplexLoadInjector 454 - average response time: 0,97 ms -> 1033fps (duration 5,47 sec - 1 clients)
+MultiplexLoadInjector 455 - average response time: 0,99 ms -> 1009fps (duration 5,47 sec - 1 clients)
+MultiplexLoadInjector 456 - average response time: 1,63 ms -> 614fps (duration 5,44 sec - 1 clients)
+MultiplexLoadInjector 457 - average response time: 1,31 ms -> 762fps (duration 5,46 sec - 1 clients)
+MultiplexLoadInjector 458 - average response time: 1,47 ms -> 678fps (duration 5,44 sec - 1 clients)
+MultiplexLoadInjector 459 - average response time: 1,71 ms -> 584fps (duration 5,43 sec - 1 clients)
+MultiplexLoadInjector 460 - average response time: 1,98 ms -> 503fps (duration 5,41 sec - 1 clients)
+MultiplexLoadInjector 461 - average response time: 1,74 ms -> 573fps (duration 5,39 sec - 1 clients)
+MultiplexLoadInjector 462 - average response time: 1,65 ms -> 604fps (duration 5,4 sec - 1 clients)
+MultiplexLoadInjector 463 - average response time: 1,7 ms -> 589fps (duration 5,38 sec - 1 clients)
+MultiplexLoadInjector 464 - average response time: 1,61 ms -> 621fps (duration 5,37 sec - 1 clients)
+MultiplexLoadInjector 465 - average response time: 1,83 ms -> 545fps (duration 5,36 sec - 1 clients)
+MultiplexLoadInjector 466 - average response time: 1,69 ms -> 590fps (duration 5,35 sec - 1 clients)
+MultiplexLoadInjector 467 - average response time: 1,71 ms -> 583fps (duration 5,34 sec - 1 clients)
+MultiplexLoadInjector 468 - average response time: 2,69 ms -> 371fps (duration 5,32 sec - 1 clients)
+MultiplexLoadInjector 469 - average response time: 1,73 ms -> 578fps (duration 5,32 sec - 1 clients)
+MultiplexLoadInjector 470 - average response time: 1,69 ms -> 593fps (duration 5,31 sec - 1 clients)
+MultiplexLoadInjector 471 - average response time: 0,98 ms -> 1015fps (duration 5,3 sec - 1 clients)
+MultiplexLoadInjector 472 - average response time: 1,91 ms -> 523fps (duration 5,29 sec - 1 clients)
+MultiplexLoadInjector 473 - average response time: 1,67 ms -> 599fps (duration 5,28 sec - 1 clients)
+MultiplexLoadInjector 474 - average response time: 1,71 ms -> 584fps (duration 5,27 sec - 1 clients)
+MultiplexLoadInjector 475 - average response time: 1,72 ms -> 581fps (duration 5,26 sec - 1 clients)
+MultiplexLoadInjector 476 - average response time: 1,68 ms -> 596fps (duration 5,25 sec - 1 clients)
+MultiplexLoadInjector 477 - average response time: 1,68 ms -> 595fps (duration 5,24 sec - 1 clients)
+MultiplexLoadInjector 478 - average response time: 1,2 ms -> 834fps (duration 5,24 sec - 1 clients)
+MultiplexLoadInjector 479 - average response time: 0,9 ms -> 1106fps (duration 5,21 sec - 1 clients)
+MultiplexLoadInjector 480 - average response time: 2 ms -> 500fps (duration 5,2 sec - 1 clients)
+MultiplexLoadInjector 481 - average response time: 11,01 ms -> 90fps (duration 5,19 sec - 1 clients)
+MultiplexLoadInjector 482 - average response time: 3,39 ms -> 295fps (duration 5,18 sec - 1 clients)
+MultiplexLoadInjector 483 - average response time: 1,59 ms -> 629fps (duration 5,17 sec - 1 clients)
+MultiplexLoadInjector 484 - average response time: 4,32 ms -> 231fps (duration 5,16 sec - 1 clients)
+MultiplexLoadInjector 485 - average response time: 1,43 ms -> 700fps (duration 5,17 sec - 1 clients)
+MultiplexLoadInjector 486 - average response time: 2,8 ms -> 357fps (duration 5,15 sec - 1 clients)
+MultiplexLoadInjector 487 - average response time: 2,08 ms -> 479fps (duration 5,14 sec - 1 clients)
+MultiplexLoadInjector 488 - average response time: 1,43 ms -> 700fps (duration 5,14 sec - 1 clients)
+MultiplexLoadInjector 489 - average response time: 1,42 ms -> 704fps (duration 5,12 sec - 1 clients)
+MultiplexLoadInjector 490 - average response time: 1,69 ms -> 591fps (duration 5,1 sec - 1 clients)
+MultiplexLoadInjector 491 - average response time: 3,73 ms -> 267fps (duration 5,09 sec - 1 clients)
+MultiplexLoadInjector 492 - average response time: 1,71 ms -> 585fps (duration 5,09 sec - 1 clients)
+MultiplexLoadInjector 493 - average response time: 4,32 ms -> 231fps (duration 5,07 sec - 1 clients)
+MultiplexLoadInjector 494 - average response time: 2,1 ms -> 476fps (duration 5,09 sec - 1 clients)
+MultiplexLoadInjector 495 - average response time: 5,26 ms -> 190fps (duration 5,06 sec - 1 clients)
+MultiplexLoadInjector 496 - average response time: 4 ms -> 250fps (duration 5,04 sec - 1 clients)
+MultiplexLoadInjector 497 - average response time: 17,97 ms -> 55fps (duration 5,02 sec - 1 clients)
+MultiplexLoadInjector 498 - average response time: 4,96 ms -> 201fps (duration 5 sec - 1 clients)
+MultiplexLoadInjector 499 - average response time: 14,11 ms -> 70fps (duration 9,96 sec - 2 clients)
+MultiplexLoadInjector 500 - average response time: 15,39 ms -> 64fps (duration 9,96 sec - 2 clients)
+MultiplexLoadInjector 501 - average response time: 2,55 ms -> 392fps (duration 4,97 sec - 1 clients)
+MultiplexLoadInjector 502 - average response time: 3,07 ms -> 325fps (duration 4,96 sec - 1 clients)
+MultiplexLoadInjector 503 - average response time: 1,44 ms -> 694fps (duration 4,95 sec - 1 clients)
+MultiplexLoadInjector 504 - average response time: 2,92 ms -> 342fps (duration 4,94 sec - 1 clients)
+MultiplexLoadInjector 505 - average response time: 6,55 ms -> 152fps (duration 4,93 sec - 1 clients)
+MultiplexLoadInjector 506 - average response time: 6,96 ms -> 143fps (duration 4,92 sec - 1 clients)
+MultiplexLoadInjector 507 - average response time: 1,89 ms -> 529fps (duration 4,91 sec - 1 clients)
+MultiplexLoadInjector 508 - average response time: 2,09 ms -> 479fps (duration 4,9 sec - 1 clients)
+MultiplexLoadInjector 509 - average response time: 2,59 ms -> 386fps (duration 4,92 sec - 1 clients)
+MultiplexLoadInjector 510 - average response time: 6,02 ms -> 166fps (duration 4,88 sec - 1 clients)
+MultiplexLoadInjector 511 - average response time: 2,04 ms -> 490fps (duration 4,87 sec - 1 clients)
+MultiplexLoadInjector 512 - average response time: 8,94 ms -> 111fps (duration 4,86 sec - 1 clients)
+MultiplexLoadInjector 513 - average response time: 6,82 ms -> 146fps (duration 4,84 sec - 1 clients)
+MultiplexLoadInjector 514 - average response time: 2,93 ms -> 341fps (duration 4,84 sec - 1 clients)
+MultiplexLoadInjector 515 - average response time: 1,69 ms -> 592fps (duration 4,84 sec - 1 clients)
+MultiplexLoadInjector 516 - average response time: 1,74 ms -> 574fps (duration 4,82 sec - 1 clients)
+MultiplexLoadInjector 517 - average response time: 2,93 ms -> 341fps (duration 4,81 sec - 1 clients)
+MultiplexLoadInjector 518 - average response time: 2,17 ms -> 460fps (duration 4,81 sec - 1 clients)
+MultiplexLoadInjector 519 - average response time: 1,81 ms -> 553fps (duration 4,79 sec - 1 clients)
+MultiplexLoadInjector 520 - average response time: 2,84 ms -> 351fps (duration 4,78 sec - 1 clients)
+MultiplexLoadInjector 521 - average response time: 2,89 ms -> 345fps (duration 4,77 sec - 1 clients)
+MultiplexLoadInjector 522 - average response time: 1,78 ms -> 561fps (duration 4,77 sec - 1 clients)
+MultiplexLoadInjector 523 - average response time: 1,81 ms -> 551fps (duration 4,76 sec - 1 clients)
+MultiplexLoadInjector 524 - average response time: 1,65 ms -> 607fps (duration 4,77 sec - 1 clients)
+MultiplexLoadInjector 525 - average response time: 2,13 ms -> 468fps (duration 4,73 sec - 1 clients)
+MultiplexLoadInjector 526 - average response time: 1,72 ms -> 580fps (duration 4,73 sec - 1 clients)
+MultiplexLoadInjector 527 - average response time: 2,02 ms -> 496fps (duration 4,71 sec - 1 clients)
+MultiplexLoadInjector 528 - average response time: 2,13 ms -> 469fps (duration 4,72 sec - 1 clients)
+MultiplexLoadInjector 529 - average response time: 4,11 ms -> 243fps (duration 4,69 sec - 1 clients)
+MultiplexLoadInjector 530 - average response time: 3,07 ms -> 325fps (duration 4,68 sec - 1 clients)
+MultiplexLoadInjector 531 - average response time: 1,97 ms -> 506fps (duration 4,67 sec - 1 clients)
+MultiplexLoadInjector 532 - average response time: 4,94 ms -> 202fps (duration 4,66 sec - 1 clients)
+MultiplexLoadInjector 533 - average response time: 1,89 ms -> 530fps (duration 4,65 sec - 1 clients)
+MultiplexLoadInjector 534 - average response time: 3,98 ms -> 251fps (duration 4,65 sec - 1 clients)
+MultiplexLoadInjector 535 - average response time: 2,82 ms -> 354fps (duration 4,63 sec - 1 clients)
+MultiplexLoadInjector 536 - average response time: 2,85 ms -> 350fps (duration 4,62 sec - 1 clients)
+MultiplexLoadInjector 537 - average response time: 1,65 ms -> 606fps (duration 4,62 sec - 1 clients)
+MultiplexLoadInjector 538 - average response time: 2,93 ms -> 341fps (duration 4,6 sec - 1 clients)
+MultiplexLoadInjector 539 - average response time: 1,7 ms -> 587fps (duration 4,59 sec - 1 clients)
+MultiplexLoadInjector 540 - average response time: 1,89 ms -> 528fps (duration 4,58 sec - 1 clients)
+MultiplexLoadInjector 541 - average response time: 3,95 ms -> 253fps (duration 4,57 sec - 1 clients)
+MultiplexLoadInjector 542 - average response time: 3,11 ms -> 321fps (duration 4,56 sec - 1 clients)
+MultiplexLoadInjector 543 - average response time: 1,74 ms -> 575fps (duration 4,56 sec - 1 clients)
+MultiplexLoadInjector 544 - average response time: 2,04 ms -> 490fps (duration 4,55 sec - 1 clients)
+MultiplexLoadInjector 545 - average response time: 1,54 ms -> 651fps (duration 4,55 sec - 1 clients)
+MultiplexLoadInjector 546 - average response time: 2,97 ms -> 337fps (duration 4,52 sec - 1 clients)
+MultiplexLoadInjector 547 - average response time: 3,02 ms -> 331fps (duration 4,51 sec - 1 clients)
+MultiplexLoadInjector 548 - average response time: 3,9 ms -> 256fps (duration 4,5 sec - 1 clients)
+MultiplexLoadInjector 549 - average response time: 3,87 ms -> 258fps (duration 4,49 sec - 1 clients)
+MultiplexLoadInjector 550 - average response time: 3,85 ms -> 260fps (duration 4,48 sec - 1 clients)
+MultiplexLoadInjector 551 - average response time: 3,85 ms -> 259fps (duration 4,47 sec - 1 clients)
+MultiplexLoadInjector 552 - average response time: 2,97 ms -> 336fps (duration 4,46 sec - 1 clients)
+MultiplexLoadInjector 553 - average response time: 5,79 ms -> 172fps (duration 4,45 sec - 1 clients)
+MultiplexLoadInjector 554 - average response time: 1,47 ms -> 681fps (duration 4,47 sec - 1 clients)
+MultiplexLoadInjector 555 - average response time: 1,82 ms -> 549fps (duration 4,43 sec - 1 clients)
+MultiplexLoadInjector 556 - average response time: 2,94 ms -> 340fps (duration 4,42 sec - 1 clients)
+MultiplexLoadInjector 557 - average response time: 3,01 ms -> 332fps (duration 4,41 sec - 1 clients)
+MultiplexLoadInjector 558 - average response time: 3,78 ms -> 264fps (duration 4,4 sec - 1 clients)
+MultiplexLoadInjector 559 - average response time: 2,93 ms -> 341fps (duration 4,39 sec - 1 clients)
+MultiplexLoadInjector 560 - average response time: 2,9 ms -> 344fps (duration 4,38 sec - 1 clients)
+MultiplexLoadInjector 561 - average response time: 1,54 ms -> 648fps (duration 4,39 sec - 1 clients)
+MultiplexLoadInjector 562 - average response time: 1,86 ms -> 536fps (duration 4,36 sec - 1 clients)
+MultiplexLoadInjector 563 - average response time: 2,05 ms -> 488fps (duration 4,37 sec - 1 clients)
+MultiplexLoadInjector 564 - average response time: 2,12 ms -> 471fps (duration 4,34 sec - 1 clients)
+MultiplexLoadInjector 565 - average response time: 2,16 ms -> 462fps (duration 4,35 sec - 1 clients)
+MultiplexLoadInjector 566 - average response time: 2,89 ms -> 345fps (duration 4,32 sec - 1 clients)
+MultiplexLoadInjector 567 - average response time: 1,79 ms -> 557fps (duration 4,31 sec - 1 clients)
+MultiplexLoadInjector 568 - average response time: 2,91 ms -> 343fps (duration 4,3 sec - 1 clients)
+MultiplexLoadInjector 569 - average response time: 1,61 ms -> 620fps (duration 4,32 sec - 1 clients)
+MultiplexLoadInjector 570 - average response time: 2,64 ms -> 378fps (duration 4,28 sec - 1 clients)
+MultiplexLoadInjector 571 - average response time: 1,63 ms -> 614fps (duration 4,27 sec - 1 clients)
+MultiplexLoadInjector 572 - average response time: 2,99 ms -> 334fps (duration 4,26 sec - 1 clients)
+MultiplexLoadInjector 573 - average response time: 1,22 ms -> 820fps (duration 4,25 sec - 1 clients)
+MultiplexLoadInjector 574 - average response time: 2,92 ms -> 342fps (duration 4,24 sec - 1 clients)
+MultiplexLoadInjector 575 - average response time: 2,08 ms -> 480fps (duration 4,23 sec - 1 clients)
+MultiplexLoadInjector 576 - average response time: 2,09 ms -> 479fps (duration 4,22 sec - 1 clients)
+MultiplexLoadInjector 577 - average response time: 2,24 ms -> 447fps (duration 4,21 sec - 1 clients)
+MultiplexLoadInjector 578 - average response time: 46,13 ms -> 21fps (duration 4,2 sec - 1 clients)
+MultiplexLoadInjector 579 - average response time: 1,92 ms -> 520fps (duration 8,32 sec - 2 clients)
+MultiplexLoadInjector 580 - average response time: 18,22 ms -> 54fps (duration 8,31 sec - 2 clients)
+MultiplexLoadInjector 581 - average response time: 3,62 ms -> 276fps (duration 4,13 sec - 1 clients)
+MultiplexLoadInjector 582 - average response time: 5,88 ms -> 169fps (duration 4,13 sec - 1 clients)
+MultiplexLoadInjector 583 - average response time: 3,18 ms -> 314fps (duration 4,12 sec - 1 clients)
+MultiplexLoadInjector 584 - average response time: 1,75 ms -> 572fps (duration 4,12 sec - 1 clients)
+MultiplexLoadInjector 585 - average response time: 5,44 ms -> 183fps (duration 4,11 sec - 1 clients)
+MultiplexLoadInjector 586 - average response time: 3,9 ms -> 256fps (duration 4,1 sec - 1 clients)
+MultiplexLoadInjector 587 - average response time: 2,06 ms -> 486fps (duration 4,09 sec - 1 clients)
+MultiplexLoadInjector 588 - average response time: 3,84 ms -> 260fps (duration 4,08 sec - 1 clients)
+MultiplexLoadInjector 589 - average response time: 7,29 ms -> 137fps (duration 4,07 sec - 1 clients)
+MultiplexLoadInjector 590 - average response time: 27,17 ms -> 36fps (duration 4,05 sec - 1 clients)
+MultiplexLoadInjector 591 - average response time: 22,03 ms -> 45fps (duration 4,04 sec - 1 clients)
+MultiplexLoadInjector 592 - average response time: 19,13 ms -> 52fps (duration 4,01 sec - 1 clients)
+MultiplexLoadInjector 593 - average response time: 22,8 ms -> 43fps (duration 4,02 sec - 1 clients)
+MultiplexLoadInjector 594 - average response time: 31,07 ms -> 32fps (duration 4,01 sec - 1 clients)
+MultiplexLoadInjector 595 - average response time: 1,09 ms -> 913fps (duration 11,89 sec - 3 clients)
+MultiplexLoadInjector 596 - average response time: 1,08 ms -> 929fps (duration 11,89 sec - 3 clients)
+MultiplexLoadInjector 597 - average response time: 1,8 ms -> 557fps (duration 11,88 sec - 3 clients)
+MultiplexLoadInjector 598 - average response time: 20,02 ms -> 49fps (duration 3,91 sec - 1 clients)
+MultiplexLoadInjector 599 - average response time: 13,89 ms -> 71fps (duration 3,89 sec - 1 clients)
+MultiplexLoadInjector 600 - average response time: 9,26 ms -> 107fps (duration 3,88 sec - 1 clients)
+MultiplexLoadInjector 601 - average response time: 5,74 ms -> 174fps (duration 3,88 sec - 1 clients)
+MultiplexLoadInjector 602 - average response time: 10,15 ms -> 98fps (duration 3,87 sec - 1 clients)
+MultiplexLoadInjector 603 - average response time: 9,49 ms -> 105fps (duration 3,88 sec - 1 clients)
+MultiplexLoadInjector 604 - average response time: 2,32 ms -> 430fps (duration 3,84 sec - 1 clients)
+MultiplexLoadInjector 605 - average response time: 0,71 ms -> 1418fps (duration 7,67 sec - 2 clients)
+MultiplexLoadInjector 606 - average response time: 4,13 ms -> 242fps (duration 7,66 sec - 2 clients)
+MultiplexLoadInjector 607 - average response time: 2,35 ms -> 425fps (duration 3,81 sec - 1 clients)
+MultiplexLoadInjector 608 - average response time: 2,82 ms -> 355fps (duration 3,79 sec - 1 clients)
+MultiplexLoadInjector 609 - average response time: 4,11 ms -> 243fps (duration 3,8 sec - 1 clients)
+MultiplexLoadInjector 610 - average response time: 2,63 ms -> 380fps (duration 3,78 sec - 1 clients)
+MultiplexLoadInjector 611 - average response time: 6,93 ms -> 144fps (duration 3,76 sec - 1 clients)
+MultiplexLoadInjector 612 - average response time: 7,98 ms -> 125fps (duration 3,75 sec - 1 clients)
+MultiplexLoadInjector 613 - average response time: 8,04 ms -> 124fps (duration 3,74 sec - 1 clients)
+MultiplexLoadInjector 614 - average response time: 2,39 ms -> 418fps (duration 3,73 sec - 1 clients)
+MultiplexLoadInjector 615 - average response time: 4,11 ms -> 243fps (duration 3,75 sec - 1 clients)
+MultiplexLoadInjector 616 - average response time: 2,62 ms -> 381fps (duration 3,73 sec - 1 clients)
+MultiplexLoadInjector 617 - average response time: 5,65 ms -> 177fps (duration 3,7 sec - 1 clients)
+MultiplexLoadInjector 618 - average response time: 2,4 ms -> 416fps (duration 3,7 sec - 1 clients)
+MultiplexLoadInjector 619 - average response time: 2,62 ms -> 382fps (duration 3,69 sec - 1 clients)
+MultiplexLoadInjector 620 - average response time: 7,07 ms -> 141fps (duration 3,67 sec - 1 clients)
+MultiplexLoadInjector 621 - average response time: 2,66 ms -> 375fps (duration 3,67 sec - 1 clients)
+MultiplexLoadInjector 622 - average response time: 2,37 ms -> 421fps (duration 3,63 sec - 1 clients)
+MultiplexLoadInjector 623 - average response time: 8,13 ms -> 122fps (duration 3,65 sec - 1 clients)
+MultiplexLoadInjector 624 - average response time: 3,95 ms -> 252fps (duration 3,62 sec - 1 clients)
+MultiplexLoadInjector 625 - average response time: 0,49 ms -> 2053fps (duration 3,62 sec - 1 clients)
+MultiplexLoadInjector 626 - average response time: 10,05 ms -> 99fps (duration 3,62 sec - 1 clients)
+MultiplexLoadInjector 627 - average response time: 5,06 ms -> 197fps (duration 3,61 sec - 1 clients)
+MultiplexLoadInjector 628 - average response time: 2,31 ms -> 433fps (duration 3,62 sec - 1 clients)
+MultiplexLoadInjector 629 - average response time: 2,24 ms -> 446fps (duration 3,58 sec - 1 clients)
+MultiplexLoadInjector 630 - average response time: 6,97 ms -> 143fps (duration 3,58 sec - 1 clients)
+MultiplexLoadInjector 631 - average response time: 10,92 ms -> 91fps (duration 3,56 sec - 1 clients)
+MultiplexLoadInjector 632 - average response time: 12,03 ms -> 83fps (duration 3,54 sec - 1 clients)
+MultiplexLoadInjector 633 - average response time: 6,56 ms -> 152fps (duration 3,54 sec - 1 clients)
+MultiplexLoadInjector 634 - average response time: 16,03 ms -> 62fps (duration 7,01 sec - 2 clients)
+MultiplexLoadInjector 635 - average response time: 17,03 ms -> 58fps (duration 7,01 sec - 2 clients)
+MultiplexLoadInjector 636 - average response time: 4,04 ms -> 247fps (duration 3,5 sec - 1 clients)
+MultiplexLoadInjector 637 - average response time: 9,95 ms -> 100fps (duration 3,48 sec - 1 clients)
+MultiplexLoadInjector 638 - average response time: 3,65 ms -> 274fps (duration 6,9 sec - 2 clients)
+MultiplexLoadInjector 639 - average response time: 8,35 ms -> 119fps (duration 6,9 sec - 2 clients)
+MultiplexLoadInjector 640 - average response time: 14,9 ms -> 67fps (duration 6,83 sec - 2 clients)
+MultiplexLoadInjector 641 - average response time: 18,06 ms -> 55fps (duration 6,83 sec - 2 clients)
+MultiplexLoadInjector 642 - average response time: 14,41 ms -> 69fps (duration 3,4 sec - 1 clients)
+MultiplexLoadInjector 643 - average response time: 20,32 ms -> 49fps (duration 3,4 sec - 1 clients)
+MultiplexLoadInjector 644 - average response time: 9,13 ms -> 109fps (duration 3,36 sec - 1 clients)
+MultiplexLoadInjector 645 - average response time: 17,4 ms -> 57fps (duration 6,66 sec - 2 clients)
+MultiplexLoadInjector 646 - average response time: 17,73 ms -> 56fps (duration 6,66 sec - 2 clients)
+MultiplexLoadInjector 647 - average response time: 1,49 ms -> 670fps (duration 9,83 sec - 3 clients)
+MultiplexLoadInjector 648 - average response time: 1,78 ms -> 560fps (duration 9,86 sec - 3 clients)
+MultiplexLoadInjector 649 - average response time: 1,74 ms -> 574fps (duration 9,84 sec - 3 clients)
+MultiplexLoadInjector 650 - average response time: 2,68 ms -> 373fps (duration 3,22 sec - 1 clients)
+MultiplexLoadInjector 651 - average response time: 2,38 ms -> 419fps (duration 3,24 sec - 1 clients)
+MultiplexLoadInjector 652 - average response time: 24,96 ms -> 40fps (duration 3,23 sec - 1 clients)
+MultiplexLoadInjector 653 - average response time: 12,29 ms -> 81fps (duration 6,35 sec - 2 clients)
+MultiplexLoadInjector 654 - average response time: 12,42 ms -> 80fps (duration 6,35 sec - 2 clients)
+MultiplexLoadInjector 655 - average response time: 1,92 ms -> 520fps (duration 21,53 sec - 7 clients)
+MultiplexLoadInjector 656 - average response time: 0,95 ms -> 1055fps (duration 21,53 sec - 7 clients)
+MultiplexLoadInjector 657 - average response time: 1,01 ms -> 989fps (duration 21,53 sec - 7 clients)
+MultiplexLoadInjector 658 - average response time: 1,04 ms -> 962fps (duration 21,53 sec - 7 clients)
+MultiplexLoadInjector 659 - average response time: 0,97 ms -> 1030fps (duration 21,59 sec - 7 clients)
+MultiplexLoadInjector 660 - average response time: 0,87 ms -> 1146fps (duration 21,53 sec - 7 clients)
+MultiplexLoadInjector 661 - average response time: 1,83 ms -> 546fps (duration 21,54 sec - 7 clients)
+MultiplexLoadInjector 662 - average response time: 0,94 ms -> 1067fps (duration 20,66 sec - 8 clients)
+MultiplexLoadInjector 663 - average response time: 1,79 ms -> 557fps (duration 20,65 sec - 8 clients)
+MultiplexLoadInjector 664 - average response time: 0,99 ms -> 1010fps (duration 20,64 sec - 8 clients)
+MultiplexLoadInjector 665 - average response time: 1,86 ms -> 537fps (duration 20,64 sec - 8 clients)
+MultiplexLoadInjector 666 - average response time: 0,97 ms -> 1030fps (duration 20,65 sec - 8 clients)
+MultiplexLoadInjector 667 - average response time: 1,85 ms -> 541fps (duration 20,65 sec - 8 clients)
+MultiplexLoadInjector 668 - average response time: 1,8 ms -> 554fps (duration 20,64 sec - 8 clients)
+MultiplexLoadInjector 669 - average response time: 1,84 ms -> 543fps (duration 20,64 sec - 8 clients)
+MultiplexLoadInjector 670 - average response time: 1,18 ms -> 845fps (duration 10,18 sec - 9 clients)
+MultiplexLoadInjector 671 - average response time: 1,99 ms -> 503fps (duration 10,13 sec - 9 clients)
+MultiplexLoadInjector 672 - average response time: 1,51 ms -> 662fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 673 - average response time: 1,1 ms -> 906fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 674 - average response time: 1,87 ms -> 533fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 675 - average response time: 1,79 ms -> 559fps (duration 10,13 sec - 9 clients)
+MultiplexLoadInjector 676 - average response time: 1,89 ms -> 529fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 677 - average response time: 0,91 ms -> 1095fps (duration 10,13 sec - 9 clients)
+MultiplexLoadInjector 678 - average response time: 1,83 ms -> 545fps (duration 10,13 sec - 9 clients)
+MultiplexLoadInjector 679 - average response time: 1,84 ms -> 542fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 680 - average response time: 1,91 ms -> 523fps (duration 10,15 sec - 9 clients)
+MultiplexLoadInjector 681 - average response time: 1,88 ms -> 531fps (duration 10,13 sec - 9 clients)
+MultiplexLoadInjector 682 - average response time: 1,96 ms -> 509fps (duration 10,13 sec - 9 clients)
+MultiplexLoadInjector 683 - average response time: 0,85 ms -> 1179fps (duration 10,15 sec - 9 clients)
+MultiplexLoadInjector 684 - average response time: 1,81 ms -> 550fps (duration 10,18 sec - 9 clients)
+MultiplexLoadInjector 685 - average response time: 1,89 ms -> 528fps (duration 10,15 sec - 9 clients)
+MultiplexLoadInjector 686 - average response time: 1,97 ms -> 506fps (duration 10,18 sec - 9 clients)
+MultiplexLoadInjector 687 - average response time: 1,05 ms -> 947fps (duration 10,18 sec - 9 clients)
+MultiplexLoadInjector 688 - average response time: 2,03 ms -> 492fps (duration 10,17 sec - 9 clients)
+MultiplexLoadInjector 689 - average response time: 1,82 ms -> 549fps (duration 10,15 sec - 9 clients)
+MultiplexLoadInjector 690 - average response time: 0,95 ms -> 1049fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 691 - average response time: 1,87 ms -> 534fps (duration 10,15 sec - 9 clients)
+MultiplexLoadInjector 692 - average response time: 1,9 ms -> 525fps (duration 10,14 sec - 9 clients)
+MultiplexLoadInjector 693 - average response time: 1,83 ms -> 547fps (duration 10,16 sec - 9 clients)
+MultiplexLoadInjector 694 - average response time: 1,89 ms -> 528fps (duration 10,16 sec - 9 clients)
+MultiplexLoadInjector 695 - average response time: 1,85 ms -> 541fps (duration 10,17 sec - 9 clients)
+MultiplexLoadInjector 696 - average response time: 1,82 ms -> 548fps (duration 10,15 sec - 9 clients)
+MultiplexLoadInjector 697 - average response time: 0,91 ms -> 1099fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 698 - average response time: 1,16 ms -> 859fps (duration 10,25 sec - 9 clients)
+MultiplexLoadInjector 699 - average response time: 0,78 ms -> 1273fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 700 - average response time: 1 ms -> 1001fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 701 - average response time: 1,91 ms -> 524fps (duration 10,27 sec - 9 clients)
+MultiplexLoadInjector 702 - average response time: 0,98 ms -> 1016fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 703 - average response time: 1,04 ms -> 960fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 704 - average response time: 0,99 ms -> 1006fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 705 - average response time: 1,65 ms -> 605fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 706 - average response time: 1,01 ms -> 989fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 707 - average response time: 1,13 ms -> 886fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 708 - average response time: 0,55 ms -> 1802fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 709 - average response time: 1,26 ms -> 794fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 710 - average response time: 1,74 ms -> 574fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 711 - average response time: 1,24 ms -> 804fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 712 - average response time: 0,92 ms -> 1092fps (duration 10,19 sec - 9 clients)
+MultiplexLoadInjector 713 - average response time: 0,76 ms -> 1323fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 714 - average response time: 0,97 ms -> 1033fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 715 - average response time: 1,82 ms -> 548fps (duration 10,17 sec - 9 clients)
+MultiplexLoadInjector 716 - average response time: 2,2 ms -> 453fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 717 - average response time: 1,72 ms -> 579fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 718 - average response time: 1,17 ms -> 854fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 719 - average response time: 0,26 ms -> 3856fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 720 - average response time: 1,45 ms -> 688fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 721 - average response time: 0,73 ms -> 1360fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 722 - average response time: 0,26 ms -> 3910fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 723 - average response time: 1,93 ms -> 519fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 724 - average response time: 1,77 ms -> 564fps (duration 10,22 sec - 9 clients)
+MultiplexLoadInjector 725 - average response time: 1,94 ms -> 514fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 726 - average response time: 1,14 ms -> 877fps (duration 10,23 sec - 9 clients)
+MultiplexLoadInjector 727 - average response time: 1,07 ms -> 932fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 728 - average response time: 1,87 ms -> 535fps (duration 10,25 sec - 9 clients)
+MultiplexLoadInjector 729 - average response time: 1,82 ms -> 548fps (duration 10,23 sec - 9 clients)
+MultiplexLoadInjector 730 - average response time: 0,98 ms -> 1020fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 731 - average response time: 1,18 ms -> 845fps (duration 10,23 sec - 9 clients)
+MultiplexLoadInjector 732 - average response time: 1,2 ms -> 833fps (duration 10,27 sec - 9 clients)
+MultiplexLoadInjector 733 - average response time: 0,92 ms -> 1091fps (duration 10,19 sec - 9 clients)
+MultiplexLoadInjector 734 - average response time: 1,04 ms -> 965fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 735 - average response time: 1,78 ms -> 561fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 736 - average response time: 1,12 ms -> 890fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 737 - average response time: 2 ms -> 500fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 738 - average response time: 1,6 ms -> 626fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 739 - average response time: 1,17 ms -> 854fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 740 - average response time: 1,85 ms -> 539fps (duration 10,27 sec - 9 clients)
+MultiplexLoadInjector 741 - average response time: 1,08 ms -> 925fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 742 - average response time: 1,02 ms -> 984fps (duration 10,19 sec - 9 clients)
+MultiplexLoadInjector 743 - average response time: 2,12 ms -> 471fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 744 - average response time: 1,64 ms -> 611fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 745 - average response time: 1,04 ms -> 959fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 746 - average response time: 1,85 ms -> 539fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 747 - average response time: 1,23 ms -> 813fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 748 - average response time: 1,06 ms -> 941fps (duration 10,26 sec - 9 clients)
+MultiplexLoadInjector 749 - average response time: 0,82 ms -> 1223fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 750 - average response time: 1,04 ms -> 960fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 751 - average response time: 0,96 ms -> 1042fps (duration 10,27 sec - 9 clients)
+MultiplexLoadInjector 752 - average response time: 1,35 ms -> 741fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 753 - average response time: 0,93 ms -> 1073fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 754 - average response time: 1,61 ms -> 622fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 755 - average response time: 2,07 ms -> 483fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 756 - average response time: 0,89 ms -> 1122fps (duration 10,29 sec - 9 clients)
+MultiplexLoadInjector 757 - average response time: 1,86 ms -> 536fps (duration 10,27 sec - 9 clients)
+MultiplexLoadInjector 758 - average response time: 2,31 ms -> 432fps (duration 10,29 sec - 9 clients)
+---------------------------
+Throughput history
+---------------------------
+0,053 % -> 1 clients
+0,07 % -> 2 clients
+0,104 % -> 3 clients
+0,139 % -> 4 clients
+0,173 % -> 5 clients
+0,208 % -> 6 clients
+0,242 % -> 7 clients
+0,277 % -> 8 clients
+0,311 % -> 9 clients
+0,346 % -> 10 clients
+0,38 % -> 11 clients
+0,415 % -> 12 clients
+0,449 % -> 13 clients
+0,484 % -> 14 clients
+0,518 % -> 15 clients
+0,552 % -> 16 clients
+0,587 % -> 17 clients
+0,622 % -> 18 clients
+0,656 % -> 19 clients
+0,69 % -> 20 clients
+0,725 % -> 21 clients
+0,759 % -> 22 clients
+0,794 % -> 23 clients
+0,828 % -> 24 clients
+0,863 % -> 25 clients
+0,897 % -> 26 clients
+0,932 % -> 27 clients
+0,966 % -> 28 clients
+1,001 % -> 29 clients
+1,035 % -> 30 clients
+1,07 % -> 31 clients
+1,104 % -> 32 clients
+1,139 % -> 33 clients
+1,173 % -> 34 clients
+1,208 % -> 35 clients
+1,242 % -> 36 clients
+1,277 % -> 37 clients
+1,311 % -> 38 clients
+1,345 % -> 39 clients
+1,38 % -> 40 clients
+1,415 % -> 41 clients
+1,45 % -> 42 clients
+1,484 % -> 43 clients
+1,518 % -> 44 clients
+1,552 % -> 45 clients
+1,587 % -> 46 clients
+1,621 % -> 47 clients
+1,656 % -> 48 clients
+1,691 % -> 49 clients
+1,725 % -> 50 clients
+1,76 % -> 51 clients
+1,794 % -> 52 clients
+1,828 % -> 53 clients
+1,863 % -> 54 clients
+1,897 % -> 55 clients
+1,932 % -> 56 clients
+1,966 % -> 57 clients
+2,001 % -> 58 clients
+2,035 % -> 59 clients
+2,07 % -> 60 clients
+2,104 % -> 61 clients
+2,139 % -> 62 clients
+2,173 % -> 63 clients
+2,207 % -> 64 clients
+2,242 % -> 65 clients
+2,277 % -> 66 clients
+2,311 % -> 67 clients
+2,345 % -> 68 clients
+2,38 % -> 69 clients
+2,414 % -> 70 clients
+2,45 % -> 71 clients
+2,483 % -> 72 clients
+2,518 % -> 73 clients
+2,552 % -> 74 clients
+2,587 % -> 75 clients
+2,621 % -> 76 clients
+2,656 % -> 77 clients
+2,69 % -> 78 clients
+2,725 % -> 79 clients
+2,759 % -> 80 clients
+2,794 % -> 81 clients
+2,828 % -> 82 clients
+2,863 % -> 83 clients
+2,899 % -> 84 clients
+2,932 % -> 85 clients
+2,966 % -> 86 clients
+3 % -> 87 clients
+3,035 % -> 88 clients
+3,069 % -> 89 clients
+3,104 % -> 90 clients
+3,138 % -> 91 clients
+3,173 % -> 92 clients
+3,207 % -> 93 clients
+3,242 % -> 94 clients
+3,277 % -> 95 clients
+3,311 % -> 96 clients
+3,35 % -> 97 clients
+3,381 % -> 98 clients
+3,414 % -> 99 clients
+3,449 % -> 100 clients
+3,483 % -> 101 clients
+3,518 % -> 102 clients
+3,553 % -> 103 clients
+3,587 % -> 104 clients
+3,621 % -> 105 clients
+3,656 % -> 106 clients
+3,69 % -> 107 clients
+3,725 % -> 108 clients
+3,759 % -> 109 clients
+3,793 % -> 110 clients
+3,828 % -> 111 clients
+3,863 % -> 112 clients
+3,894 % -> 113 clients
+3,928 % -> 114 clients
+3,963 % -> 115 clients
+3,997 % -> 116 clients
+4,032 % -> 117 clients
+4,066 % -> 118 clients
+4,104 % -> 119 clients
+4,135 % -> 120 clients
+4,17 % -> 121 clients
+4,204 % -> 122 clients
+4,238 % -> 123 clients
+4,273 % -> 124 clients
+4,307 % -> 125 clients
+4,342 % -> 126 clients
+4,377 % -> 127 clients
+4,411 % -> 128 clients
+4,445 % -> 129 clients
+4,48 % -> 130 clients
+4,514 % -> 131 clients
+4,549 % -> 132 clients
+4,584 % -> 133 clients
+4,618 % -> 134 clients
+4,652 % -> 135 clients
+4,687 % -> 136 clients
+4,721 % -> 137 clients
+4,755 % -> 138 clients
+4,79 % -> 139 clients
+4,824 % -> 140 clients
+4,859 % -> 141 clients
+4,894 % -> 142 clients
+4,928 % -> 143 clients
+4,963 % -> 144 clients
+4,997 % -> 145 clients
+5,031 % -> 146 clients
+5,066 % -> 147 clients
+5,1 % -> 148 clients
+5,135 % -> 149 clients
+5,169 % -> 150 clients
+5,203 % -> 151 clients
+5,239 % -> 152 clients
+5,273 % -> 153 clients
+5,307 % -> 154 clients
+5,342 % -> 155 clients
+5,376 % -> 156 clients
+5,41 % -> 157 clients
+5,445 % -> 158 clients
+5,48 % -> 159 clients
+5,514 % -> 160 clients
+5,549 % -> 161 clients
+5,583 % -> 162 clients
+5,618 % -> 163 clients
+5,652 % -> 164 clients
+5,687 % -> 165 clients
+5,721 % -> 166 clients
+5,759 % -> 167 clients
+5,79 % -> 168 clients
+5,825 % -> 169 clients
+5,859 % -> 170 clients
+5,894 % -> 171 clients
+5,928 % -> 172 clients
+5,965 % -> 173 clients
+5,997 % -> 174 clients
+6,031 % -> 175 clients
+6,066 % -> 176 clients
+6,101 % -> 177 clients
+6,134 % -> 178 clients
+6,169 % -> 179 clients
+6,204 % -> 180 clients
+6,242 % -> 181 clients
+6,273 % -> 182 clients
+6,309 % -> 183 clients
+6,343 % -> 184 clients
+6,377 % -> 185 clients
+6,411 % -> 186 clients
+6,445 % -> 187 clients
+6,48 % -> 188 clients
+6,518 % -> 189 clients
+6,549 % -> 190 clients
+6,583 % -> 191 clients
+6,617 % -> 192 clients
+6,652 % -> 193 clients
+6,686 % -> 194 clients
+6,721 % -> 195 clients
+6,756 % -> 196 clients
+6,798 % -> 197 clients
+6,826 % -> 198 clients
+6,858 % -> 199 clients
+6,893 % -> 200 clients
+6,927 % -> 201 clients
+6,963 % -> 202 clients
+6,997 % -> 203 clients
+7,033 % -> 204 clients
+7,065 % -> 205 clients
+7,101 % -> 206 clients
+7,135 % -> 207 clients
+7,169 % -> 208 clients
+7,203 % -> 209 clients
+7,238 % -> 210 clients
+7,276 % -> 211 clients
+7,307 % -> 212 clients
+7,342 % -> 213 clients
+7,375 % -> 214 clients
+7,411 % -> 215 clients
+7,444 % -> 216 clients
+7,48 % -> 217 clients
+7,514 % -> 218 clients
+7,551 % -> 219 clients
+7,582 % -> 220 clients
+7,617 % -> 221 clients
+7,652 % -> 222 clients
+7,687 % -> 223 clients
+7,721 % -> 224 clients
+7,755 % -> 225 clients
+7,79 % -> 226 clients
+7,828 % -> 227 clients
+7,858 % -> 228 clients
+7,893 % -> 229 clients
+7,928 % -> 230 clients
+7,962 % -> 231 clients
+7,997 % -> 232 clients
+8,031 % -> 233 clients
+8,066 % -> 234 clients
+8,101 % -> 235 clients
+8,134 % -> 236 clients
+8,169 % -> 237 clients
+8,207 % -> 238 clients
+8,238 % -> 239 clients
+8,272 % -> 240 clients
+8,306 % -> 241 clients
+8,342 % -> 242 clients
+8,376 % -> 243 clients
+8,411 % -> 244 clients
+8,445 % -> 245 clients
+8,48 % -> 246 clients
+8,514 % -> 247 clients
+8,548 % -> 248 clients
+8,582 % -> 249 clients
+8,618 % -> 250 clients
+8,652 % -> 251 clients
+8,687 % -> 252 clients
+8,718 % -> 253 clients
+8,755 % -> 254 clients
+8,787 % -> 255 clients
+8,82 % -> 256 clients
+8,855 % -> 257 clients
+8,89 % -> 258 clients
+8,924 % -> 259 clients
+8,959 % -> 260 clients
+8,993 % -> 261 clients
+9,028 % -> 262 clients
+9,061 % -> 263 clients
+9,097 % -> 264 clients
+9,132 % -> 265 clients
+9,166 % -> 266 clients
+9,2 % -> 267 clients
+9,234 % -> 268 clients
+9,269 % -> 269 clients
+9,304 % -> 270 clients
+9,338 % -> 271 clients
+9,373 % -> 272 clients
+9,407 % -> 273 clients
+9,442 % -> 274 clients
+9,476 % -> 275 clients
+9,511 % -> 276 clients
+9,545 % -> 277 clients
+9,58 % -> 278 clients
+9,614 % -> 279 clients
+9,649 % -> 280 clients
+9,683 % -> 281 clients
+9,718 % -> 282 clients
+9,756 % -> 283 clients
+9,788 % -> 284 clients
+9,822 % -> 285 clients
+9,856 % -> 286 clients
+9,889 % -> 287 clients
+9,924 % -> 288 clients
+9,959 % -> 289 clients
+9,993 % -> 290 clients
+10,027 % -> 291 clients
+10,062 % -> 292 clients
+10,096 % -> 293 clients
+10,132 % -> 294 clients
+10,166 % -> 295 clients
+10,201 % -> 296 clients
+10,235 % -> 297 clients
+10,277 % -> 298 clients
+10,308 % -> 299 clients
+10,338 % -> 300 clients
+10,373 % -> 301 clients
+10,407 % -> 302 clients
+10,442 % -> 303 clients
+10,476 % -> 304 clients
+10,511 % -> 305 clients
+10,545 % -> 306 clients
+10,578 % -> 307 clients
+10,614 % -> 308 clients
+10,649 % -> 309 clients
+10,683 % -> 310 clients
+10,716 % -> 311 clients
+10,752 % -> 312 clients
+10,786 % -> 313 clients
+10,821 % -> 314 clients
+10,856 % -> 315 clients
+10,89 % -> 316 clients
+10,924 % -> 317 clients
+10,959 % -> 318 clients
+10,993 % -> 319 clients
+11,028 % -> 320 clients
+11,061 % -> 321 clients
+11,097 % -> 322 clients
+11,13 % -> 323 clients
+11,166 % -> 324 clients
+11,199 % -> 325 clients
+11,235 % -> 326 clients
+11,269 % -> 327 clients
+11,304 % -> 328 clients
+11,34 % -> 329 clients
+11,373 % -> 330 clients
+11,407 % -> 331 clients
+11,442 % -> 332 clients
+11,476 % -> 333 clients
+11,514 % -> 334 clients
+11,545 % -> 335 clients
+11,58 % -> 336 clients
+11,614 % -> 337 clients
+11,649 % -> 338 clients
+11,683 % -> 339 clients
+11,717 % -> 340 clients
+11,751 % -> 341 clients
+11,787 % -> 342 clients
+11,82 % -> 343 clients
+11,856 % -> 344 clients
+11,89 % -> 345 clients
+11,928 % -> 346 clients
+11,957 % -> 347 clients
+11,993 % -> 348 clients
+12,028 % -> 349 clients
+12,062 % -> 350 clients
+12,099 % -> 351 clients
+12,132 % -> 352 clients
+12,166 % -> 353 clients
+12,2 % -> 354 clients
+12,235 % -> 355 clients
+12,269 % -> 356 clients
+12,304 % -> 357 clients
+12,338 % -> 358 clients
+12,373 % -> 359 clients
+12,41 % -> 360 clients
+12,442 % -> 361 clients
+12,48 % -> 362 clients
+12,511 % -> 363 clients
+12,544 % -> 364 clients
+12,58 % -> 365 clients
+12,614 % -> 366 clients
+12,647 % -> 367 clients
+12,683 % -> 368 clients
+12,716 % -> 369 clients
+12,752 % -> 370 clients
+12,786 % -> 371 clients
+12,819 % -> 372 clients
+12,855 % -> 373 clients
+12,888 % -> 374 clients
+12,923 % -> 375 clients
+12,957 % -> 376 clients
+12,994 % -> 377 clients
+13,031 % -> 378 clients
+13,066 % -> 379 clients
+13,095 % -> 380 clients
+13,131 % -> 381 clients
+13,169 % -> 382 clients
+13,205 % -> 383 clients
+13,304 % -> 385 clients
+13,304 % -> 387 clients
+13,373 % -> 388 clients
+13,407 % -> 389 clients
+13,442 % -> 390 clients
+13,476 % -> 391 clients
+13,51 % -> 392 clients
+13,545 % -> 393 clients
+13,582 % -> 394 clients
+13,614 % -> 395 clients
+13,651 % -> 396 clients
+13,687 % -> 397 clients
+13,721 % -> 398 clients
+13,749 % -> 399 clients
+13,784 % -> 400 clients
+13,82 % -> 401 clients
+13,852 % -> 402 clients
+13,886 % -> 403 clients
+13,921 % -> 404 clients
+13,956 % -> 405 clients
+13,99 % -> 406 clients
+14,025 % -> 407 clients
+14,059 % -> 408 clients
+14,093 % -> 409 clients
+14,128 % -> 410 clients
+14,166 % -> 411 clients
+14,197 % -> 412 clients
+14,231 % -> 413 clients
+14,264 % -> 414 clients
+14,298 % -> 415 clients
+14,333 % -> 416 clients
+14,367 % -> 417 clients
+14,404 % -> 418 clients
+14,438 % -> 419 clients
+14,473 % -> 420 clients
+14,511 % -> 421 clients
+14,545 % -> 422 clients
+14,576 % -> 423 clients
+14,611 % -> 424 clients
+14,643 % -> 425 clients
+14,68 % -> 426 clients
+14,718 % -> 427 clients
+14,747 % -> 428 clients
+14,783 % -> 429 clients
+14,815 % -> 430 clients
+14,852 % -> 431 clients
+14,887 % -> 432 clients
+14,921 % -> 433 clients
+14,953 % -> 434 clients
+14,99 % -> 435 clients
+15,024 % -> 436 clients
+15,059 % -> 437 clients
+15,095 % -> 438 clients
+15,126 % -> 439 clients
+15,163 % -> 440 clients
+15,197 % -> 441 clients
+15,23 % -> 442 clients
+15,269 % -> 443 clients
+15,301 % -> 444 clients
+15,333 % -> 445 clients
+15,369 % -> 446 clients
+15,404 % -> 447 clients
+15,436 % -> 448 clients
+15,473 % -> 449 clients
+15,51 % -> 450 clients
+15,545 % -> 451 clients
+15,579 % -> 452 clients
+15,613 % -> 453 clients
+15,651 % -> 454 clients
+15,678 % -> 455 clients
+15,714 % -> 456 clients
+15,751 % -> 457 clients
+15,785 % -> 458 clients
+15,821 % -> 459 clients
+15,85 % -> 460 clients
+15,884 % -> 461 clients
+15,924 % -> 462 clients
+15,956 % -> 463 clients
+15,993 % -> 464 clients
+16,025 % -> 465 clients
+16,059 % -> 466 clients
+16,093 % -> 467 clients
+16,127 % -> 468 clients
+16,162 % -> 469 clients
+16,197 % -> 470 clients
+16,235 % -> 471 clients
+16,266 % -> 472 clients
+16,3 % -> 473 clients
+16,335 % -> 474 clients
+16,372 % -> 475 clients
+16,407 % -> 476 clients
+16,438 % -> 477 clients
+16,473 % -> 478 clients
+16,507 % -> 479 clients
+16,542 % -> 480 clients
+16,574 % -> 481 clients
+16,614 % -> 482 clients
+16,651 % -> 483 clients
+16,703 % -> 484 clients
+16,728 % -> 485 clients
+16,763 % -> 486 clients
+16,79 % -> 487 clients
+16,815 % -> 488 clients
+16,852 % -> 489 clients
+16,889 % -> 490 clients
+16,919 % -> 491 clients
+16,953 % -> 492 clients
+16,997 % -> 493 clients
+17,041 % -> 494 clients
+17,059 % -> 495 clients
+17,107 % -> 496 clients
+17,126 % -> 497 clients
+17,161 % -> 498 clients
+17,2 % -> 499 clients
+17,269 % -> 500 clients
+17,341 % -> 501 clients
+17,364 % -> 503 clients
+17,364 % -> 505 clients
+17,446 % -> 506 clients
+17,475 % -> 507 clients
+17,512 % -> 508 clients
+17,545 % -> 509 clients
+17,579 % -> 510 clients
+17,624 % -> 511 clients
+17,659 % -> 512 clients
+17,686 % -> 513 clients
+17,718 % -> 514 clients
+17,759 % -> 515 clients
+17,8 % -> 516 clients
+17,838 % -> 517 clients
+17,883 % -> 518 clients
+17,896 % -> 519 clients
+17,921 % -> 520 clients
+17,959 % -> 521 clients
+17,993 % -> 522 clients
+18,026 % -> 523 clients
+18,062 % -> 524 clients
+18,096 % -> 525 clients
+18,131 % -> 526 clients
+18,162 % -> 527 clients
+18,197 % -> 528 clients
+18,232 % -> 529 clients
+18,266 % -> 530 clients
+18,3 % -> 531 clients
+18,337 % -> 532 clients
+18,372 % -> 533 clients
+18,407 % -> 534 clients
+18,441 % -> 535 clients
+18,472 % -> 536 clients
+18,51 % -> 537 clients
+18,541 % -> 538 clients
+18,572 % -> 539 clients
+18,631 % -> 540 clients
+18,645 % -> 541 clients
+18,677 % -> 542 clients
+18,717 % -> 543 clients
+18,749 % -> 544 clients
+18,782 % -> 545 clients
+18,817 % -> 546 clients
+18,852 % -> 547 clients
+18,883 % -> 548 clients
+18,923 % -> 549 clients
+18,949 % -> 550 clients
+19,003 % -> 551 clients
+19,024 % -> 552 clients
+19,065 % -> 553 clients
+19,1 % -> 554 clients
+19,131 % -> 555 clients
+19,165 % -> 556 clients
+19,199 % -> 557 clients
+19,234 % -> 558 clients
+19,263 % -> 559 clients
+19,3 % -> 560 clients
+19,337 % -> 561 clients
+19,378 % -> 562 clients
+19,424 % -> 563 clients
+19,445 % -> 564 clients
+19,472 % -> 565 clients
+19,501 % -> 566 clients
+19,541 % -> 567 clients
+19,576 % -> 568 clients
+19,614 % -> 569 clients
+19,645 % -> 570 clients
+19,683 % -> 571 clients
+19,728 % -> 572 clients
+19,752 % -> 573 clients
+19,777 % -> 574 clients
+19,82 % -> 575 clients
+19,856 % -> 576 clients
+19,886 % -> 577 clients
+19,92 % -> 578 clients
+19,955 % -> 579 clients
+19,989 % -> 580 clients
+20,024 % -> 581 clients
+20,076 % -> 582 clients
+20,11 % -> 583 clients
+20,234 % -> 585 clients
+20,234 % -> 587 clients
+20,328 % -> 588 clients
+20,351 % -> 589 clients
+20,372 % -> 590 clients
+20,376 % -> 591 clients
+20,404 % -> 592 clients
+20,451 % -> 593 clients
+20,474 % -> 594 clients
+20,524 % -> 595 clients
+20,561 % -> 596 clients
+20,607 % -> 597 clients
+20,654 % -> 598 clients
+20,731 % -> 599 clients
+20,799 % -> 600 clients
+20,878 % -> 601 clients
+20,916 % -> 604 clients
+20,916 % -> 607 clients
+20,988 % -> 610 clients
+21,089 % -> 611 clients
+21,155 % -> 612 clients
+21,185 % -> 613 clients
+21,217 % -> 614 clients
+21,237 % -> 615 clients
+21,292 % -> 616 clients
+21,332 % -> 617 clients
+21,334 % -> 619 clients
+21,334 % -> 621 clients
+21,463 % -> 622 clients
+21,499 % -> 623 clients
+21,513 % -> 624 clients
+21,548 % -> 625 clients
+21,627 % -> 626 clients
+21,651 % -> 627 clients
+21,679 % -> 628 clients
+21,715 % -> 629 clients
+21,716 % -> 630 clients
+21,749 % -> 631 clients
+21,819 % -> 632 clients
+21,839 % -> 633 clients
+21,866 % -> 634 clients
+21,909 % -> 635 clients
+21,949 % -> 636 clients
+21,95 % -> 637 clients
+21,999 % -> 638 clients
+22,096 % -> 639 clients
+22,107 % -> 640 clients
+22,109 % -> 641 clients
+22,147 % -> 642 clients
+22,156 % -> 643 clients
+22,239 % -> 644 clients
+22,247 % -> 645 clients
+22,317 % -> 646 clients
+22,361 % -> 647 clients
+22,43 % -> 648 clients
+22,46 % -> 650 clients
+22,46 % -> 652 clients
+22,525 % -> 653 clients
+22,568 % -> 654 clients
+22,703 % -> 656 clients
+22,742 % -> 658 clients
+22,751 % -> 660 clients
+22,758 % -> 662 clients
+22,928 % -> 663 clients
+22,93 % -> 664 clients
+23,002 % -> 665 clients
+23,082 % -> 667 clients
+23,082 % -> 669 clients
+23,264 % -> 672 clients
+23,282 % -> 675 clients
+23,334 % -> 678 clients
+23,458 % -> 679 clients
+23,46 % -> 680 clients
+23,534 % -> 681 clients
+23,626 % -> 683 clients
+23,626 % -> 685 clients
+24,362 % -> 692 clients
+24,362 % -> 699 clients
+24,363 % -> 706 clients
+24,364 % -> 713 clients
+24,364 % -> 720 clients
+24,364 % -> 727 clients
+25,782 % -> 734 clients
+26,161 % -> 742 clients
+26,181 % -> 750 clients
+26,188 % -> 758 clients
+26,195 % -> 766 clients
+26,219 % -> 774 clients
+26,219 % -> 782 clients
+26,22 % -> 790 clients
+26,22 % -> 798 clients
+31,695 % -> 807 clients
+31,695 % -> 816 clients
+31,696 % -> 825 clients
+31,696 % -> 834 clients
+31,696 % -> 843 clients
+31,696 % -> 852 clients
+31,696 % -> 861 clients
+31,696 % -> 870 clients
+31,696 % -> 879 clients
+31,697 % -> 888 clients
+31,697 % -> 897 clients
+31,697 % -> 906 clients
+31,697 % -> 915 clients
+31,697 % -> 924 clients
+31,699 % -> 933 clients
+31,7 % -> 942 clients
+31,701 % -> 951 clients
+31,702 % -> 960 clients
+31,702 % -> 969 clients
+33,176 % -> 978 clients
+33,248 % -> 987 clients
+33,248 % -> 996 clients
+33,575 % -> 1005 clients
+34,303 % -> 1014 clients
+34,303 % -> 1023 clients
+34,344 % -> 1032 clients
+34,379 % -> 1041 clients
+34,461 % -> 1040 clients
+34,549 % -> 1039 clients
+34,558 % -> 1038 clients
+34,558 % -> 1037 clients
+34,558 % -> 1036 clients
+34,565 % -> 1035 clients
+34,565 % -> 1034 clients
+34,565 % -> 1033 clients
+34,566 % -> 1032 clients
+34,566 % -> 1031 clients
+34,566 % -> 1030 clients
+34,567 % -> 1029 clients
+34,567 % -> 1028 clients
+34,567 % -> 1027 clients
+34,567 % -> 1026 clients
+34,567 % -> 1025 clients
+34,567 % -> 1024 clients
+34,568 % -> 1023 clients
+34,568 % -> 1022 clients
+34,568 % -> 1031 clients
+34,568 % -> 1040 clients
+34,568 % -> 1049 clients
+34,568 % -> 1058 clients
+34,568 % -> 1057 clients
+34,568 % -> 1056 clients
+34,568 % -> 1065 clients
+34,568 % -> 1074 clients
+34,568 % -> 1083 clients
+34,569 % -> 1092 clients
+34,569 % -> 1101 clients
+34,569 % -> 1100 clients
+34,569 % -> 1099 clients
+34,569 % -> 1098 clients
+34,569 % -> 1107 clients
+34,569 % -> 1116 clients
+34,569 % -> 1115 clients
+34,569 % -> 1124 clients
+34,569 % -> 1133 clients
+34,569 % -> 1132 clients
+34,569 % -> 1131 clients
+34,569 % -> 1130 clients
+34,57 % -> 1129 clients
+34,57 % -> 1138 clients
+34,57 % -> 1137 clients
+34,57 % -> 1146 clients
+34,57 % -> 1155 clients
+34,57 % -> 1164 clients
+34,57 % -> 1163 clients
+34,57 % -> 1162 clients
+34,57 % -> 1161 clients
+34,57 % -> 1160 clients
+34,57 % -> 1169 clients
+34,571 % -> 1178 clients
+34,571 % -> 1187 clients
+34,571 % -> 1196 clients
+34,571 % -> 1195 clients
+34,571 % -> 1194 clients
+34,571 % -> 1193 clients
+34,571 % -> 1192 clients
+34,572 % -> 1191 clients
+34,572 % -> 1190 clients
+34,572 % -> 1189 clients
+34,572 % -> 1188 clients
+34,572 % -> 1197 clients
+34,572 % -> 1196 clients
+34,572 % -> 1205 clients
+34,572 % -> 1204 clients
+34,572 % -> 1213 clients
+34,572 % -> 1212 clients
+34,572 % -> 1211 clients
+34,572 % -> 1210 clients
+34,572 % -> 1209 clients
+34,573 % -> 1218 clients
+34,573 % -> 1217 clients
+34,573 % -> 1226 clients
+34,573 % -> 1225 clients
+34,573 % -> 1234 clients
+34,573 % -> 1243 clients
+34,573 % -> 1252 clients
+34,573 % -> 1261 clients
+34,573 % -> 1260 clients
+34,573 % -> 1259 clients
+34,573 % -> 1257 clients
+34,573 % -> 1257 clients
+34,573 % -> 1256 clients
+34,573 % -> 1255 clients
+34,574 % -> 1254 clients
+34,574 % -> 1253 clients
+34,574 % -> 1252 clients
+34,574 % -> 1251 clients
+34,574 % -> 1250 clients
+34,574 % -> 1249 clients
+34,574 % -> 1258 clients
+34,574 % -> 1257 clients
+34,574 % -> 1256 clients
+34,574 % -> 1255 clients
+34,574 % -> 1254 clients
+34,574 % -> 1253 clients
+34,574 % -> 1252 clients
+34,574 % -> 1250 clients
+34,574 % -> 1250 clients
+34,574 % -> 1249 clients
+34,574 % -> 1248 clients
+34,574 % -> 1247 clients
+34,574 % -> 1246 clients
+34,575 % -> 1244 clients
+34,575 % -> 1244 clients
+34,575 % -> 1243 clients
+34,575 % -> 1242 clients
+34,575 % -> 1241 clients
+34,575 % -> 1240 clients
+34,575 % -> 1239 clients
+34,575 % -> 1238 clients
+34,575 % -> 1237 clients
+34,575 % -> 1236 clients
+34,575 % -> 1235 clients
+34,575 % -> 1244 clients
+34,575 % -> 1243 clients
+34,575 % -> 1252 clients
+34,575 % -> 1261 clients
+34,575 % -> 1260 clients
+34,575 % -> 1259 clients
+34,575 % -> 1258 clients
+34,575 % -> 1257 clients
+34,576 % -> 1256 clients
+34,576 % -> 1255 clients
+34,576 % -> 1254 clients
+34,576 % -> 1253 clients
+34,576 % -> 1252 clients
+34,576 % -> 1251 clients
+34,576 % -> 1250 clients
+34,576 % -> 1249 clients
+34,577 % -> 1248 clients
+34,577 % -> 1247 clients
+34,577 % -> 1246 clients
+34,577 % -> 1245 clients
+34,577 % -> 1243 clients
+34,577 % -> 1243 clients
+34,577 % -> 1242 clients
+34,577 % -> 1241 clients
+34,577 % -> 1240 clients
+34,577 % -> 1239 clients
+34,578 % -> 1238 clients
+34,578 % -> 1237 clients
+34,578 % -> 1236 clients
+34,578 % -> 1235 clients
+34,578 % -> 1234 clients
+34,578 % -> 1233 clients
+34,578 % -> 1232 clients
+34,578 % -> 1231 clients
+34,578 % -> 1230 clients
+34,579 % -> 1229 clients
+34,579 % -> 1228 clients
+34,579 % -> 1227 clients
+34,579 % -> 1226 clients
+34,579 % -> 1225 clients
+34,579 % -> 1224 clients
+34,579 % -> 1223 clients
+34,579 % -> 1222 clients
+34,579 % -> 1221 clients
+34,579 % -> 1220 clients
+34,579 % -> 1219 clients
+34,579 % -> 1218 clients
+34,58 % -> 1217 clients
+34,58 % -> 1216 clients
+34,58 % -> 1215 clients
+34,58 % -> 1214 clients
+34,58 % -> 1213 clients
+34,58 % -> 1212 clients
+34,58 % -> 1211 clients
+34,58 % -> 1210 clients
+34,58 % -> 1209 clients
+34,58 % -> 1208 clients
+34,58 % -> 1207 clients
+34,58 % -> 1206 clients
+34,58 % -> 1205 clients
+34,58 % -> 1204 clients
+34,58 % -> 1203 clients
+34,581 % -> 1202 clients
+34,581 % -> 1201 clients
+34,581 % -> 1200 clients
+34,581 % -> 1199 clients
+34,581 % -> 1198 clients
+34,581 % -> 1197 clients
+34,581 % -> 1196 clients
+34,581 % -> 1195 clients
+34,581 % -> 1194 clients
+34,581 % -> 1193 clients
+34,581 % -> 1192 clients
+34,581 % -> 1191 clients
+34,581 % -> 1190 clients
+34,581 % -> 1189 clients
+34,581 % -> 1188 clients
+34,581 % -> 1187 clients
+34,581 % -> 1186 clients
+34,581 % -> 1185 clients
+34,581 % -> 1184 clients
+34,581 % -> 1183 clients
+34,581 % -> 1182 clients
+34,581 % -> 1181 clients
+34,582 % -> 1180 clients
+34,582 % -> 1179 clients
+34,582 % -> 1178 clients
+34,582 % -> 1177 clients
+34,582 % -> 1176 clients
+34,582 % -> 1175 clients
+34,582 % -> 1174 clients
+34,582 % -> 1173 clients
+34,582 % -> 1172 clients
+34,582 % -> 1171 clients
+34,582 % -> 1170 clients
+34,582 % -> 1169 clients
+34,582 % -> 1168 clients
+34,582 % -> 1167 clients
+34,583 % -> 1166 clients
+34,583 % -> 1165 clients
+34,583 % -> 1164 clients
+34,583 % -> 1163 clients
+34,583 % -> 1162 clients
+34,583 % -> 1161 clients
+34,583 % -> 1160 clients
+34,583 % -> 1159 clients
+34,583 % -> 1158 clients
+34,583 % -> 1157 clients
+34,583 % -> 1156 clients
+34,583 % -> 1155 clients
+34,583 % -> 1154 clients
+34,583 % -> 1153 clients
+34,584 % -> 1152 clients
+34,584 % -> 1151 clients
+34,584 % -> 1150 clients
+34,584 % -> 1149 clients
+34,584 % -> 1148 clients
+34,584 % -> 1147 clients
+34,584 % -> 1146 clients
+34,584 % -> 1145 clients
+34,584 % -> 1144 clients
+34,584 % -> 1143 clients
+34,584 % -> 1142 clients
+34,584 % -> 1141 clients
+34,584 % -> 1140 clients
+34,585 % -> 1139 clients
+34,585 % -> 1138 clients
+34,585 % -> 1137 clients
+34,585 % -> 1136 clients
+34,585 % -> 1135 clients
+34,585 % -> 1134 clients
+34,585 % -> 1133 clients
+34,585 % -> 1132 clients
+34,586 % -> 1131 clients
+34,586 % -> 1130 clients
+34,586 % -> 1129 clients
+34,586 % -> 1128 clients
+34,586 % -> 1127 clients
+34,587 % -> 1126 clients
+34,587 % -> 1125 clients
+34,587 % -> 1124 clients
+34,587 % -> 1123 clients
+34,587 % -> 1122 clients
+34,587 % -> 1121 clients
+34,588 % -> 1120 clients
+34,588 % -> 1119 clients
+34,588 % -> 1118 clients
+34,588 % -> 1117 clients
+34,588 % -> 1116 clients
+34,588 % -> 1115 clients
+34,589 % -> 1114 clients
+34,589 % -> 1113 clients
+34,589 % -> 1112 clients
+34,589 % -> 1111 clients
+34,589 % -> 1110 clients
+34,589 % -> 1109 clients
+34,589 % -> 1108 clients
+34,59 % -> 1107 clients
+34,59 % -> 1106 clients
+34,59 % -> 1105 clients
+34,59 % -> 1104 clients
+34,59 % -> 1103 clients
+34,59 % -> 1102 clients
+34,59 % -> 1101 clients
+34,591 % -> 1100 clients
+34,591 % -> 1099 clients
+34,591 % -> 1098 clients
+34,591 % -> 1097 clients
+34,591 % -> 1096 clients
+34,591 % -> 1095 clients
+34,591 % -> 1094 clients
+34,591 % -> 1093 clients
+34,591 % -> 1092 clients
+34,591 % -> 1091 clients
+34,592 % -> 1090 clients
+34,592 % -> 1089 clients
+34,592 % -> 1088 clients
+34,593 % -> 1087 clients
+34,593 % -> 1086 clients
+34,594 % -> 1085 clients
+34,594 % -> 1084 clients
+34,594 % -> 1083 clients
+34,594 % -> 1082 clients
+34,594 % -> 1081 clients
+34,594 % -> 1080 clients
+34,595 % -> 1079 clients
+34,595 % -> 1078 clients
+34,595 % -> 1077 clients
+34,596 % -> 1076 clients
+34,597 % -> 1075 clients
+34,597 % -> 1074 clients
+34,597 % -> 1073 clients
+34,598 % -> 1072 clients
+34,598 % -> 1071 clients
+34,598 % -> 1070 clients
+34,599 % -> 1069 clients
+34,6 % -> 1068 clients
+34,6 % -> 1067 clients
+34,601 % -> 1066 clients
+34,601 % -> 1065 clients
+34,601 % -> 1064 clients
+34,601 % -> 1063 clients
+34,601 % -> 1062 clients
+34,602 % -> 1061 clients
+34,602 % -> 1060 clients
+34,602 % -> 1059 clients
+34,602 % -> 1058 clients
+34,603 % -> 1057 clients
+34,603 % -> 1056 clients
+34,603 % -> 1055 clients
+34,604 % -> 1054 clients
+34,604 % -> 1053 clients
+34,604 % -> 1052 clients
+34,604 % -> 1051 clients
+34,604 % -> 1050 clients
+34,604 % -> 1049 clients
+34,604 % -> 1048 clients
+34,605 % -> 1047 clients
+34,605 % -> 1046 clients
+34,605 % -> 1045 clients
+34,605 % -> 1044 clients
+34,605 % -> 1043 clients
+34,605 % -> 1042 clients
+34,605 % -> 1041 clients
+34,605 % -> 1040 clients
+34,605 % -> 1039 clients
+34,606 % -> 1038 clients
+34,606 % -> 1037 clients
+34,606 % -> 1036 clients
+34,606 % -> 1035 clients
+34,606 % -> 1034 clients
+34,606 % -> 1033 clients
+34,606 % -> 1032 clients
+34,606 % -> 1031 clients
+34,606 % -> 1030 clients
+34,607 % -> 1029 clients
+34,607 % -> 1028 clients
+34,607 % -> 1027 clients
+34,607 % -> 1026 clients
+34,607 % -> 1025 clients
+34,607 % -> 1024 clients
+34,607 % -> 1023 clients
+34,607 % -> 1022 clients
+34,607 % -> 1021 clients
+34,607 % -> 1020 clients
+34,608 % -> 1019 clients
+34,608 % -> 1018 clients
+34,608 % -> 1017 clients
+34,608 % -> 1016 clients
+34,608 % -> 1015 clients
+34,609 % -> 1014 clients
+34,609 % -> 1013 clients
+34,609 % -> 1012 clients
+34,609 % -> 1011 clients
+34,609 % -> 1010 clients
+34,609 % -> 1009 clients
+34,609 % -> 1007 clients
+34,609 % -> 1007 clients
+34,609 % -> 1006 clients
+34,609 % -> 1005 clients
+34,609 % -> 1004 clients
+34,609 % -> 1003 clients
+34,609 % -> 1002 clients
+34,609 % -> 1001 clients
+34,61 % -> 1000 clients
+34,61 % -> 999 clients
+34,61 % -> 998 clients
+34,61 % -> 997 clients
+34,61 % -> 996 clients
+34,61 % -> 995 clients
+34,61 % -> 994 clients
+34,61 % -> 993 clients
+34,61 % -> 992 clients
+34,61 % -> 990 clients
+34,61 % -> 990 clients
+34,61 % -> 989 clients
+34,61 % -> 988 clients
+34,61 % -> 987 clients
+34,61 % -> 986 clients
+34,61 % -> 985 clients
+34,61 % -> 984 clients
+34,61 % -> 982 clients
+34,61 % -> 982 clients
+34,61 % -> 981 clients
+34,61 % -> 980 clients
+34,61 % -> 979 clients
+34,61 % -> 978 clients
+34,61 % -> 977 clients
+34,61 % -> 976 clients
+34,61 % -> 975 clients
+34,61 % -> 974 clients
+34,61 % -> 973 clients
+34,61 % -> 972 clients
+34,61 % -> 971 clients
+34,61 % -> 970 clients
+34,61 % -> 969 clients
+34,61 % -> 968 clients
+34,61 % -> 967 clients
+34,61 % -> 965 clients
+34,61 % -> 965 clients
+34,61 % -> 964 clients
+34,61 % -> 963 clients
+34,61 % -> 962 clients
+34,61 % -> 961 clients
+34,61 % -> 960 clients
+34,61 % -> 959 clients
+34,61 % -> 958 clients
+34,611 % -> 957 clients
+34,611 % -> 956 clients
+34,611 % -> 955 clients
+34,611 % -> 954 clients
+34,611 % -> 953 clients
+34,611 % -> 952 clients
+34,611 % -> 951 clients
+34,611 % -> 950 clients
+34,611 % -> 949 clients
+34,611 % -> 948 clients
+34,611 % -> 947 clients
+34,611 % -> 946 clients
+34,611 % -> 945 clients
+34,611 % -> 944 clients
+34,611 % -> 943 clients
+34,611 % -> 942 clients
+34,611 % -> 941 clients
+34,611 % -> 940 clients
+34,611 % -> 939 clients
+34,611 % -> 938 clients
+34,611 % -> 937 clients
+34,611 % -> 936 clients
+34,611 % -> 935 clients
+34,611 % -> 934 clients
+34,611 % -> 933 clients
+34,611 % -> 932 clients
+34,611 % -> 931 clients
+34,611 % -> 930 clients
+34,611 % -> 929 clients
+34,611 % -> 928 clients
+34,611 % -> 927 clients
+34,611 % -> 926 clients
+34,611 % -> 925 clients
+34,611 % -> 924 clients
+34,611 % -> 923 clients
+34,611 % -> 922 clients
+34,611 % -> 921 clients
+34,611 % -> 920 clients
+34,611 % -> 919 clients
+34,611 % -> 918 clients
+34,611 % -> 917 clients
+34,611 % -> 916 clients
+34,611 % -> 915 clients
+34,612 % -> 914 clients
+34,612 % -> 913 clients
+34,612 % -> 912 clients
+34,612 % -> 911 clients
+34,612 % -> 910 clients
+34,612 % -> 909 clients
+34,612 % -> 908 clients
+34,612 % -> 907 clients
+34,612 % -> 906 clients
+34,612 % -> 905 clients
+34,612 % -> 904 clients
+34,612 % -> 903 clients
+34,612 % -> 902 clients
+34,612 % -> 901 clients
+34,612 % -> 900 clients
+34,612 % -> 899 clients
+34,612 % -> 898 clients
+34,612 % -> 897 clients
+34,612 % -> 896 clients
+34,612 % -> 895 clients
+34,612 % -> 894 clients
+34,612 % -> 893 clients
+34,612 % -> 892 clients
+34,612 % -> 891 clients
+34,612 % -> 890 clients
+34,612 % -> 889 clients
+34,612 % -> 888 clients
+34,612 % -> 887 clients
+34,612 % -> 886 clients
+34,613 % -> 885 clients
+34,613 % -> 884 clients
+34,613 % -> 883 clients
+34,613 % -> 882 clients
+34,613 % -> 881 clients
+34,613 % -> 880 clients
+34,613 % -> 879 clients
+34,613 % -> 878 clients
+34,613 % -> 877 clients
+34,613 % -> 876 clients
+34,613 % -> 875 clients
+34,614 % -> 874 clients
+34,614 % -> 873 clients
+34,614 % -> 872 clients
+34,614 % -> 871 clients
+34,614 % -> 870 clients
+34,614 % -> 869 clients
+34,614 % -> 868 clients
+34,614 % -> 867 clients
+34,614 % -> 866 clients
+34,614 % -> 865 clients
+34,614 % -> 864 clients
+34,614 % -> 863 clients
+34,614 % -> 862 clients
+34,615 % -> 861 clients
+34,615 % -> 860 clients
+34,615 % -> 859 clients
+34,615 % -> 858 clients
+34,615 % -> 857 clients
+34,615 % -> 856 clients
+34,615 % -> 855 clients
+34,615 % -> 854 clients
+34,615 % -> 853 clients
+34,615 % -> 852 clients
+34,615 % -> 851 clients
+34,615 % -> 850 clients
+34,615 % -> 849 clients
+34,615 % -> 848 clients
+34,616 % -> 847 clients
+34,616 % -> 846 clients
+34,616 % -> 845 clients
+34,616 % -> 844 clients
+34,616 % -> 843 clients
+34,616 % -> 842 clients
+34,616 % -> 841 clients
+34,616 % -> 840 clients
+34,616 % -> 839 clients
+34,616 % -> 838 clients
+34,616 % -> 837 clients
+34,616 % -> 836 clients
+34,616 % -> 835 clients
+34,616 % -> 834 clients
+34,617 % -> 833 clients
+34,617 % -> 832 clients
+34,617 % -> 831 clients
+34,617 % -> 830 clients
+34,617 % -> 829 clients
+34,617 % -> 828 clients
+34,617 % -> 827 clients
+34,617 % -> 826 clients
+34,617 % -> 824 clients
+34,617 % -> 824 clients
+34,617 % -> 823 clients
+34,618 % -> 822 clients
+34,618 % -> 821 clients
+34,619 % -> 820 clients
+34,619 % -> 819 clients
+34,619 % -> 818 clients
+34,619 % -> 817 clients
+34,619 % -> 816 clients
+34,619 % -> 815 clients
+34,619 % -> 814 clients
+34,619 % -> 813 clients
+34,619 % -> 812 clients
+34,62 % -> 811 clients
+34,62 % -> 810 clients
+34,62 % -> 809 clients
+34,62 % -> 808 clients
+34,62 % -> 807 clients
+34,62 % -> 806 clients
+34,62 % -> 805 clients
+34,621 % -> 814 clients
+34,623 % -> 823 clients
+34,623 % -> 832 clients
+34,623 % -> 841 clients
+34,624 % -> 850 clients
+34,624 % -> 859 clients
+34,624 % -> 868 clients
+34,625 % -> 877 clients
+34,625 % -> 886 clients
+34,625 % -> 895 clients
+34,625 % -> 904 clients
+34,625 % -> 913 clients
+34,625 % -> 922 clients
+34,625 % -> 931 clients
+34,626 % -> 930 clients
+34,626 % -> 929 clients
+34,626 % -> 928 clients
+34,626 % -> 927 clients
+34,626 % -> 926 clients
+34,626 % -> 925 clients
+34,626 % -> 924 clients
+34,626 % -> 923 clients
+34,626 % -> 922 clients
+34,626 % -> 921 clients
+34,626 % -> 920 clients
+34,626 % -> 919 clients
+34,626 % -> 918 clients
+34,626 % -> 917 clients
+34,626 % -> 916 clients
+34,626 % -> 915 clients
+34,626 % -> 914 clients
+34,626 % -> 913 clients
+34,627 % -> 912 clients
+34,627 % -> 921 clients
+34,627 % -> 930 clients
+34,629 % -> 939 clients
+34,629 % -> 948 clients
+34,629 % -> 947 clients
+34,63 % -> 946 clients
+34,642 % -> 955 clients
+34,652 % -> 964 clients
+34,652 % -> 973 clients
+34,652 % -> 982 clients
+34,652 % -> 991 clients
+34,652 % -> 1000 clients
+34,652 % -> 1009 clients
+34,652 % -> 1018 clients
+34,652 % -> 1017 clients
+34,653 % -> 1026 clients
+34,654 % -> 1035 clients
+34,654 % -> 1034 clients
+34,654 % -> 1033 clients
+34,654 % -> 1032 clients
+34,654 % -> 1031 clients
+34,654 % -> 1030 clients
+34,654 % -> 1029 clients
+34,654 % -> 1028 clients
+34,654 % -> 1027 clients
+34,654 % -> 1026 clients
+34,654 % -> 1025 clients
+34,654 % -> 1024 clients
+34,654 % -> 1023 clients
+34,654 % -> 1022 clients
+34,654 % -> 1021 clients
+34,654 % -> 1020 clients
+34,654 % -> 1019 clients
+34,654 % -> 1018 clients
+34,654 % -> 1017 clients
+34,654 % -> 1016 clients
+34,654 % -> 1015 clients
+34,654 % -> 1014 clients
+34,654 % -> 1013 clients
+34,654 % -> 1012 clients
+34,654 % -> 1011 clients
+34,654 % -> 1010 clients
+34,654 % -> 1009 clients
+34,654 % -> 1008 clients
+34,654 % -> 1007 clients
+34,654 % -> 1006 clients
+34,654 % -> 1005 clients
+34,654 % -> 1004 clients
+34,654 % -> 1003 clients
+34,654 % -> 1002 clients
+34,654 % -> 1001 clients
+34,654 % -> 1000 clients
+34,654 % -> 999 clients
+34,654 % -> 998 clients
+34,655 % -> 997 clients
+34,655 % -> 996 clients
+34,655 % -> 995 clients
+34,655 % -> 994 clients
+34,655 % -> 993 clients
+34,655 % -> 992 clients
+34,655 % -> 991 clients
+34,655 % -> 990 clients
+34,655 % -> 989 clients
+34,655 % -> 988 clients
+34,655 % -> 987 clients
+34,655 % -> 986 clients
+34,655 % -> 985 clients
+34,655 % -> 984 clients
+34,655 % -> 983 clients
+34,655 % -> 982 clients
+34,655 % -> 981 clients
+34,655 % -> 980 clients
+34,655 % -> 979 clients
+34,655 % -> 978 clients
+34,655 % -> 977 clients
+34,655 % -> 976 clients
+34,655 % -> 975 clients
+34,656 % -> 974 clients
+34,656 % -> 973 clients
+34,656 % -> 972 clients
+34,656 % -> 971 clients
+34,656 % -> 970 clients
+34,656 % -> 969 clients
+34,681 % -> 968 clients
+45,499 % -> 966 clients
+45,499 % -> 964 clients
+46,023 % -> 962 clients
+46,023 % -> 960 clients
+46,281 % -> 958 clients
+46,281 % -> 956 clients
+46,468 % -> 954 clients
+46,506 % -> 952 clients
+46,609 % -> 950 clients
+46,609 % -> 948 clients
+47,732 % -> 946 clients
+47,743 % -> 944 clients
+48,85 % -> 942 clients
+48,909 % -> 940 clients
+51,691 % -> 938 clients
+51,694 % -> 936 clients
+55,756 % -> 934 clients
+55,759 % -> 932 clients
+57,138 % -> 929 clients
+57,235 % -> 926 clients
+57,248 % -> 923 clients
+61,892 % -> 920 clients
+61,892 % -> 917 clients
+61,917 % -> 914 clients
+66,605 % -> 896 clients
+66,605 % -> 896 clients
+66,606 % -> 887 clients
+66,606 % -> 878 clients
+66,606 % -> 869 clients
+66,613 % -> 860 clients
+66,643 % -> 851 clients
+66,644 % -> 842 clients
+66,644 % -> 824 clients
+66,644 % -> 824 clients
+66,646 % -> 815 clients
+66,661 % -> 806 clients
+66,661 % -> 797 clients
+66,668 % -> 788 clients
+66,75 % -> 779 clients
+66,751 % -> 770 clients
+66,758 % -> 761 clients
+66,771 % -> 752 clients
+66,771 % -> 743 clients
+68,153 % -> 734 clients
+68,198 % -> 725 clients
+68,215 % -> 716 clients
+68,494 % -> 707 clients
+69,319 % -> 698 clients
+69,336 % -> 689 clients
+69,349 % -> 680 clients
+69,349 % -> 671 clients
+69,658 % -> 662 clients
+69,729 % -> 644 clients
+69,729 % -> 644 clients
+69,729 % -> 635 clients
+69,846 % -> 626 clients
+69,854 % -> 617 clients
+69,854 % -> 608 clients
+69,854 % -> 599 clients
+69,937 % -> 590 clients
+69,951 % -> 581 clients
+69,959 % -> 572 clients
+69,96 % -> 563 clients
+69,967 % -> 554 clients
+69,978 % -> 545 clients
+69,98 % -> 536 clients
+69,984 % -> 518 clients
+69,984 % -> 518 clients
+69,984 % -> 509 clients
+69,987 % -> 500 clients
+69,987 % -> 491 clients
+69,99 % -> 482 clients
+69,999 % -> 473 clients
+69,999 % -> 464 clients
+70 % -> 455 clients
+70 % -> 446 clients
+70 % -> 437 clients
+70,002 % -> 428 clients
+70,003 % -> 419 clients
+70,003 % -> 410 clients
+70,003 % -> 401 clients
+70,005 % -> 392 clients
+70,005 % -> 383 clients
+70,005 % -> 374 clients
+70,005 % -> 365 clients
+70,008 % -> 356 clients
+70,008 % -> 338 clients
+70,008 % -> 338 clients
+70,008 % -> 329 clients
+70,008 % -> 320 clients
+70,011 % -> 311 clients
+70,011 % -> 293 clients
+70,011 % -> 293 clients
+70,012 % -> 284 clients
+70,012 % -> 275 clients
+70,012 % -> 266 clients
+70,012 % -> 257 clients
+70,015 % -> 248 clients
+70,015 % -> 239 clients
+70,015 % -> 230 clients
+70,015 % -> 221 clients
+70,015 % -> 212 clients
+70,015 % -> 203 clients
+70,015 % -> 194 clients
+70,015 % -> 185 clients
+70,019 % -> 176 clients
+70,019 % -> 167 clients
+70,02 % -> 158 clients
+70,02 % -> 149 clients
+70,022 % -> 140 clients
+70,022 % -> 131 clients
+70,026 % -> 122 clients
+70,039 % -> 113 clients
+97,322 % -> 97 clients
+97,322 % -> 97 clients
+97,323 % -> 89 clients
+97,323 % -> 81 clients
+97,323 % -> 73 clients
+97,325 % -> 57 clients
+97,325 % -> 57 clients
+97,326 % -> 49 clients
+98,529 % -> 42 clients
+98,533 % -> 35 clients
+98,536 % -> 28 clients
+98,536 % -> 21 clients
+98,553 % -> 14 clients
+98,736 % -> 7 clients
+100 % -> 0 clients
+GenericLoadTests successful!
+2014-04-03 19:42:00 INFO  Environment:114 - -- Stop server process successfully!
+------------------------------
+All tests were successful! :)
+
+Process finished with exit code 0

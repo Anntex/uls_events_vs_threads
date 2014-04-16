@@ -1,0 +1,2281 @@
+"C:\Program Files\Java\jdk1.8.0\bin\java" -Xmx1024m -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.0.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\ext\zipfs.jar;C:\Users\denni_000\IDE\workspace\github\event_vs_thread\loadtester\target\classes;C:\Users\denni_000\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\denni_000\.m2\repository\org\jfree\jfreechart\1.0.17\jfreechart-1.0.17.jar;C:\Users\denni_000\.m2\repository\org\jfree\jcommon\1.0.21\jcommon-1.0.21.jar;C:\Users\denni_000\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\denni_000\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\denni_000\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\denni_000\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 13.0.1\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain de.hdm.uls.loadtests.LoadTester
+2014-04-10 12:36:29 INFO  LoadTester:38 - -------- START TESTER USING GUI --- SCENARIO: CONNECTION --------
+2014-04-10 12:36:29 INFO  RealisticLoadGenerator:40 - -- Generator: RealisticLoadGenerator - clients: 1000 durationInMillis: 10000 profile: IncreasingClientsInjectionProfile
+2014-04-10 12:36:29 INFO  Environment:70 - -- Environment#create
+------------------------------
+Server started!
+GenericLoadTests started!
+2014-04-10 12:36:39 INFO  LoadGenerator:49 - -- LoadGenerator#run
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:69 - Load test overall execution time = 33,11 sec (total amount of clients: 1001)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:72 - ---------------------------
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:73 - Response times
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:74 - ---------------------------
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 0 - average response time: 8,94 ms ->  (duration 10 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 1 - average response time: 6,33 ms ->  (duration 19,97 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 2 - average response time: 5,32 ms ->  (duration 19,97 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 3 - average response time: 1,53 ms ->  (duration 9,97 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 4 - average response time: 1,77 ms ->  (duration 9,96 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 5 - average response time: 0,56 ms ->  (duration 9,95 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 6 - average response time: 1,64 ms ->  (duration 9,94 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 7 - average response time: 0,64 ms ->  (duration 9,93 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 8 - average response time: 0,6 ms ->  (duration 9,92 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 9 - average response time: 0,58 ms ->  (duration 9,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 10 - average response time: 0,54 ms ->  (duration 9,9 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 11 - average response time: 0,69 ms ->  (duration 9,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 12 - average response time: 1,65 ms ->  (duration 9,88 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 13 - average response time: 1,67 ms ->  (duration 9,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 14 - average response time: 0,67 ms ->  (duration 9,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 15 - average response time: 1,61 ms ->  (duration 9,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 16 - average response time: 1,61 ms ->  (duration 9,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 17 - average response time: 0,6 ms ->  (duration 9,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 18 - average response time: 1,6 ms ->  (duration 9,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 19 - average response time: 1,69 ms ->  (duration 9,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 20 - average response time: 0,62 ms ->  (duration 9,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 21 - average response time: 0,62 ms ->  (duration 9,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 22 - average response time: 0,68 ms ->  (duration 9,78 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 23 - average response time: 0,58 ms ->  (duration 9,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 24 - average response time: 0,63 ms ->  (duration 9,76 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 25 - average response time: 0,67 ms ->  (duration 9,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 26 - average response time: 0,64 ms ->  (duration 9,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 27 - average response time: 0,68 ms ->  (duration 9,73 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 28 - average response time: 0,63 ms ->  (duration 9,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 29 - average response time: 2,18 ms ->  (duration 9,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 30 - average response time: 0,68 ms ->  (duration 9,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 31 - average response time: 1,55 ms ->  (duration 9,68 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 32 - average response time: 0,59 ms ->  (duration 9,68 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 33 - average response time: 1,6 ms ->  (duration 9,67 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 34 - average response time: 0,72 ms ->  (duration 9,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 35 - average response time: 1,67 ms ->  (duration 9,65 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 36 - average response time: 1,68 ms ->  (duration 9,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 37 - average response time: 1,71 ms ->  (duration 9,63 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 38 - average response time: 0,64 ms ->  (duration 9,62 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 39 - average response time: 1,67 ms ->  (duration 9,61 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 40 - average response time: 1,58 ms ->  (duration 9,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 41 - average response time: 1,54 ms ->  (duration 9,59 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 42 - average response time: 0,62 ms ->  (duration 9,58 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 43 - average response time: 1,61 ms ->  (duration 9,57 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 44 - average response time: 0,67 ms ->  (duration 9,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 45 - average response time: 1,64 ms ->  (duration 9,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 46 - average response time: 1,71 ms ->  (duration 9,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 47 - average response time: 0,66 ms ->  (duration 9,53 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 48 - average response time: 1,62 ms ->  (duration 9,52 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 49 - average response time: 0,65 ms ->  (duration 9,51 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 50 - average response time: 1,61 ms ->  (duration 9,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 51 - average response time: 0,64 ms ->  (duration 9,49 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 52 - average response time: 0,74 ms ->  (duration 9,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 53 - average response time: 1,68 ms ->  (duration 9,47 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 54 - average response time: 1,59 ms ->  (duration 9,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 55 - average response time: 1,67 ms ->  (duration 9,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 56 - average response time: 0,68 ms ->  (duration 9,44 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 57 - average response time: 1,63 ms ->  (duration 9,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 58 - average response time: 1,7 ms ->  (duration 9,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 59 - average response time: 1,56 ms ->  (duration 9,41 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 60 - average response time: 0,66 ms ->  (duration 9,4 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 61 - average response time: 0,64 ms ->  (duration 9,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 62 - average response time: 0,68 ms ->  (duration 9,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 63 - average response time: 0,67 ms ->  (duration 9,37 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 64 - average response time: 1,66 ms ->  (duration 9,36 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 65 - average response time: 0,69 ms ->  (duration 9,35 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 66 - average response time: 1,69 ms ->  (duration 9,34 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 67 - average response time: 1,72 ms ->  (duration 9,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 68 - average response time: 0,66 ms ->  (duration 9,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 69 - average response time: 1,71 ms ->  (duration 9,31 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 70 - average response time: 1,6 ms ->  (duration 9,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 71 - average response time: 0,67 ms ->  (duration 9,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 72 - average response time: 0,65 ms ->  (duration 9,28 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 73 - average response time: 1,67 ms ->  (duration 9,27 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 74 - average response time: 1,73 ms ->  (duration 9,26 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 75 - average response time: 0,66 ms ->  (duration 9,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 76 - average response time: 0,68 ms ->  (duration 9,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 77 - average response time: 1,68 ms ->  (duration 9,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 78 - average response time: 0,73 ms ->  (duration 9,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 79 - average response time: 1,74 ms ->  (duration 9,21 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 80 - average response time: 1,63 ms ->  (duration 9,21 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 81 - average response time: 0,81 ms ->  (duration 9,2 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 82 - average response time: 0,76 ms ->  (duration 9,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 83 - average response time: 1,72 ms ->  (duration 9,18 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 84 - average response time: 0,65 ms ->  (duration 9,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 85 - average response time: 1,6 ms ->  (duration 9,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 86 - average response time: 1,69 ms ->  (duration 9,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 87 - average response time: 0,59 ms ->  (duration 9,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 88 - average response time: 1,68 ms ->  (duration 9,13 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 89 - average response time: 1,63 ms ->  (duration 9,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 90 - average response time: 1,73 ms ->  (duration 9,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 91 - average response time: 0,55 ms ->  (duration 9,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 92 - average response time: 0,71 ms ->  (duration 9,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 93 - average response time: 0,72 ms ->  (duration 9,08 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 94 - average response time: 0,79 ms ->  (duration 9,07 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 95 - average response time: 1,7 ms ->  (duration 9,06 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 96 - average response time: 0,81 ms ->  (duration 9,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 97 - average response time: 0,69 ms ->  (duration 9,04 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 98 - average response time: 0,62 ms ->  (duration 9,02 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 99 - average response time: 1,23 ms ->  (duration 9,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 100 - average response time: 0,64 ms ->  (duration 9 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 101 - average response time: 1,52 ms ->  (duration 8,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 102 - average response time: 0,66 ms ->  (duration 8,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 103 - average response time: 1,56 ms ->  (duration 8,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 104 - average response time: 1,78 ms ->  (duration 8,97 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 105 - average response time: 1,7 ms ->  (duration 8,96 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 106 - average response time: 0,67 ms ->  (duration 8,95 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 107 - average response time: 0,75 ms ->  (duration 8,94 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 108 - average response time: 0,69 ms ->  (duration 8,93 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 109 - average response time: 1,68 ms ->  (duration 8,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 110 - average response time: 1,62 ms ->  (duration 8,9 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 111 - average response time: 1,58 ms ->  (duration 8,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 112 - average response time: 1,79 ms ->  (duration 8,88 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 113 - average response time: 1,6 ms ->  (duration 8,88 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 114 - average response time: 1,67 ms ->  (duration 8,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 115 - average response time: 1,54 ms ->  (duration 8,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 116 - average response time: 1,64 ms ->  (duration 8,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 117 - average response time: 0,67 ms ->  (duration 8,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 118 - average response time: 0,63 ms ->  (duration 8,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 119 - average response time: 1,5 ms ->  (duration 8,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 120 - average response time: 1,81 ms ->  (duration 8,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 121 - average response time: 0,6 ms ->  (duration 8,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 122 - average response time: 0,7 ms ->  (duration 8,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 123 - average response time: 1,54 ms ->  (duration 8,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 124 - average response time: 0,65 ms ->  (duration 8,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 125 - average response time: 0,61 ms ->  (duration 8,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 126 - average response time: 1,53 ms ->  (duration 8,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 127 - average response time: 1,62 ms ->  (duration 8,73 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 128 - average response time: 1,61 ms ->  (duration 8,73 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 129 - average response time: 1,7 ms ->  (duration 8,71 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 130 - average response time: 1,56 ms ->  (duration 8,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 131 - average response time: 1,63 ms ->  (duration 8,69 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 132 - average response time: 1,58 ms ->  (duration 8,68 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 133 - average response time: 0,58 ms ->  (duration 8,67 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 134 - average response time: 1,71 ms ->  (duration 8,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 135 - average response time: 0,61 ms ->  (duration 8,65 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 136 - average response time: 1,76 ms ->  (duration 8,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 137 - average response time: 1,59 ms ->  (duration 8,63 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 138 - average response time: 0,67 ms ->  (duration 8,62 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 139 - average response time: 1,62 ms ->  (duration 8,61 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 140 - average response time: 0,71 ms ->  (duration 8,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 141 - average response time: 1,63 ms ->  (duration 8,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 142 - average response time: 0,79 ms ->  (duration 8,57 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 143 - average response time: 0,7 ms ->  (duration 8,57 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 144 - average response time: 1,51 ms ->  (duration 8,55 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 145 - average response time: 1,68 ms ->  (duration 8,55 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 146 - average response time: 1,74 ms ->  (duration 8,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 147 - average response time: 1,8 ms ->  (duration 8,53 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 148 - average response time: 1,62 ms ->  (duration 8,52 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 149 - average response time: 1,43 ms ->  (duration 8,51 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 150 - average response time: 0,55 ms ->  (duration 8,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 151 - average response time: 1,73 ms ->  (duration 8,49 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 152 - average response time: 1,6 ms ->  (duration 8,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 153 - average response time: 1,79 ms ->  (duration 8,47 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 154 - average response time: 0,59 ms ->  (duration 8,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 155 - average response time: 1,58 ms ->  (duration 8,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 156 - average response time: 1,63 ms ->  (duration 8,44 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 157 - average response time: 1,63 ms ->  (duration 8,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 158 - average response time: 0,66 ms ->  (duration 8,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 159 - average response time: 1,63 ms ->  (duration 8,41 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 160 - average response time: 0,59 ms ->  (duration 8,4 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 161 - average response time: 0,66 ms ->  (duration 8,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 162 - average response time: 0,84 ms ->  (duration 8,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 163 - average response time: 1,58 ms ->  (duration 8,37 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 164 - average response time: 0,68 ms ->  (duration 8,36 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 165 - average response time: 1,51 ms ->  (duration 8,35 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 166 - average response time: 1,59 ms ->  (duration 8,34 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 167 - average response time: 0,57 ms ->  (duration 8,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 168 - average response time: 1,58 ms ->  (duration 8,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 169 - average response time: 0,61 ms ->  (duration 8,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 170 - average response time: 1,66 ms ->  (duration 8,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 171 - average response time: 0,79 ms ->  (duration 8,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 172 - average response time: 1,6 ms ->  (duration 8,27 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 173 - average response time: 1,53 ms ->  (duration 8,26 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 174 - average response time: 1,59 ms ->  (duration 8,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 175 - average response time: 1,59 ms ->  (duration 8,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 176 - average response time: 0,66 ms ->  (duration 8,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 177 - average response time: 1,6 ms ->  (duration 8,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 178 - average response time: 0,58 ms ->  (duration 8,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 179 - average response time: 0,64 ms ->  (duration 8,21 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 180 - average response time: 1,59 ms ->  (duration 8,2 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 181 - average response time: 0,66 ms ->  (duration 8,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 182 - average response time: 1,58 ms ->  (duration 8,18 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 183 - average response time: 1,79 ms ->  (duration 8,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 184 - average response time: 1,59 ms ->  (duration 8,16 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 185 - average response time: 1,53 ms ->  (duration 8,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 186 - average response time: 0,59 ms ->  (duration 8,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 187 - average response time: 1,44 ms ->  (duration 8,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 188 - average response time: 0,52 ms ->  (duration 8,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 189 - average response time: 1,63 ms ->  (duration 8,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 190 - average response time: 1,56 ms ->  (duration 8,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 191 - average response time: 0,83 ms ->  (duration 8,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 192 - average response time: 0,5 ms ->  (duration 8,07 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 193 - average response time: 1,62 ms ->  (duration 8,08 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 194 - average response time: 0,56 ms ->  (duration 8,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 195 - average response time: 0,64 ms ->  (duration 8,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 196 - average response time: 0,93 ms ->  (duration 8,04 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 197 - average response time: 0,66 ms ->  (duration 8,03 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 198 - average response time: 1,6 ms ->  (duration 8,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 199 - average response time: 0,61 ms ->  (duration 8,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 200 - average response time: 0,95 ms ->  (duration 8,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 201 - average response time: 1,48 ms ->  (duration 7,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 202 - average response time: 1,58 ms ->  (duration 7,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 203 - average response time: 1,46 ms ->  (duration 7,97 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 204 - average response time: 1,65 ms ->  (duration 7,96 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 205 - average response time: 1,59 ms ->  (duration 7,95 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 206 - average response time: 0,88 ms ->  (duration 7,94 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 207 - average response time: 0,62 ms ->  (duration 7,93 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 208 - average response time: 0,64 ms ->  (duration 7,92 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 209 - average response time: 1,37 ms ->  (duration 7,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 210 - average response time: 1,63 ms ->  (duration 7,9 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 211 - average response time: 1,6 ms ->  (duration 7,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 212 - average response time: 1,47 ms ->  (duration 7,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 213 - average response time: 1,64 ms ->  (duration 7,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 214 - average response time: 1,65 ms ->  (duration 7,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 215 - average response time: 1,66 ms ->  (duration 7,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 216 - average response time: 1,65 ms ->  (duration 7,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 217 - average response time: 1,52 ms ->  (duration 7,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 218 - average response time: 1,41 ms ->  (duration 7,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 219 - average response time: 1,56 ms ->  (duration 7,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 220 - average response time: 1,6 ms ->  (duration 7,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 221 - average response time: 1,61 ms ->  (duration 7,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 222 - average response time: 0,88 ms ->  (duration 7,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 223 - average response time: 1,61 ms ->  (duration 7,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 224 - average response time: 1,59 ms ->  (duration 7,76 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 225 - average response time: 1,61 ms ->  (duration 7,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 226 - average response time: 1,81 ms ->  (duration 7,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 227 - average response time: 0,57 ms ->  (duration 7,73 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 228 - average response time: 0,64 ms ->  (duration 7,73 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 229 - average response time: 0,95 ms ->  (duration 7,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 230 - average response time: 1,37 ms ->  (duration 7,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 231 - average response time: 1,63 ms ->  (duration 7,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 232 - average response time: 1,55 ms ->  (duration 7,68 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 233 - average response time: 1,55 ms ->  (duration 7,67 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 234 - average response time: 0,73 ms ->  (duration 7,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 235 - average response time: 1,51 ms ->  (duration 7,65 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 236 - average response time: 0,76 ms ->  (duration 7,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 237 - average response time: 1,6 ms ->  (duration 7,63 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 238 - average response time: 0,81 ms ->  (duration 7,63 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 239 - average response time: 1,74 ms ->  (duration 7,62 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 240 - average response time: 1,58 ms ->  (duration 7,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 241 - average response time: 0,89 ms ->  (duration 7,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 242 - average response time: 1,65 ms ->  (duration 7,59 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 243 - average response time: 1,01 ms ->  (duration 7,58 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 244 - average response time: 0,9 ms ->  (duration 7,57 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 245 - average response time: 1,5 ms ->  (duration 7,55 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 246 - average response time: 1,56 ms ->  (duration 7,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 247 - average response time: 0,97 ms ->  (duration 7,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 248 - average response time: 0,52 ms ->  (duration 7,52 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 249 - average response time: 2,77 ms ->  (duration 7,51 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 250 - average response time: 1,57 ms ->  (duration 7,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 251 - average response time: 1,84 ms ->  (duration 7,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 252 - average response time: 1,58 ms ->  (duration 7,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 253 - average response time: 1,61 ms ->  (duration 7,47 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 254 - average response time: 2,8 ms ->  (duration 7,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 255 - average response time: 1,15 ms ->  (duration 7,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 256 - average response time: 1,5 ms ->  (duration 7,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 257 - average response time: 0,58 ms ->  (duration 7,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 258 - average response time: 1,82 ms ->  (duration 7,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 259 - average response time: 1,84 ms ->  (duration 7,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 260 - average response time: 1,57 ms ->  (duration 7,4 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 261 - average response time: 1,48 ms ->  (duration 7,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 262 - average response time: 1,05 ms ->  (duration 7,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 263 - average response time: 1,84 ms ->  (duration 7,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 264 - average response time: 1,57 ms ->  (duration 7,36 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 265 - average response time: 1,51 ms ->  (duration 7,35 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 266 - average response time: 1,5 ms ->  (duration 7,34 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 267 - average response time: 1,51 ms ->  (duration 7,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 268 - average response time: 1,56 ms ->  (duration 7,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 269 - average response time: 1,55 ms ->  (duration 7,31 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 270 - average response time: 0,73 ms ->  (duration 7,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 271 - average response time: 0,55 ms ->  (duration 7,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 272 - average response time: 1,27 ms ->  (duration 7,28 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 273 - average response time: 1,03 ms ->  (duration 7,27 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 274 - average response time: 0,6 ms ->  (duration 7,27 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 275 - average response time: 0,6 ms ->  (duration 7,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 276 - average response time: 1,05 ms ->  (duration 7,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 277 - average response time: 1,82 ms ->  (duration 7,23 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 278 - average response time: 1,06 ms ->  (duration 7,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 279 - average response time: 1,6 ms ->  (duration 7,21 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 280 - average response time: 1,84 ms ->  (duration 7,2 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 281 - average response time: 0,53 ms ->  (duration 7,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 282 - average response time: 1,54 ms ->  (duration 7,18 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 283 - average response time: 1,02 ms ->  (duration 7,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 284 - average response time: 1,03 ms ->  (duration 7,16 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 285 - average response time: 0,54 ms ->  (duration 7,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 286 - average response time: 1,54 ms ->  (duration 7,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 287 - average response time: 1,86 ms ->  (duration 7,13 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 288 - average response time: 1,57 ms ->  (duration 7,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 289 - average response time: 0,54 ms ->  (duration 7,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 290 - average response time: 1,5 ms ->  (duration 7,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 291 - average response time: 1,47 ms ->  (duration 7,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 292 - average response time: 0,62 ms ->  (duration 7,08 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 293 - average response time: 1,01 ms ->  (duration 7,07 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 294 - average response time: 1,87 ms ->  (duration 7,06 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 295 - average response time: 1,66 ms ->  (duration 7,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 296 - average response time: 1,63 ms ->  (duration 7,04 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 297 - average response time: 1,46 ms ->  (duration 7,02 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 298 - average response time: 0,98 ms ->  (duration 7,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 299 - average response time: 2,81 ms ->  (duration 7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 300 - average response time: 0,92 ms ->  (duration 7,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 301 - average response time: 0,51 ms ->  (duration 6,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 302 - average response time: 1,77 ms ->  (duration 6,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 303 - average response time: 1,39 ms ->  (duration 6,97 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 304 - average response time: 1,55 ms ->  (duration 6,96 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 305 - average response time: 1,82 ms ->  (duration 6,95 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 306 - average response time: 1,38 ms ->  (duration 6,94 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 307 - average response time: 0,55 ms ->  (duration 6,93 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 308 - average response time: 1,81 ms ->  (duration 6,92 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 309 - average response time: 1,9 ms ->  (duration 6,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 310 - average response time: 0,51 ms ->  (duration 6,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 311 - average response time: 1,14 ms ->  (duration 6,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 312 - average response time: 1,48 ms ->  (duration 6,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 313 - average response time: 0,5 ms ->  (duration 6,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 314 - average response time: 1,28 ms ->  (duration 6,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 315 - average response time: 1,1 ms ->  (duration 6,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 316 - average response time: 0,54 ms ->  (duration 6,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 317 - average response time: 1,47 ms ->  (duration 6,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 318 - average response time: 1,63 ms ->  (duration 6,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 319 - average response time: 1,54 ms ->  (duration 6,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 320 - average response time: 1,69 ms ->  (duration 6,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 321 - average response time: 1,15 ms ->  (duration 6,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 322 - average response time: 1,51 ms ->  (duration 6,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 323 - average response time: 1,41 ms ->  (duration 6,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 324 - average response time: 1,58 ms ->  (duration 6,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 325 - average response time: 1,64 ms ->  (duration 6,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 326 - average response time: 1,24 ms ->  (duration 6,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 327 - average response time: 1,52 ms ->  (duration 6,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 328 - average response time: 1,15 ms ->  (duration 6,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 329 - average response time: 1,73 ms ->  (duration 6,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 330 - average response time: 1,62 ms ->  (duration 6,69 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 331 - average response time: 1,09 ms ->  (duration 6,69 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 332 - average response time: 1,72 ms ->  (duration 6,67 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 333 - average response time: 1,69 ms ->  (duration 6,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 334 - average response time: 1,76 ms ->  (duration 6,65 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 335 - average response time: 1,86 ms ->  (duration 6,65 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 336 - average response time: 1,7 ms ->  (duration 6,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 337 - average response time: 1,76 ms ->  (duration 6,63 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 338 - average response time: 1,67 ms ->  (duration 6,61 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 339 - average response time: 1,94 ms ->  (duration 6,61 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 340 - average response time: 1,78 ms ->  (duration 6,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 341 - average response time: 1,1 ms ->  (duration 6,59 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 342 - average response time: 1,69 ms ->  (duration 6,58 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 343 - average response time: 2,71 ms ->  (duration 6,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 344 - average response time: 1,67 ms ->  (duration 6,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 345 - average response time: 2,09 ms ->  (duration 6,55 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 346 - average response time: 1,63 ms ->  (duration 6,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 347 - average response time: 1,29 ms ->  (duration 6,53 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 348 - average response time: 1,76 ms ->  (duration 6,51 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 349 - average response time: 1,28 ms ->  (duration 6,51 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 350 - average response time: 2,84 ms ->  (duration 6,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 351 - average response time: 1,71 ms ->  (duration 6,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 352 - average response time: 1,61 ms ->  (duration 6,47 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 353 - average response time: 1,74 ms ->  (duration 6,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 354 - average response time: 1,69 ms ->  (duration 6,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 355 - average response time: 1,85 ms ->  (duration 6,44 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 356 - average response time: 1,76 ms ->  (duration 6,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 357 - average response time: 1,12 ms ->  (duration 6,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 358 - average response time: 1,72 ms ->  (duration 6,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 359 - average response time: 1,69 ms ->  (duration 6,41 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 360 - average response time: 1,7 ms ->  (duration 6,4 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 361 - average response time: 1,62 ms ->  (duration 6,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 362 - average response time: 1,95 ms ->  (duration 6,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 363 - average response time: 1,15 ms ->  (duration 6,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 364 - average response time: 1,69 ms ->  (duration 6,36 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 365 - average response time: 1,72 ms ->  (duration 6,35 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 366 - average response time: 1,77 ms ->  (duration 6,34 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 367 - average response time: 1,74 ms ->  (duration 6,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 368 - average response time: 1,79 ms ->  (duration 6,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 369 - average response time: 1,62 ms ->  (duration 6,31 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 370 - average response time: 1,73 ms ->  (duration 6,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 371 - average response time: 1,8 ms ->  (duration 6,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 372 - average response time: 1,7 ms ->  (duration 6,28 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 373 - average response time: 2,74 ms ->  (duration 6,27 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 374 - average response time: 1,67 ms ->  (duration 6,26 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 375 - average response time: 2,46 ms ->  (duration 6,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 376 - average response time: 1,62 ms ->  (duration 6,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 377 - average response time: 2,17 ms ->  (duration 6,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 378 - average response time: 2,12 ms ->  (duration 6,23 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 379 - average response time: 1,15 ms ->  (duration 6,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 380 - average response time: 1,82 ms ->  (duration 6,2 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 381 - average response time: 2,82 ms ->  (duration 6,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 382 - average response time: 7,02 ms ->  (duration 6,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 383 - average response time: 13,72 ms ->  (duration 6,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 384 - average response time: 3,08 ms ->  (duration 6,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 385 - average response time: 1,25 ms ->  (duration 6,16 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 386 - average response time: 1,68 ms ->  (duration 6,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 387 - average response time: 1,72 ms ->  (duration 6,13 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 388 - average response time: 1,69 ms ->  (duration 6,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 389 - average response time: 1,79 ms ->  (duration 6,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 390 - average response time: 1,81 ms ->  (duration 6,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 391 - average response time: 1,78 ms ->  (duration 6,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 392 - average response time: 1,82 ms ->  (duration 6,08 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 393 - average response time: 1,35 ms ->  (duration 6,08 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 394 - average response time: 1,72 ms ->  (duration 6,06 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 395 - average response time: 1,81 ms ->  (duration 6,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 396 - average response time: 1,55 ms ->  (duration 6,04 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 397 - average response time: 1,78 ms ->  (duration 6,03 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 398 - average response time: 1,71 ms ->  (duration 6,01 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 399 - average response time: 1,46 ms ->  (duration 6,02 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 400 - average response time: 2,17 ms ->  (duration 5,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 401 - average response time: 1,57 ms ->  (duration 5,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 402 - average response time: 1,57 ms ->  (duration 5,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 403 - average response time: 1,85 ms ->  (duration 5,96 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 404 - average response time: 1,64 ms ->  (duration 5,96 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 405 - average response time: 1,64 ms ->  (duration 5,94 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 406 - average response time: 1,7 ms ->  (duration 5,93 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 407 - average response time: 1,72 ms ->  (duration 5,93 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 408 - average response time: 1 ms ->  (duration 5,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 409 - average response time: 1,67 ms ->  (duration 5,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 410 - average response time: 1,76 ms ->  (duration 5,9 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 411 - average response time: 1,86 ms ->  (duration 5,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 412 - average response time: 1,69 ms ->  (duration 5,88 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 413 - average response time: 2,29 ms ->  (duration 5,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 414 - average response time: 2,71 ms ->  (duration 5,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 415 - average response time: 3,78 ms ->  (duration 5,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 416 - average response time: 1,58 ms ->  (duration 5,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 417 - average response time: 2,75 ms ->  (duration 5,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 418 - average response time: 1,67 ms ->  (duration 5,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 419 - average response time: 1,81 ms ->  (duration 5,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 420 - average response time: 1,68 ms ->  (duration 5,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 421 - average response time: 1,74 ms ->  (duration 5,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 422 - average response time: 1,75 ms ->  (duration 5,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 423 - average response time: 1,4 ms ->  (duration 5,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 424 - average response time: 1,72 ms ->  (duration 5,76 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 425 - average response time: 1,72 ms ->  (duration 5,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 426 - average response time: 1,73 ms ->  (duration 5,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 427 - average response time: 1,72 ms ->  (duration 5,73 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 428 - average response time: 1,75 ms ->  (duration 5,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 429 - average response time: 1,67 ms ->  (duration 5,71 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 430 - average response time: 2,2 ms ->  (duration 5,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 431 - average response time: 1,69 ms ->  (duration 5,69 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 432 - average response time: 1,68 ms ->  (duration 5,68 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 433 - average response time: 1,72 ms ->  (duration 5,67 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 434 - average response time: 1,74 ms ->  (duration 5,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 435 - average response time: 2,74 ms ->  (duration 5,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 436 - average response time: 2,78 ms ->  (duration 5,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 437 - average response time: 1,56 ms ->  (duration 5,63 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 438 - average response time: 1,37 ms ->  (duration 5,62 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 439 - average response time: 1,87 ms ->  (duration 5,61 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 440 - average response time: 1,08 ms ->  (duration 5,59 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 441 - average response time: 4,53 ms ->  (duration 5,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 442 - average response time: 1,72 ms ->  (duration 5,58 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 443 - average response time: 2,52 ms ->  (duration 5,57 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 444 - average response time: 1,75 ms ->  (duration 5,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 445 - average response time: 2,05 ms ->  (duration 5,55 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 446 - average response time: 1,42 ms ->  (duration 5,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 447 - average response time: 3 ms ->  (duration 5,53 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 448 - average response time: 2,31 ms ->  (duration 5,52 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 449 - average response time: 2,94 ms ->  (duration 5,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 450 - average response time: 1,78 ms ->  (duration 5,5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 451 - average response time: 1,71 ms ->  (duration 5,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 452 - average response time: 1,73 ms ->  (duration 5,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 453 - average response time: 1,84 ms ->  (duration 5,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 454 - average response time: 1,72 ms ->  (duration 5,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 455 - average response time: 2,81 ms ->  (duration 5,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 456 - average response time: 1,8 ms ->  (duration 5,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 457 - average response time: 1,78 ms ->  (duration 5,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 458 - average response time: 1,62 ms ->  (duration 5,41 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 459 - average response time: 1,78 ms ->  (duration 5,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 460 - average response time: 2,13 ms ->  (duration 5,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 461 - average response time: 1,04 ms ->  (duration 5,4 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 462 - average response time: 1,96 ms ->  (duration 5,37 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 463 - average response time: 2,92 ms ->  (duration 5,36 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 464 - average response time: 1,86 ms ->  (duration 5,35 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 465 - average response time: 2,05 ms ->  (duration 5,34 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 466 - average response time: 1,92 ms ->  (duration 5,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 467 - average response time: 1,51 ms ->  (duration 5,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 468 - average response time: 2 ms ->  (duration 5,31 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 469 - average response time: 2,05 ms ->  (duration 5,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 470 - average response time: 2,02 ms ->  (duration 5,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 471 - average response time: 2,15 ms ->  (duration 5,28 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 472 - average response time: 2,05 ms ->  (duration 5,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 473 - average response time: 1,5 ms ->  (duration 5,27 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 474 - average response time: 1,74 ms ->  (duration 5,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 475 - average response time: 1,87 ms ->  (duration 5,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 476 - average response time: 2,99 ms ->  (duration 5,23 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 477 - average response time: 1,88 ms ->  (duration 5,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 478 - average response time: 2,93 ms ->  (duration 5,21 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 479 - average response time: 2,77 ms ->  (duration 5,2 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 480 - average response time: 2,82 ms ->  (duration 5,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 481 - average response time: 4,83 ms ->  (duration 5,18 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 482 - average response time: 1,67 ms ->  (duration 5,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 483 - average response time: 1,96 ms ->  (duration 5,16 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 484 - average response time: 2,13 ms ->  (duration 5,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 485 - average response time: 2,06 ms ->  (duration 5,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 486 - average response time: 2,77 ms ->  (duration 5,13 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 487 - average response time: 2,86 ms ->  (duration 5,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 488 - average response time: 3,07 ms ->  (duration 5,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 489 - average response time: 1,82 ms ->  (duration 5,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 490 - average response time: 2,83 ms ->  (duration 5,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 491 - average response time: 2,78 ms ->  (duration 5,08 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 492 - average response time: 2,11 ms ->  (duration 5,07 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 493 - average response time: 1,85 ms ->  (duration 5,06 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 494 - average response time: 1,91 ms ->  (duration 5,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 495 - average response time: 1,43 ms ->  (duration 5,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 496 - average response time: 1,86 ms ->  (duration 5,03 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 497 - average response time: 1,96 ms ->  (duration 5,02 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 498 - average response time: 8,51 ms ->  (duration 5 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 499 - average response time: 5,06 ms ->  (duration 4,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 500 - average response time: 2,95 ms ->  (duration 4,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 501 - average response time: 4,87 ms ->  (duration 4,98 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 502 - average response time: 3,1 ms ->  (duration 4,97 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 503 - average response time: 1,69 ms ->  (duration 4,97 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 504 - average response time: 2,59 ms ->  (duration 4,94 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 505 - average response time: 22,01 ms ->  (duration 5,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 506 - average response time: 15,99 ms ->  (duration 4,92 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 507 - average response time: 10,24 ms ->  (duration 4,91 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 508 - average response time: 6,53 ms ->  (duration 4,9 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 509 - average response time: 1,94 ms ->  (duration 4,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 510 - average response time: 2,72 ms ->  (duration 4,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 511 - average response time: 25,14 ms ->  (duration 5,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 512 - average response time: 696,07 ms ->  (duration 10,39 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 513 - average response time: 19,48 ms ->  (duration 9,67 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 514 - average response time: 7,25 ms ->  (duration 4,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 515 - average response time: 5,05 ms ->  (duration 4,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 516 - average response time: 1,07 ms ->  (duration 4,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 517 - average response time: 2,6 ms ->  (duration 4,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 518 - average response time: 1,47 ms ->  (duration 4,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 519 - average response time: 1,25 ms ->  (duration 4,78 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 520 - average response time: 1,07 ms ->  (duration 4,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 521 - average response time: 2,96 ms ->  (duration 4,76 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 522 - average response time: 5,96 ms ->  (duration 4,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 523 - average response time: 1,32 ms ->  (duration 4,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 524 - average response time: 2,18 ms ->  (duration 4,75 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 525 - average response time: 1,91 ms ->  (duration 4,72 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 526 - average response time: 2,82 ms ->  (duration 4,71 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 527 - average response time: 1,83 ms ->  (duration 4,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 528 - average response time: 1,88 ms ->  (duration 4,69 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 529 - average response time: 2,04 ms ->  (duration 4,7 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 530 - average response time: 2,02 ms ->  (duration 4,67 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 531 - average response time: 2,94 ms ->  (duration 4,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 532 - average response time: 1,52 ms ->  (duration 4,66 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 533 - average response time: 3,65 ms ->  (duration 4,64 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 534 - average response time: 3,05 ms ->  (duration 4,62 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 535 - average response time: 5,74 ms ->  (duration 4,62 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 536 - average response time: 7,81 ms ->  (duration 4,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 537 - average response time: 2,01 ms ->  (duration 4,6 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 538 - average response time: 4,79 ms ->  (duration 4,59 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 539 - average response time: 5,79 ms ->  (duration 4,58 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 540 - average response time: 3,96 ms ->  (duration 4,57 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 541 - average response time: 2,99 ms ->  (duration 4,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 542 - average response time: 9,07 ms ->  (duration 4,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 543 - average response time: 8 ms ->  (duration 4,53 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 544 - average response time: 4,21 ms ->  (duration 4,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 545 - average response time: 3,07 ms ->  (duration 4,52 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 546 - average response time: 3,97 ms ->  (duration 4,51 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 547 - average response time: 3,84 ms ->  (duration 4,49 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 548 - average response time: 5,91 ms ->  (duration 4,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 549 - average response time: 4,9 ms ->  (duration 4,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 550 - average response time: 3,07 ms ->  (duration 4,47 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 551 - average response time: 5,11 ms ->  (duration 4,46 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 552 - average response time: 2,8 ms ->  (duration 4,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 553 - average response time: 5,03 ms ->  (duration 4,44 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 554 - average response time: 6,05 ms ->  (duration 4,42 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 555 - average response time: 7,88 ms ->  (duration 4,43 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 556 - average response time: 9,09 ms ->  (duration 4,4 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 557 - average response time: 5,05 ms ->  (duration 4,39 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 558 - average response time: 8,19 ms ->  (duration 4,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 559 - average response time: 2,48 ms ->  (duration 4,38 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 560 - average response time: 3,93 ms ->  (duration 4,37 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 561 - average response time: 10,02 ms ->  (duration 4,35 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 562 - average response time: 3,46 ms ->  (duration 4,36 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 563 - average response time: 4,18 ms ->  (duration 4,34 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 564 - average response time: 12,92 ms ->  (duration 4,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 565 - average response time: 29,63 ms ->  (duration 4,33 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 566 - average response time: 5,58 ms ->  (duration 4,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 567 - average response time: 9,98 ms ->  (duration 4,48 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 568 - average response time: 15,67 ms ->  (duration 8,53 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 569 - average response time: 11,21 ms ->  (duration 8,53 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 570 - average response time: 2,96 ms ->  (duration 4,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 571 - average response time: 6,97 ms ->  (duration 4,23 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 572 - average response time: 8,21 ms ->  (duration 4,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 573 - average response time: 8,02 ms ->  (duration 4,21 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 574 - average response time: 5,05 ms ->  (duration 4,2 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 575 - average response time: 7 ms ->  (duration 4,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 576 - average response time: 2,27 ms ->  (duration 4,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 577 - average response time: 3,87 ms ->  (duration 4,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 578 - average response time: 2,25 ms ->  (duration 4,18 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 579 - average response time: 3,97 ms ->  (duration 4,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 580 - average response time: 3,79 ms ->  (duration 4,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 581 - average response time: 2,97 ms ->  (duration 4,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 582 - average response time: 3,1 ms ->  (duration 4,13 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 583 - average response time: 5,19 ms ->  (duration 4,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 584 - average response time: 2,86 ms ->  (duration 4,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 585 - average response time: 4,08 ms ->  (duration 4,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 586 - average response time: 2,83 ms ->  (duration 4,09 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 587 - average response time: 2,21 ms ->  (duration 4,07 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 588 - average response time: 3,85 ms ->  (duration 4,06 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 589 - average response time: 3,95 ms ->  (duration 4,05 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 590 - average response time: 5,1 ms ->  (duration 4,04 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 591 - average response time: 4,02 ms ->  (duration 4,03 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 592 - average response time: 6,07 ms ->  (duration 4,02 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 593 - average response time: 3,61 ms ->  (duration 4,02 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 594 - average response time: 42,21 ms ->  (duration 3,99 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 595 - average response time: 565,74 ms ->  (duration 8,7 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 596 - average response time: 2,48 ms ->  (duration 8,09 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 597 - average response time: 565,69 ms ->  (duration 8,63 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 598 - average response time: 2,12 ms ->  (duration 8,03 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 599 - average response time: 22,61 ms ->  (duration 7,78 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 600 - average response time: 19,09 ms ->  (duration 7,78 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 601 - average response time: 2,02 ms ->  (duration 3,87 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 602 - average response time: 4,01 ms ->  (duration 3,88 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 603 - average response time: 9,02 ms ->  (duration 3,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 604 - average response time: 8,07 ms ->  (duration 3,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 605 - average response time: 6,03 ms ->  (duration 3,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 606 - average response time: 9,98 ms ->  (duration 3,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 607 - average response time: 64,02 ms ->  (duration 3,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 608 - average response time: 36,91 ms ->  (duration 3,95 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 609 - average response time: 1,91 ms ->  (duration 26,81 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 610 - average response time: 1,93 ms ->  (duration 26,04 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 611 - average response time: 1,87 ms ->  (duration 26,03 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 612 - average response time: 1,94 ms ->  (duration 26,04 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 613 - average response time: 1,85 ms ->  (duration 26,04 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 614 - average response time: 1,93 ms ->  (duration 26,03 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 615 - average response time: 1,94 ms ->  (duration 26,03 sec - 7 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 616 - average response time: 5,92 ms ->  (duration 3,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 617 - average response time: 11 ms ->  (duration 3,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 618 - average response time: 3,03 ms ->  (duration 3,28 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 619 - average response time: 2,62 ms ->  (duration 3,28 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 620 - average response time: 4,7 ms ->  (duration 3,26 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 621 - average response time: 2,82 ms ->  (duration 3,26 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 622 - average response time: 4,6 ms ->  (duration 3,25 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 623 - average response time: 4,27 ms ->  (duration 3,26 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 624 - average response time: 7,91 ms ->  (duration 3,24 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 625 - average response time: 2,16 ms ->  (duration 3,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 626 - average response time: 4,96 ms ->  (duration 3,22 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 627 - average response time: 9,82 ms ->  (duration 3,19 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 628 - average response time: 10,05 ms ->  (duration 3,18 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 629 - average response time: 8 ms ->  (duration 3,17 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 630 - average response time: 7,93 ms ->  (duration 3,16 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 631 - average response time: 9 ms ->  (duration 3,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 632 - average response time: 6,92 ms ->  (duration 3,14 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 633 - average response time: 11,85 ms ->  (duration 3,15 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 634 - average response time: 8,85 ms ->  (duration 3,12 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 635 - average response time: 7,82 ms ->  (duration 3,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 636 - average response time: 7,21 ms ->  (duration 3,1 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 637 - average response time: 10,95 ms ->  (duration 3,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 638 - average response time: 0,7 ms ->  (duration 6,15 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 639 - average response time: 0,67 ms ->  (duration 6,15 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 640 - average response time: 79,17 ms ->  (duration 2,95 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 641 - average response time: 78,23 ms ->  (duration 2,74 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 642 - average response time: 100,97 ms ->  (duration 2,89 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 643 - average response time: 35,02 ms ->  (duration 2,77 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 644 - average response time: 88,14 ms ->  (duration 2,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 645 - average response time: 83,71 ms ->  (duration 2,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 646 - average response time: 68,7 ms ->  (duration 2,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 647 - average response time: 85 ms ->  (duration 2,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 648 - average response time: 77,78 ms ->  (duration 2,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 649 - average response time: 83,66 ms ->  (duration 2,86 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 650 - average response time: 77,82 ms ->  (duration 2,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 651 - average response time: 77,29 ms ->  (duration 2,85 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 652 - average response time: 70,38 ms ->  (duration 2,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 653 - average response time: 69,92 ms ->  (duration 2,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 654 - average response time: 57,07 ms ->  (duration 2,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 655 - average response time: 55,28 ms ->  (duration 2,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 656 - average response time: 64,18 ms ->  (duration 2,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 657 - average response time: 63,21 ms ->  (duration 2,84 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 658 - average response time: 61,04 ms ->  (duration 2,83 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 659 - average response time: 38,19 ms ->  (duration 2,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 660 - average response time: 42,62 ms ->  (duration 2,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 661 - average response time: 46,96 ms ->  (duration 2,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 662 - average response time: 38,53 ms ->  (duration 2,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 663 - average response time: 47,76 ms ->  (duration 2,82 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 664 - average response time: 36,43 ms ->  (duration 2,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 665 - average response time: 36,32 ms ->  (duration 2,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 666 - average response time: 36,18 ms ->  (duration 2,81 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 667 - average response time: 29,38 ms ->  (duration 2,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 668 - average response time: 19,36 ms ->  (duration 2,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 669 - average response time: 15,82 ms ->  (duration 2,79 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 670 - average response time: 28,39 ms ->  (duration 2,8 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 671 - average response time: 0,95 ms ->  (duration 23,8 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 672 - average response time: 0,57 ms ->  (duration 23,84 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 673 - average response time: 0,97 ms ->  (duration 23,83 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 674 - average response time: 0,98 ms ->  (duration 23,84 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 675 - average response time: 0,99 ms ->  (duration 23,83 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 676 - average response time: 1 ms ->  (duration 23,83 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 677 - average response time: 0,87 ms ->  (duration 23,84 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 678 - average response time: 0,85 ms ->  (duration 23,83 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 679 - average response time: 0,97 ms ->  (duration 23,84 sec - 9 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 680 - average response time: 1,8 ms ->  (duration 9,45 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 681 - average response time: 0,98 ms ->  (duration 9,48 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 682 - average response time: 0,99 ms ->  (duration 9,48 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 683 - average response time: 1,64 ms ->  (duration 9,48 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 684 - average response time: 0,99 ms ->  (duration 9,48 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 685 - average response time: 1,64 ms ->  (duration 5,68 sec - 3 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 686 - average response time: 0,96 ms ->  (duration 4,91 sec - 3 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 687 - average response time: 1,61 ms ->  (duration 5,06 sec - 3 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 688 - average response time: 82,85 ms ->  (duration 1,56 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 689 - average response time: 0,78 ms ->  (duration 4,78 sec - 3 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 690 - average response time: 1,69 ms ->  (duration 4,73 sec - 3 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 691 - average response time: 1 ms ->  (duration 4,73 sec - 3 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 692 - average response time: 1,88 ms ->  (duration 6,44 sec - 4 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 693 - average response time: 1,9 ms ->  (duration 6,48 sec - 4 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 694 - average response time: 1,88 ms ->  (duration 6,47 sec - 4 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 695 - average response time: 0,92 ms ->  (duration 5,75 sec - 4 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 696 - average response time: 6,11 ms ->  (duration 1,32 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 697 - average response time: 13,08 ms ->  (duration 1,52 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 698 - average response time: 30,13 ms ->  (duration 1,3 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 699 - average response time: 14,14 ms ->  (duration 1,47 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 700 - average response time: 23,9 ms ->  (duration 1,45 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 701 - average response time: 1,7 ms ->  (duration 6,84 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 702 - average response time: 1,57 ms ->  (duration 6,28 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 703 - average response time: 1,65 ms ->  (duration 6,27 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 704 - average response time: 0,94 ms ->  (duration 6,79 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 705 - average response time: 1,73 ms ->  (duration 6,28 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 706 - average response time: 513,32 ms ->  (duration 2,09 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 707 - average response time: 513,1 ms ->  (duration 2,09 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 708 - average response time: 560,39 ms ->  (duration 2,13 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 709 - average response time: 532,11 ms ->  (duration 2,1 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 710 - average response time: 2,37 ms ->  (duration 1,56 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 711 - average response time: 560,21 ms ->  (duration 2,13 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 712 - average response time: 2,68 ms ->  (duration 1,56 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 713 - average response time: 2,91 ms ->  (duration 1,56 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 714 - average response time: 2,97 ms ->  (duration 1,56 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 715 - average response time: 4,88 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 716 - average response time: 2,71 ms ->  (duration 1,54 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 717 - average response time: 4,05 ms ->  (duration 1,52 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 718 - average response time: 3,45 ms ->  (duration 1,53 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 719 - average response time: 2,69 ms ->  (duration 1,53 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 720 - average response time: 3,1 ms ->  (duration 1,53 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 721 - average response time: 4,2 ms ->  (duration 1,52 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 722 - average response time: 3,02 ms ->  (duration 1,52 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 723 - average response time: 3,17 ms ->  (duration 1,52 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 724 - average response time: 3,75 ms ->  (duration 1,52 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 725 - average response time: 4,86 ms ->  (duration 1,5 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 726 - average response time: 3,95 ms ->  (duration 1,5 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 727 - average response time: 5,45 ms ->  (duration 1,49 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 728 - average response time: 5,26 ms ->  (duration 1,48 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 729 - average response time: 5,21 ms ->  (duration 1,45 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 730 - average response time: 5,89 ms ->  (duration 1,45 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 731 - average response time: 4,93 ms ->  (duration 1,48 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 732 - average response time: 6,68 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 733 - average response time: 5,25 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 734 - average response time: 5,16 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 735 - average response time: 5,26 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 736 - average response time: 5,7 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 737 - average response time: 6,71 ms ->  (duration 1,46 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 738 - average response time: 22,17 ms ->  (duration 0,58 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 739 - average response time: 11,09 ms ->  (duration 0,54 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 740 - average response time: 0,97 ms ->  (duration 1,54 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 741 - average response time: 1,89 ms ->  (duration 1,55 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 742 - average response time: 1,68 ms ->  (duration 2,27 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 743 - average response time: 2 ms ->  (duration 1,55 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 744 - average response time: 1,93 ms ->  (duration 1,55 sec - 5 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 745 - average response time: 8,91 ms ->  (duration 0,13 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 746 - average response time: 11,83 ms ->  (duration 0,11 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 747 - average response time: 18,03 ms ->  (duration 0,29 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 748 - average response time: 16,25 ms ->  (duration 0,07 sec - 1 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 749 - average response time: 513,45 ms ->  (duration 0,79 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 750 - average response time: 0,94 ms ->  (duration 0,25 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 751 - average response time: 0 ms ->  (duration 0,01 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:86 - MultiplexLoadInjector 752 - average response time: 0,88 ms ->  (duration 0,51 sec - 2 clients)
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:97 - total average response time: 11,86 ms
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:101 - ---------------------------
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:102 - Throughput history
+2014-04-10 12:37:12 INFO  RealisticLoadGenerator:103 - ---------------------------
+0,102 % -> 1 clients
+0,106 % -> 3 clients
+0,107 % -> 5 clients
+0,181 % -> 6 clients
+0,211 % -> 7 clients
+0,241 % -> 8 clients
+0,271 % -> 9 clients
+0,301 % -> 10 clients
+0,332 % -> 11 clients
+0,362 % -> 12 clients
+0,392 % -> 13 clients
+0,422 % -> 14 clients
+0,453 % -> 15 clients
+0,483 % -> 16 clients
+0,513 % -> 17 clients
+0,543 % -> 18 clients
+0,574 % -> 19 clients
+0,604 % -> 20 clients
+0,634 % -> 21 clients
+0,664 % -> 22 clients
+0,694 % -> 23 clients
+0,725 % -> 24 clients
+0,755 % -> 25 clients
+0,785 % -> 26 clients
+0,815 % -> 27 clients
+0,845 % -> 28 clients
+0,876 % -> 29 clients
+0,906 % -> 30 clients
+0,936 % -> 31 clients
+0,966 % -> 32 clients
+0,997 % -> 33 clients
+1,027 % -> 34 clients
+1,057 % -> 35 clients
+1,087 % -> 36 clients
+1,117 % -> 37 clients
+1,148 % -> 38 clients
+1,178 % -> 39 clients
+1,208 % -> 40 clients
+1,238 % -> 41 clients
+1,269 % -> 42 clients
+1,299 % -> 43 clients
+1,329 % -> 44 clients
+1,359 % -> 45 clients
+1,39 % -> 46 clients
+1,42 % -> 47 clients
+1,45 % -> 48 clients
+1,48 % -> 49 clients
+1,51 % -> 50 clients
+1,541 % -> 51 clients
+1,571 % -> 52 clients
+1,601 % -> 53 clients
+1,631 % -> 54 clients
+1,661 % -> 55 clients
+1,692 % -> 56 clients
+1,722 % -> 57 clients
+1,752 % -> 58 clients
+1,782 % -> 59 clients
+1,813 % -> 60 clients
+1,843 % -> 61 clients
+1,873 % -> 62 clients
+1,903 % -> 63 clients
+1,933 % -> 64 clients
+1,964 % -> 65 clients
+1,994 % -> 66 clients
+2,024 % -> 67 clients
+2,054 % -> 68 clients
+2,084 % -> 69 clients
+2,115 % -> 70 clients
+2,145 % -> 71 clients
+2,175 % -> 72 clients
+2,206 % -> 73 clients
+2,236 % -> 74 clients
+2,266 % -> 75 clients
+2,296 % -> 76 clients
+2,326 % -> 77 clients
+2,357 % -> 78 clients
+2,387 % -> 79 clients
+2,414 % -> 80 clients
+2,447 % -> 81 clients
+2,477 % -> 82 clients
+2,505 % -> 83 clients
+2,535 % -> 84 clients
+2,565 % -> 85 clients
+2,595 % -> 86 clients
+2,626 % -> 87 clients
+2,656 % -> 88 clients
+2,686 % -> 89 clients
+2,716 % -> 90 clients
+2,746 % -> 91 clients
+2,777 % -> 92 clients
+2,807 % -> 93 clients
+2,837 % -> 94 clients
+2,867 % -> 95 clients
+2,898 % -> 96 clients
+2,928 % -> 97 clients
+2,958 % -> 98 clients
+2,988 % -> 99 clients
+3,018 % -> 100 clients
+3,049 % -> 101 clients
+3,08 % -> 102 clients
+3,11 % -> 103 clients
+3,14 % -> 104 clients
+3,17 % -> 105 clients
+3,2 % -> 106 clients
+3,23 % -> 107 clients
+3,26 % -> 108 clients
+3,29 % -> 109 clients
+3,32 % -> 110 clients
+3,351 % -> 111 clients
+3,381 % -> 112 clients
+3,411 % -> 113 clients
+3,442 % -> 114 clients
+3,471 % -> 115 clients
+3,502 % -> 116 clients
+3,532 % -> 117 clients
+3,563 % -> 118 clients
+3,596 % -> 119 clients
+3,623 % -> 120 clients
+3,653 % -> 121 clients
+3,684 % -> 122 clients
+3,713 % -> 123 clients
+3,744 % -> 124 clients
+3,774 % -> 125 clients
+3,805 % -> 126 clients
+3,835 % -> 127 clients
+3,865 % -> 128 clients
+3,895 % -> 129 clients
+3,925 % -> 130 clients
+3,956 % -> 131 clients
+3,985 % -> 132 clients
+4,016 % -> 133 clients
+4,046 % -> 134 clients
+4,076 % -> 135 clients
+4,107 % -> 136 clients
+4,137 % -> 137 clients
+4,167 % -> 138 clients
+4,197 % -> 139 clients
+4,227 % -> 140 clients
+4,258 % -> 141 clients
+4,288 % -> 142 clients
+4,318 % -> 143 clients
+4,348 % -> 144 clients
+4,378 % -> 145 clients
+4,409 % -> 146 clients
+4,442 % -> 147 clients
+4,469 % -> 148 clients
+4,499 % -> 149 clients
+4,529 % -> 150 clients
+4,56 % -> 151 clients
+4,59 % -> 152 clients
+4,62 % -> 153 clients
+4,65 % -> 154 clients
+4,681 % -> 155 clients
+4,71 % -> 156 clients
+4,741 % -> 157 clients
+4,772 % -> 158 clients
+4,802 % -> 159 clients
+4,832 % -> 160 clients
+4,862 % -> 161 clients
+4,892 % -> 162 clients
+4,923 % -> 163 clients
+4,953 % -> 164 clients
+4,983 % -> 165 clients
+5,013 % -> 166 clients
+5,046 % -> 167 clients
+5,074 % -> 168 clients
+5,104 % -> 169 clients
+5,134 % -> 170 clients
+5,164 % -> 171 clients
+5,195 % -> 172 clients
+5,228 % -> 173 clients
+5,255 % -> 174 clients
+5,285 % -> 175 clients
+5,316 % -> 176 clients
+5,346 % -> 177 clients
+5,376 % -> 178 clients
+5,406 % -> 179 clients
+5,436 % -> 180 clients
+5,47 % -> 181 clients
+5,497 % -> 182 clients
+5,527 % -> 183 clients
+5,557 % -> 184 clients
+5,588 % -> 185 clients
+5,617 % -> 186 clients
+5,648 % -> 187 clients
+5,678 % -> 188 clients
+5,711 % -> 189 clients
+5,739 % -> 190 clients
+5,769 % -> 191 clients
+5,799 % -> 192 clients
+5,83 % -> 193 clients
+5,859 % -> 194 clients
+5,89 % -> 195 clients
+5,92 % -> 196 clients
+5,953 % -> 197 clients
+5,98 % -> 198 clients
+6,01 % -> 199 clients
+6,041 % -> 200 clients
+6,072 % -> 201 clients
+6,102 % -> 202 clients
+6,131 % -> 203 clients
+6,162 % -> 204 clients
+6,192 % -> 205 clients
+6,223 % -> 206 clients
+6,252 % -> 207 clients
+6,283 % -> 208 clients
+6,312 % -> 209 clients
+6,343 % -> 210 clients
+6,376 % -> 211 clients
+6,404 % -> 212 clients
+6,434 % -> 213 clients
+6,464 % -> 214 clients
+6,495 % -> 215 clients
+6,524 % -> 216 clients
+6,554 % -> 217 clients
+6,585 % -> 218 clients
+6,618 % -> 219 clients
+6,645 % -> 220 clients
+6,673 % -> 221 clients
+6,706 % -> 222 clients
+6,733 % -> 223 clients
+6,763 % -> 224 clients
+6,793 % -> 225 clients
+6,824 % -> 226 clients
+6,857 % -> 227 clients
+6,884 % -> 228 clients
+6,914 % -> 229 clients
+6,944 % -> 230 clients
+6,975 % -> 231 clients
+7,004 % -> 232 clients
+7,036 % -> 233 clients
+7,065 % -> 234 clients
+7,096 % -> 235 clients
+7,126 % -> 236 clients
+7,156 % -> 237 clients
+7,19 % -> 238 clients
+7,216 % -> 239 clients
+7,247 % -> 240 clients
+7,276 % -> 241 clients
+7,307 % -> 242 clients
+7,337 % -> 243 clients
+7,367 % -> 244 clients
+7,398 % -> 245 clients
+7,427 % -> 246 clients
+7,458 % -> 247 clients
+7,489 % -> 248 clients
+7,519 % -> 249 clients
+7,548 % -> 250 clients
+7,579 % -> 251 clients
+7,61 % -> 252 clients
+7,64 % -> 253 clients
+7,669 % -> 254 clients
+7,7 % -> 255 clients
+7,73 % -> 256 clients
+7,761 % -> 257 clients
+7,79 % -> 258 clients
+7,821 % -> 259 clients
+7,851 % -> 260 clients
+7,881 % -> 261 clients
+7,911 % -> 262 clients
+7,942 % -> 263 clients
+7,973 % -> 264 clients
+8,001 % -> 265 clients
+8,032 % -> 266 clients
+8,063 % -> 267 clients
+8,093 % -> 268 clients
+8,123 % -> 269 clients
+8,154 % -> 270 clients
+8,184 % -> 271 clients
+8,214 % -> 272 clients
+8,244 % -> 273 clients
+8,274 % -> 274 clients
+8,305 % -> 275 clients
+8,334 % -> 276 clients
+8,365 % -> 277 clients
+8,395 % -> 278 clients
+8,425 % -> 279 clients
+8,455 % -> 280 clients
+8,485 % -> 281 clients
+8,516 % -> 282 clients
+8,545 % -> 283 clients
+8,577 % -> 284 clients
+8,607 % -> 285 clients
+8,636 % -> 286 clients
+8,666 % -> 287 clients
+8,697 % -> 288 clients
+8,728 % -> 289 clients
+8,757 % -> 290 clients
+8,788 % -> 291 clients
+8,818 % -> 292 clients
+8,849 % -> 293 clients
+8,879 % -> 294 clients
+8,909 % -> 295 clients
+8,938 % -> 296 clients
+8,969 % -> 297 clients
+9 % -> 298 clients
+9,03 % -> 299 clients
+9,064 % -> 300 clients
+9,103 % -> 301 clients
+9,122 % -> 302 clients
+9,152 % -> 303 clients
+9,181 % -> 304 clients
+9,21 % -> 305 clients
+9,242 % -> 306 clients
+9,272 % -> 307 clients
+9,301 % -> 308 clients
+9,332 % -> 309 clients
+9,362 % -> 310 clients
+9,392 % -> 311 clients
+9,422 % -> 312 clients
+9,453 % -> 313 clients
+9,482 % -> 314 clients
+9,514 % -> 315 clients
+9,544 % -> 316 clients
+9,573 % -> 317 clients
+9,603 % -> 318 clients
+9,634 % -> 319 clients
+9,665 % -> 320 clients
+9,696 % -> 321 clients
+9,726 % -> 322 clients
+9,756 % -> 323 clients
+9,784 % -> 324 clients
+9,816 % -> 325 clients
+9,847 % -> 326 clients
+9,876 % -> 327 clients
+9,907 % -> 328 clients
+9,939 % -> 329 clients
+9,971 % -> 330 clients
+9,996 % -> 331 clients
+10,028 % -> 332 clients
+10,058 % -> 333 clients
+10,09 % -> 334 clients
+10,118 % -> 335 clients
+10,149 % -> 336 clients
+10,178 % -> 337 clients
+10,209 % -> 338 clients
+10,239 % -> 339 clients
+10,269 % -> 340 clients
+10,299 % -> 341 clients
+10,33 % -> 342 clients
+10,36 % -> 343 clients
+10,389 % -> 344 clients
+10,42 % -> 345 clients
+10,454 % -> 346 clients
+10,481 % -> 347 clients
+10,51 % -> 348 clients
+10,541 % -> 349 clients
+10,57 % -> 350 clients
+10,605 % -> 351 clients
+10,631 % -> 352 clients
+10,662 % -> 353 clients
+10,695 % -> 354 clients
+10,723 % -> 355 clients
+10,753 % -> 356 clients
+10,783 % -> 357 clients
+10,813 % -> 358 clients
+10,843 % -> 359 clients
+10,872 % -> 360 clients
+10,904 % -> 361 clients
+10,934 % -> 362 clients
+10,961 % -> 363 clients
+10,992 % -> 364 clients
+11,022 % -> 365 clients
+11,051 % -> 366 clients
+11,082 % -> 367 clients
+11,112 % -> 368 clients
+11,143 % -> 369 clients
+11,173 % -> 370 clients
+11,203 % -> 371 clients
+11,234 % -> 372 clients
+11,264 % -> 373 clients
+11,294 % -> 374 clients
+11,324 % -> 375 clients
+11,354 % -> 376 clients
+11,385 % -> 377 clients
+11,418 % -> 378 clients
+11,445 % -> 379 clients
+11,474 % -> 380 clients
+11,504 % -> 381 clients
+11,534 % -> 382 clients
+11,569 % -> 383 clients
+11,596 % -> 384 clients
+11,626 % -> 385 clients
+11,663 % -> 386 clients
+11,693 % -> 387 clients
+11,716 % -> 388 clients
+11,747 % -> 389 clients
+11,777 % -> 390 clients
+11,807 % -> 391 clients
+11,838 % -> 392 clients
+11,868 % -> 393 clients
+11,901 % -> 394 clients
+11,928 % -> 395 clients
+11,957 % -> 396 clients
+11,989 % -> 397 clients
+12,019 % -> 398 clients
+12,05 % -> 399 clients
+12,079 % -> 400 clients
+12,11 % -> 401 clients
+12,139 % -> 402 clients
+12,176 % -> 403 clients
+12,204 % -> 404 clients
+12,229 % -> 405 clients
+12,261 % -> 406 clients
+12,295 % -> 407 clients
+12,322 % -> 408 clients
+12,352 % -> 409 clients
+12,382 % -> 410 clients
+12,419 % -> 411 clients
+12,442 % -> 412 clients
+12,473 % -> 413 clients
+12,503 % -> 414 clients
+12,533 % -> 415 clients
+12,562 % -> 416 clients
+12,597 % -> 417 clients
+12,624 % -> 418 clients
+12,654 % -> 419 clients
+12,684 % -> 420 clients
+12,714 % -> 421 clients
+12,747 % -> 422 clients
+12,775 % -> 423 clients
+12,805 % -> 424 clients
+12,835 % -> 425 clients
+12,864 % -> 426 clients
+12,899 % -> 427 clients
+12,926 % -> 428 clients
+12,956 % -> 429 clients
+12,986 % -> 430 clients
+13,017 % -> 431 clients
+13,047 % -> 432 clients
+13,076 % -> 433 clients
+13,107 % -> 434 clients
+13,137 % -> 435 clients
+13,167 % -> 436 clients
+13,198 % -> 437 clients
+13,231 % -> 438 clients
+13,258 % -> 439 clients
+13,289 % -> 440 clients
+13,317 % -> 441 clients
+13,349 % -> 442 clients
+13,382 % -> 443 clients
+13,408 % -> 444 clients
+13,44 % -> 445 clients
+13,47 % -> 446 clients
+13,5 % -> 447 clients
+13,53 % -> 448 clients
+13,559 % -> 449 clients
+13,591 % -> 450 clients
+13,619 % -> 451 clients
+13,657 % -> 452 clients
+13,682 % -> 453 clients
+13,715 % -> 454 clients
+13,745 % -> 455 clients
+13,772 % -> 456 clients
+13,802 % -> 457 clients
+13,833 % -> 458 clients
+13,869 % -> 459 clients
+13,893 % -> 460 clients
+13,924 % -> 461 clients
+13,956 % -> 462 clients
+13,984 % -> 463 clients
+14,014 % -> 464 clients
+14,044 % -> 465 clients
+14,074 % -> 466 clients
+14,107 % -> 467 clients
+14,135 % -> 468 clients
+14,165 % -> 469 clients
+14,194 % -> 470 clients
+14,229 % -> 471 clients
+14,258 % -> 472 clients
+14,288 % -> 473 clients
+14,319 % -> 474 clients
+14,349 % -> 475 clients
+14,378 % -> 476 clients
+14,408 % -> 477 clients
+14,44 % -> 478 clients
+14,47 % -> 479 clients
+14,5 % -> 480 clients
+14,531 % -> 481 clients
+14,561 % -> 482 clients
+14,591 % -> 483 clients
+14,621 % -> 484 clients
+14,649 % -> 485 clients
+14,681 % -> 486 clients
+14,712 % -> 487 clients
+14,742 % -> 488 clients
+14,772 % -> 489 clients
+14,799 % -> 490 clients
+14,832 % -> 491 clients
+14,861 % -> 492 clients
+14,893 % -> 493 clients
+14,923 % -> 494 clients
+14,956 % -> 495 clients
+14,984 % -> 496 clients
+15,02 % -> 497 clients
+15,04 % -> 498 clients
+15,074 % -> 499 clients
+15,104 % -> 500 clients
+15,147 % -> 501 clients
+15,193 % -> 502 clients
+15,222 % -> 503 clients
+15,235 % -> 504 clients
+15,256 % -> 505 clients
+15,281 % -> 506 clients
+15,311 % -> 507 clients
+15,395 % -> 508 clients
+15,401 % -> 509 clients
+15,452 % -> 510 clients
+15,481 % -> 511 clients
+15,501 % -> 512 clients
+15,51 % -> 513 clients
+15,531 % -> 514 clients
+15,655 % -> 516 clients
+15,655 % -> 518 clients
+15,706 % -> 519 clients
+15,724 % -> 520 clients
+15,743 % -> 521 clients
+15,764 % -> 522 clients
+15,792 % -> 523 clients
+15,826 % -> 524 clients
+15,857 % -> 525 clients
+15,887 % -> 526 clients
+15,921 % -> 527 clients
+15,954 % -> 528 clients
+15,973 % -> 529 clients
+16,014 % -> 530 clients
+16,039 % -> 531 clients
+16,066 % -> 532 clients
+16,099 % -> 533 clients
+16,129 % -> 534 clients
+16,16 % -> 535 clients
+16,19 % -> 536 clients
+16,215 % -> 537 clients
+16,251 % -> 538 clients
+16,293 % -> 539 clients
+16,323 % -> 540 clients
+16,353 % -> 541 clients
+16,383 % -> 542 clients
+16,41 % -> 543 clients
+16,435 % -> 544 clients
+16,468 % -> 545 clients
+16,498 % -> 546 clients
+16,534 % -> 547 clients
+16,565 % -> 548 clients
+16,594 % -> 549 clients
+16,616 % -> 550 clients
+16,646 % -> 551 clients
+16,691 % -> 552 clients
+16,713 % -> 553 clients
+16,74 % -> 554 clients
+16,77 % -> 555 clients
+16,8 % -> 556 clients
+16,83 % -> 557 clients
+16,858 % -> 558 clients
+16,906 % -> 559 clients
+16,933 % -> 560 clients
+16,969 % -> 561 clients
+17,003 % -> 562 clients
+17,024 % -> 563 clients
+17,049 % -> 564 clients
+17,072 % -> 565 clients
+17,115 % -> 566 clients
+17,148 % -> 567 clients
+17,159 % -> 568 clients
+17,208 % -> 569 clients
+17,25 % -> 570 clients
+17,342 % -> 571 clients
+17,362 % -> 572 clients
+17,369 % -> 574 clients
+17,371 % -> 576 clients
+17,438 % -> 577 clients
+17,48 % -> 578 clients
+17,501 % -> 579 clients
+17,532 % -> 580 clients
+17,567 % -> 581 clients
+17,592 % -> 582 clients
+17,621 % -> 583 clients
+17,649 % -> 584 clients
+17,666 % -> 585 clients
+17,713 % -> 586 clients
+17,737 % -> 587 clients
+17,764 % -> 588 clients
+17,792 % -> 589 clients
+17,827 % -> 590 clients
+17,882 % -> 591 clients
+17,891 % -> 592 clients
+17,921 % -> 593 clients
+17,961 % -> 594 clients
+17,985 % -> 595 clients
+18,012 % -> 596 clients
+18,045 % -> 597 clients
+18,079 % -> 598 clients
+18,103 % -> 599 clients
+18,134 % -> 600 clients
+18,187 % -> 601 clients
+18,32 % -> 603 clients
+18,426 % -> 605 clients
+18,447 % -> 607 clients
+18,502 % -> 609 clients
+18,502 % -> 611 clients
+18,522 % -> 613 clients
+18,577 % -> 614 clients
+18,583 % -> 615 clients
+18,664 % -> 616 clients
+18,674 % -> 617 clients
+18,701 % -> 618 clients
+18,744 % -> 619 clients
+18,774 % -> 620 clients
+18,976 % -> 621 clients
+19,04 % -> 628 clients
+19,04 % -> 635 clients
+19,043 % -> 642 clients
+19,049 % -> 649 clients
+19,058 % -> 656 clients
+19,063 % -> 663 clients
+19,063 % -> 670 clients
+20,281 % -> 671 clients
+20,3 % -> 672 clients
+20,354 % -> 673 clients
+20,361 % -> 674 clients
+20,418 % -> 675 clients
+20,427 % -> 676 clients
+20,484 % -> 677 clients
+20,485 % -> 678 clients
+20,559 % -> 679 clients
+20,571 % -> 680 clients
+20,578 % -> 681 clients
+20,626 % -> 682 clients
+20,656 % -> 683 clients
+20,672 % -> 684 clients
+20,699 % -> 685 clients
+20,735 % -> 686 clients
+20,783 % -> 687 clients
+20,813 % -> 688 clients
+20,819 % -> 689 clients
+20,87 % -> 690 clients
+20,883 % -> 691 clients
+20,934 % -> 692 clients
+20,98 % -> 694 clients
+20,986 % -> 696 clients
+22,007 % -> 697 clients
+22,01 % -> 698 clients
+22,18 % -> 699 clients
+22,255 % -> 700 clients
+22,258 % -> 701 clients
+22,264 % -> 702 clients
+22,273 % -> 703 clients
+22,276 % -> 704 clients
+22,291 % -> 705 clients
+22,291 % -> 706 clients
+22,312 % -> 707 clients
+22,312 % -> 708 clients
+22,318 % -> 709 clients
+22,328 % -> 710 clients
+22,331 % -> 711 clients
+22,337 % -> 712 clients
+22,351 % -> 713 clients
+22,352 % -> 714 clients
+22,379 % -> 715 clients
+22,379 % -> 716 clients
+22,394 % -> 717 clients
+22,394 % -> 718 clients
+22,394 % -> 719 clients
+22,397 % -> 720 clients
+22,397 % -> 721 clients
+22,397 % -> 722 clients
+22,421 % -> 723 clients
+22,433 % -> 724 clients
+22,461 % -> 725 clients
+22,472 % -> 726 clients
+22,527 % -> 727 clients
+22,6 % -> 736 clients
+22,605 % -> 745 clients
+22,621 % -> 754 clients
+22,624 % -> 763 clients
+22,636 % -> 772 clients
+22,636 % -> 781 clients
+22,636 % -> 790 clients
+22,641 % -> 799 clients
+22,741 % -> 808 clients
+24,85 % -> 813 clients
+24,851 % -> 818 clients
+24,857 % -> 823 clients
+24,863 % -> 828 clients
+24,926 % -> 833 clients
+25,319 % -> 836 clients
+25,319 % -> 839 clients
+25,485 % -> 842 clients
+25,552 % -> 843 clients
+25,764 % -> 846 clients
+25,907 % -> 849 clients
+25,908 % -> 852 clients
+25,939 % -> 856 clients
+25,96 % -> 860 clients
+25,96 % -> 864 clients
+26,005 % -> 868 clients
+26,274 % -> 869 clients
+26,317 % -> 870 clients
+26,362 % -> 871 clients
+26,465 % -> 872 clients
+26,521 % -> 873 clients
+26,672 % -> 878 clients
+26,672 % -> 883 clients
+26,673 % -> 888 clients
+26,679 % -> 893 clients
+26,679 % -> 898 clients
+28,241 % -> 900 clients
+28,241 % -> 902 clients
+28,256 % -> 904 clients
+28,256 % -> 906 clients
+28,257 % -> 908 clients
+28,287 % -> 910 clients
+28,287 % -> 912 clients
+28,287 % -> 914 clients
+28,287 % -> 916 clients
+28,365 % -> 918 clients
+28,371 % -> 920 clients
+28,371 % -> 922 clients
+28,395 % -> 924 clients
+28,395 % -> 926 clients
+28,396 % -> 928 clients
+28,396 % -> 930 clients
+28,396 % -> 932 clients
+28,411 % -> 934 clients
+28,456 % -> 936 clients
+28,462 % -> 938 clients
+28,492 % -> 940 clients
+28,52 % -> 942 clients
+28,538 % -> 944 clients
+28,597 % -> 946 clients
+28,598 % -> 948 clients
+28,598 % -> 950 clients
+28,599 % -> 952 clients
+28,599 % -> 954 clients
+28,599 % -> 956 clients
+28,599 % -> 958 clients
+28,6 % -> 960 clients
+28,6 % -> 962 clients
+29,148 % -> 963 clients
+29,278 % -> 964 clients
+29,317 % -> 969 clients
+29,317 % -> 974 clients
+29,366 % -> 979 clients
+29,378 % -> 984 clients
+29,384 % -> 989 clients
+29,943 % -> 990 clients
+29,961 % -> 991 clients
+30,015 % -> 992 clients
+30,081 % -> 993 clients
+30,175 % -> 995 clients
+30,221 % -> 994 clients
+30,245 % -> 993 clients
+30,246 % -> 992 clients
+30,253 % -> 991 clients
+30,253 % -> 990 clients
+30,253 % -> 989 clients
+30,254 % -> 988 clients
+30,254 % -> 987 clients
+30,254 % -> 989 clients
+30,254 % -> 988 clients
+30,254 % -> 987 clients
+30,255 % -> 986 clients
+30,255 % -> 985 clients
+30,255 % -> 984 clients
+30,255 % -> 983 clients
+30,255 % -> 982 clients
+30,255 % -> 981 clients
+30,255 % -> 980 clients
+30,255 % -> 979 clients
+30,255 % -> 978 clients
+30,255 % -> 977 clients
+30,255 % -> 976 clients
+30,256 % -> 975 clients
+30,256 % -> 974 clients
+30,256 % -> 973 clients
+30,256 % -> 972 clients
+30,256 % -> 971 clients
+30,256 % -> 970 clients
+30,256 % -> 969 clients
+30,256 % -> 968 clients
+30,256 % -> 967 clients
+30,256 % -> 966 clients
+30,256 % -> 965 clients
+30,256 % -> 964 clients
+30,256 % -> 963 clients
+30,256 % -> 962 clients
+30,257 % -> 961 clients
+30,257 % -> 960 clients
+30,257 % -> 959 clients
+30,257 % -> 958 clients
+30,257 % -> 957 clients
+30,257 % -> 956 clients
+30,257 % -> 955 clients
+30,257 % -> 954 clients
+30,257 % -> 953 clients
+30,257 % -> 952 clients
+30,257 % -> 951 clients
+30,257 % -> 950 clients
+30,257 % -> 949 clients
+30,258 % -> 948 clients
+30,259 % -> 947 clients
+30,259 % -> 946 clients
+30,259 % -> 945 clients
+30,259 % -> 944 clients
+30,26 % -> 943 clients
+30,26 % -> 942 clients
+30,26 % -> 941 clients
+30,26 % -> 940 clients
+30,26 % -> 939 clients
+30,261 % -> 938 clients
+30,261 % -> 937 clients
+30,261 % -> 936 clients
+30,261 % -> 935 clients
+30,261 % -> 934 clients
+30,261 % -> 933 clients
+30,261 % -> 932 clients
+30,262 % -> 931 clients
+30,262 % -> 930 clients
+30,262 % -> 929 clients
+30,262 % -> 928 clients
+30,262 % -> 927 clients
+30,262 % -> 926 clients
+30,263 % -> 925 clients
+30,263 % -> 924 clients
+30,263 % -> 923 clients
+30,263 % -> 922 clients
+30,263 % -> 921 clients
+30,263 % -> 920 clients
+30,264 % -> 919 clients
+30,264 % -> 918 clients
+30,264 % -> 917 clients
+30,264 % -> 916 clients
+30,264 % -> 915 clients
+30,264 % -> 914 clients
+30,264 % -> 913 clients
+30,265 % -> 912 clients
+30,265 % -> 911 clients
+30,265 % -> 910 clients
+30,265 % -> 909 clients
+30,265 % -> 908 clients
+30,265 % -> 907 clients
+30,265 % -> 906 clients
+30,266 % -> 905 clients
+30,266 % -> 904 clients
+30,266 % -> 903 clients
+30,266 % -> 902 clients
+30,266 % -> 901 clients
+30,266 % -> 900 clients
+30,267 % -> 899 clients
+30,267 % -> 898 clients
+30,267 % -> 897 clients
+30,267 % -> 896 clients
+30,267 % -> 895 clients
+30,267 % -> 894 clients
+30,268 % -> 893 clients
+30,268 % -> 892 clients
+30,268 % -> 891 clients
+30,268 % -> 890 clients
+30,268 % -> 889 clients
+30,269 % -> 888 clients
+30,269 % -> 887 clients
+30,269 % -> 886 clients
+30,269 % -> 885 clients
+30,269 % -> 884 clients
+30,27 % -> 883 clients
+30,27 % -> 882 clients
+30,27 % -> 881 clients
+30,27 % -> 880 clients
+30,27 % -> 879 clients
+30,27 % -> 878 clients
+30,27 % -> 877 clients
+30,27 % -> 876 clients
+30,27 % -> 875 clients
+30,271 % -> 874 clients
+30,271 % -> 873 clients
+30,271 % -> 872 clients
+30,271 % -> 871 clients
+30,271 % -> 870 clients
+30,271 % -> 869 clients
+30,271 % -> 868 clients
+30,271 % -> 867 clients
+30,272 % -> 866 clients
+30,272 % -> 865 clients
+30,272 % -> 864 clients
+30,272 % -> 863 clients
+30,272 % -> 862 clients
+30,272 % -> 861 clients
+30,272 % -> 860 clients
+30,272 % -> 859 clients
+30,272 % -> 858 clients
+30,272 % -> 857 clients
+30,273 % -> 855 clients
+30,273 % -> 855 clients
+30,273 % -> 854 clients
+30,273 % -> 853 clients
+30,273 % -> 852 clients
+30,273 % -> 851 clients
+30,273 % -> 850 clients
+30,273 % -> 849 clients
+30,273 % -> 848 clients
+30,273 % -> 847 clients
+30,273 % -> 846 clients
+30,274 % -> 845 clients
+30,274 % -> 844 clients
+30,274 % -> 843 clients
+30,274 % -> 842 clients
+30,274 % -> 841 clients
+30,274 % -> 840 clients
+30,274 % -> 839 clients
+30,274 % -> 838 clients
+30,274 % -> 837 clients
+30,274 % -> 836 clients
+30,274 % -> 835 clients
+30,274 % -> 834 clients
+30,274 % -> 833 clients
+30,274 % -> 832 clients
+30,274 % -> 831 clients
+30,274 % -> 830 clients
+30,274 % -> 829 clients
+30,275 % -> 828 clients
+30,275 % -> 827 clients
+30,275 % -> 826 clients
+30,275 % -> 825 clients
+30,275 % -> 824 clients
+30,275 % -> 823 clients
+30,275 % -> 822 clients
+30,275 % -> 821 clients
+30,275 % -> 820 clients
+30,275 % -> 819 clients
+30,275 % -> 818 clients
+30,275 % -> 817 clients
+30,275 % -> 816 clients
+30,275 % -> 815 clients
+30,275 % -> 814 clients
+30,275 % -> 813 clients
+30,275 % -> 812 clients
+30,275 % -> 811 clients
+30,275 % -> 810 clients
+30,275 % -> 809 clients
+30,275 % -> 808 clients
+30,275 % -> 807 clients
+30,275 % -> 806 clients
+30,275 % -> 805 clients
+30,276 % -> 804 clients
+30,276 % -> 803 clients
+30,276 % -> 802 clients
+30,276 % -> 801 clients
+30,276 % -> 800 clients
+30,276 % -> 799 clients
+30,276 % -> 798 clients
+30,276 % -> 797 clients
+30,276 % -> 796 clients
+30,276 % -> 795 clients
+30,276 % -> 794 clients
+30,276 % -> 793 clients
+30,276 % -> 792 clients
+30,276 % -> 791 clients
+30,276 % -> 790 clients
+30,276 % -> 789 clients
+30,276 % -> 788 clients
+30,276 % -> 787 clients
+30,276 % -> 786 clients
+30,276 % -> 785 clients
+30,276 % -> 784 clients
+30,276 % -> 783 clients
+30,277 % -> 782 clients
+30,277 % -> 781 clients
+30,277 % -> 780 clients
+30,277 % -> 779 clients
+30,277 % -> 778 clients
+30,277 % -> 777 clients
+30,277 % -> 776 clients
+30,277 % -> 775 clients
+30,277 % -> 774 clients
+30,277 % -> 773 clients
+30,278 % -> 772 clients
+30,278 % -> 771 clients
+30,278 % -> 770 clients
+30,278 % -> 769 clients
+30,278 % -> 768 clients
+30,278 % -> 767 clients
+30,278 % -> 766 clients
+30,278 % -> 765 clients
+30,278 % -> 764 clients
+30,278 % -> 763 clients
+30,279 % -> 762 clients
+30,279 % -> 761 clients
+30,279 % -> 760 clients
+30,279 % -> 759 clients
+30,279 % -> 758 clients
+30,279 % -> 757 clients
+30,279 % -> 756 clients
+30,279 % -> 755 clients
+30,279 % -> 754 clients
+30,279 % -> 753 clients
+30,279 % -> 752 clients
+30,28 % -> 751 clients
+30,28 % -> 750 clients
+30,28 % -> 749 clients
+30,28 % -> 748 clients
+30,28 % -> 747 clients
+30,28 % -> 746 clients
+30,28 % -> 745 clients
+30,28 % -> 744 clients
+30,28 % -> 743 clients
+30,28 % -> 742 clients
+30,28 % -> 741 clients
+30,28 % -> 740 clients
+30,28 % -> 739 clients
+30,281 % -> 738 clients
+30,281 % -> 737 clients
+30,281 % -> 736 clients
+30,281 % -> 735 clients
+30,281 % -> 734 clients
+30,281 % -> 733 clients
+30,281 % -> 732 clients
+30,281 % -> 731 clients
+30,281 % -> 730 clients
+30,281 % -> 729 clients
+30,281 % -> 728 clients
+30,282 % -> 727 clients
+30,282 % -> 726 clients
+30,282 % -> 725 clients
+30,282 % -> 724 clients
+30,282 % -> 723 clients
+30,283 % -> 722 clients
+30,283 % -> 721 clients
+30,283 % -> 720 clients
+30,283 % -> 719 clients
+30,283 % -> 718 clients
+30,283 % -> 717 clients
+30,283 % -> 716 clients
+30,283 % -> 715 clients
+30,283 % -> 714 clients
+30,284 % -> 713 clients
+30,284 % -> 712 clients
+30,284 % -> 711 clients
+30,284 % -> 710 clients
+30,284 % -> 709 clients
+30,284 % -> 708 clients
+30,284 % -> 707 clients
+30,284 % -> 705 clients
+30,284 % -> 705 clients
+30,284 % -> 704 clients
+30,284 % -> 703 clients
+30,284 % -> 702 clients
+30,284 % -> 701 clients
+30,285 % -> 700 clients
+30,285 % -> 699 clients
+30,285 % -> 698 clients
+30,285 % -> 697 clients
+30,285 % -> 696 clients
+30,285 % -> 695 clients
+30,285 % -> 694 clients
+30,285 % -> 693 clients
+30,285 % -> 692 clients
+30,285 % -> 691 clients
+30,285 % -> 690 clients
+30,285 % -> 689 clients
+30,286 % -> 688 clients
+30,286 % -> 687 clients
+30,286 % -> 686 clients
+30,286 % -> 685 clients
+30,286 % -> 684 clients
+30,286 % -> 683 clients
+30,286 % -> 682 clients
+30,286 % -> 681 clients
+30,286 % -> 680 clients
+30,286 % -> 679 clients
+30,286 % -> 678 clients
+30,287 % -> 677 clients
+30,287 % -> 676 clients
+30,287 % -> 675 clients
+30,287 % -> 674 clients
+30,287 % -> 673 clients
+30,287 % -> 672 clients
+30,287 % -> 671 clients
+30,287 % -> 670 clients
+30,287 % -> 669 clients
+30,287 % -> 668 clients
+30,287 % -> 667 clients
+30,287 % -> 666 clients
+30,287 % -> 665 clients
+30,288 % -> 664 clients
+30,288 % -> 663 clients
+30,288 % -> 662 clients
+30,288 % -> 661 clients
+30,288 % -> 660 clients
+30,289 % -> 659 clients
+30,289 % -> 658 clients
+30,289 % -> 657 clients
+30,289 % -> 656 clients
+30,289 % -> 655 clients
+30,289 % -> 654 clients
+30,289 % -> 653 clients
+30,289 % -> 652 clients
+30,29 % -> 651 clients
+30,29 % -> 650 clients
+30,29 % -> 649 clients
+30,29 % -> 648 clients
+30,29 % -> 647 clients
+30,29 % -> 646 clients
+30,29 % -> 645 clients
+30,29 % -> 644 clients
+30,29 % -> 643 clients
+30,29 % -> 642 clients
+30,291 % -> 641 clients
+30,291 % -> 640 clients
+30,291 % -> 639 clients
+30,291 % -> 638 clients
+30,291 % -> 637 clients
+30,291 % -> 636 clients
+30,291 % -> 635 clients
+30,291 % -> 634 clients
+30,291 % -> 633 clients
+30,291 % -> 632 clients
+30,291 % -> 631 clients
+30,292 % -> 630 clients
+30,292 % -> 629 clients
+30,292 % -> 628 clients
+30,292 % -> 627 clients
+30,292 % -> 626 clients
+30,292 % -> 625 clients
+30,292 % -> 624 clients
+30,292 % -> 623 clients
+30,292 % -> 622 clients
+30,292 % -> 621 clients
+30,292 % -> 620 clients
+30,292 % -> 619 clients
+30,293 % -> 618 clients
+30,293 % -> 617 clients
+30,293 % -> 616 clients
+30,293 % -> 615 clients
+30,293 % -> 614 clients
+30,293 % -> 613 clients
+30,293 % -> 612 clients
+30,293 % -> 611 clients
+30,293 % -> 610 clients
+30,293 % -> 609 clients
+30,293 % -> 608 clients
+30,294 % -> 607 clients
+30,294 % -> 606 clients
+30,294 % -> 605 clients
+30,294 % -> 604 clients
+30,294 % -> 603 clients
+30,294 % -> 602 clients
+30,294 % -> 601 clients
+30,294 % -> 600 clients
+30,294 % -> 599 clients
+30,294 % -> 598 clients
+30,294 % -> 597 clients
+30,295 % -> 596 clients
+30,295 % -> 595 clients
+30,295 % -> 594 clients
+30,295 % -> 593 clients
+30,295 % -> 592 clients
+30,295 % -> 591 clients
+30,295 % -> 590 clients
+30,295 % -> 589 clients
+30,295 % -> 588 clients
+30,295 % -> 587 clients
+30,295 % -> 586 clients
+30,296 % -> 585 clients
+30,296 % -> 584 clients
+30,296 % -> 583 clients
+30,296 % -> 582 clients
+30,296 % -> 581 clients
+30,296 % -> 580 clients
+30,296 % -> 579 clients
+30,296 % -> 578 clients
+30,296 % -> 577 clients
+30,296 % -> 576 clients
+30,297 % -> 575 clients
+30,297 % -> 574 clients
+30,297 % -> 573 clients
+30,297 % -> 572 clients
+30,297 % -> 571 clients
+30,297 % -> 570 clients
+30,297 % -> 569 clients
+30,297 % -> 568 clients
+30,297 % -> 567 clients
+30,297 % -> 566 clients
+30,298 % -> 565 clients
+30,298 % -> 564 clients
+30,298 % -> 563 clients
+30,298 % -> 562 clients
+30,298 % -> 561 clients
+30,298 % -> 560 clients
+30,298 % -> 559 clients
+30,298 % -> 558 clients
+30,298 % -> 557 clients
+30,298 % -> 556 clients
+30,298 % -> 555 clients
+30,299 % -> 554 clients
+30,299 % -> 553 clients
+30,299 % -> 552 clients
+30,299 % -> 551 clients
+30,299 % -> 550 clients
+30,299 % -> 549 clients
+30,299 % -> 548 clients
+30,299 % -> 547 clients
+30,299 % -> 546 clients
+30,299 % -> 545 clients
+30,299 % -> 544 clients
+30,3 % -> 543 clients
+30,3 % -> 542 clients
+30,3 % -> 541 clients
+30,3 % -> 540 clients
+30,3 % -> 539 clients
+30,3 % -> 538 clients
+30,3 % -> 537 clients
+30,3 % -> 536 clients
+30,3 % -> 535 clients
+30,3 % -> 534 clients
+30,3 % -> 533 clients
+30,3 % -> 532 clients
+30,3 % -> 531 clients
+30,301 % -> 530 clients
+30,301 % -> 529 clients
+30,301 % -> 528 clients
+30,301 % -> 527 clients
+30,301 % -> 526 clients
+30,301 % -> 525 clients
+30,301 % -> 524 clients
+30,301 % -> 523 clients
+30,301 % -> 522 clients
+30,301 % -> 521 clients
+30,301 % -> 520 clients
+30,301 % -> 519 clients
+30,301 % -> 518 clients
+30,301 % -> 517 clients
+30,301 % -> 516 clients
+30,301 % -> 515 clients
+30,302 % -> 514 clients
+30,302 % -> 513 clients
+30,302 % -> 511 clients
+30,302 % -> 511 clients
+30,302 % -> 510 clients
+30,302 % -> 509 clients
+30,302 % -> 508 clients
+30,302 % -> 507 clients
+30,302 % -> 506 clients
+30,302 % -> 505 clients
+30,302 % -> 504 clients
+30,302 % -> 503 clients
+30,302 % -> 502 clients
+30,302 % -> 501 clients
+30,302 % -> 500 clients
+30,302 % -> 499 clients
+30,302 % -> 498 clients
+30,302 % -> 497 clients
+30,302 % -> 496 clients
+30,302 % -> 495 clients
+30,302 % -> 494 clients
+30,302 % -> 493 clients
+30,303 % -> 492 clients
+30,303 % -> 491 clients
+30,303 % -> 490 clients
+30,303 % -> 489 clients
+30,303 % -> 488 clients
+30,303 % -> 487 clients
+30,303 % -> 486 clients
+30,303 % -> 485 clients
+30,303 % -> 484 clients
+30,303 % -> 483 clients
+30,303 % -> 482 clients
+30,303 % -> 481 clients
+30,303 % -> 480 clients
+30,303 % -> 479 clients
+30,303 % -> 478 clients
+30,303 % -> 477 clients
+30,303 % -> 476 clients
+30,303 % -> 475 clients
+30,303 % -> 474 clients
+30,303 % -> 473 clients
+30,303 % -> 472 clients
+30,303 % -> 471 clients
+30,303 % -> 470 clients
+30,303 % -> 469 clients
+30,303 % -> 468 clients
+30,303 % -> 467 clients
+30,303 % -> 466 clients
+30,303 % -> 465 clients
+30,303 % -> 464 clients
+30,303 % -> 463 clients
+30,303 % -> 462 clients
+30,303 % -> 460 clients
+30,303 % -> 460 clients
+30,303 % -> 459 clients
+30,303 % -> 458 clients
+30,303 % -> 457 clients
+30,304 % -> 456 clients
+30,304 % -> 455 clients
+30,304 % -> 454 clients
+30,304 % -> 453 clients
+30,304 % -> 452 clients
+30,304 % -> 451 clients
+30,304 % -> 450 clients
+30,304 % -> 449 clients
+30,304 % -> 448 clients
+30,304 % -> 447 clients
+30,304 % -> 446 clients
+30,304 % -> 445 clients
+30,304 % -> 444 clients
+30,304 % -> 443 clients
+30,304 % -> 442 clients
+30,304 % -> 441 clients
+30,304 % -> 440 clients
+30,304 % -> 439 clients
+30,304 % -> 438 clients
+30,304 % -> 437 clients
+30,304 % -> 436 clients
+30,304 % -> 435 clients
+30,304 % -> 434 clients
+30,304 % -> 433 clients
+30,304 % -> 432 clients
+30,304 % -> 431 clients
+30,305 % -> 430 clients
+30,305 % -> 429 clients
+30,305 % -> 428 clients
+30,305 % -> 427 clients
+30,305 % -> 426 clients
+30,305 % -> 425 clients
+30,305 % -> 424 clients
+30,305 % -> 423 clients
+30,305 % -> 422 clients
+30,305 % -> 421 clients
+30,305 % -> 420 clients
+30,305 % -> 419 clients
+30,305 % -> 418 clients
+30,305 % -> 417 clients
+30,305 % -> 416 clients
+30,305 % -> 415 clients
+30,306 % -> 414 clients
+30,306 % -> 413 clients
+30,306 % -> 412 clients
+30,306 % -> 411 clients
+30,306 % -> 410 clients
+30,306 % -> 409 clients
+30,306 % -> 408 clients
+30,306 % -> 407 clients
+30,306 % -> 406 clients
+30,307 % -> 405 clients
+30,307 % -> 404 clients
+30,307 % -> 403 clients
+30,308 % -> 402 clients
+30,308 % -> 401 clients
+30,308 % -> 400 clients
+30,308 % -> 399 clients
+30,308 % -> 398 clients
+30,308 % -> 397 clients
+30,308 % -> 396 clients
+30,31 % -> 395 clients
+30,32 % -> 394 clients
+30,324 % -> 393 clients
+30,324 % -> 392 clients
+30,324 % -> 391 clients
+30,324 % -> 390 clients
+30,324 % -> 389 clients
+30,325 % -> 388 clients
+30,325 % -> 387 clients
+30,325 % -> 386 clients
+30,325 % -> 385 clients
+30,325 % -> 384 clients
+30,325 % -> 383 clients
+30,326 % -> 382 clients
+30,328 % -> 384 clients
+30,329 % -> 383 clients
+30,329 % -> 382 clients
+30,329 % -> 381 clients
+30,329 % -> 380 clients
+30,329 % -> 379 clients
+30,349 % -> 377 clients
+30,349 % -> 376 clients
+30,889 % -> 375 clients
+30,889 % -> 374 clients
+30,89 % -> 373 clients
+30,89 % -> 372 clients
+30,89 % -> 371 clients
+30,891 % -> 370 clients
+30,891 % -> 369 clients
+30,891 % -> 368 clients
+30,892 % -> 367 clients
+30,892 % -> 366 clients
+30,892 % -> 365 clients
+30,892 % -> 364 clients
+30,892 % -> 363 clients
+30,894 % -> 362 clients
+30,894 % -> 361 clients
+30,894 % -> 360 clients
+30,894 % -> 359 clients
+30,895 % -> 358 clients
+30,895 % -> 357 clients
+30,895 % -> 356 clients
+30,895 % -> 355 clients
+30,896 % -> 354 clients
+30,896 % -> 353 clients
+30,896 % -> 352 clients
+30,896 % -> 351 clients
+30,897 % -> 350 clients
+30,897 % -> 349 clients
+30,897 % -> 348 clients
+30,9 % -> 347 clients
+30,9 % -> 346 clients
+30,902 % -> 345 clients
+30,902 % -> 344 clients
+30,902 % -> 343 clients
+30,903 % -> 342 clients
+30,903 % -> 341 clients
+30,904 % -> 340 clients
+30,904 % -> 339 clients
+30,905 % -> 338 clients
+30,905 % -> 337 clients
+30,905 % -> 336 clients
+30,905 % -> 335 clients
+31,022 % -> 333 clients
+31,06 % -> 335 clients
+32,573 % -> 333 clients
+32,615 % -> 331 clients
+32,993 % -> 329 clients
+32,993 % -> 327 clients
+32,993 % -> 325 clients
+32,993 % -> 323 clients
+32,993 % -> 321 clients
+32,993 % -> 319 clients
+32,993 % -> 317 clients
+32,994 % -> 315 clients
+32,994 % -> 313 clients
+32,994 % -> 311 clients
+32,996 % -> 309 clients
+32,996 % -> 307 clients
+32,997 % -> 305 clients
+32,997 % -> 303 clients
+32,998 % -> 301 clients
+32,998 % -> 299 clients
+32,998 % -> 297 clients
+32,999 % -> 295 clients
+32,999 % -> 293 clients
+33,002 % -> 289 clients
+33,002 % -> 289 clients
+33,002 % -> 287 clients
+33,002 % -> 285 clients
+33,002 % -> 283 clients
+33,003 % -> 281 clients
+33,003 % -> 279 clients
+33,003 % -> 277 clients
+33,97 % -> 272 clients
+33,984 % -> 267 clients
+34,054 % -> 262 clients
+34,054 % -> 257 clients
+34,55 % -> 255 clients
+34,55 % -> 253 clients
+34,607 % -> 251 clients
+34,694 % -> 249 clients
+34,695 % -> 247 clients
+36,223 % -> 242 clients
+39,56 % -> 240 clients
+39,56 % -> 238 clients
+40,143 % -> 235 clients
+40,191 % -> 232 clients
+40,191 % -> 229 clients
+40,194 % -> 226 clients
+40,772 % -> 223 clients
+42,005 % -> 221 clients
+42,005 % -> 219 clients
+42,482 % -> 216 clients
+42,772 % -> 214 clients
+42,875 % -> 212 clients
+43,129 % -> 210 clients
+43,131 % -> 208 clients
+43,317 % -> 204 clients
+44,48 % -> 202 clients
+44,586 % -> 200 clients
+44,851 % -> 198 clients
+45,441 % -> 194 clients
+45,498 % -> 190 clients
+45,498 % -> 186 clients
+45,628 % -> 176 clients
+45,628 % -> 176 clients
+45,628 % -> 171 clients
+47,039 % -> 169 clients
+47,172 % -> 164 clients
+47,323 % -> 159 clients
+53,479 % -> 154 clients
+53,479 % -> 149 clients
+53,479 % -> 144 clients
+53,479 % -> 139 clients
+53,479 % -> 134 clients
+60,402 % -> 132 clients
+60,402 % -> 130 clients
+94,602 % -> 121 clients
+94,602 % -> 112 clients
+94,602 % -> 103 clients
+94,602 % -> 94 clients
+94,602 % -> 85 clients
+94,602 % -> 76 clients
+94,604 % -> 58 clients
+94,604 % -> 58 clients
+94,604 % -> 49 clients
+97,666 % -> 42 clients
+97,666 % -> 35 clients
+97,666 % -> 28 clients
+97,684 % -> 21 clients
+97,684 % -> 14 clients
+97,684 % -> 7 clients
+99,999 % -> 0 clients
+GenericLoadTests successful!
+2014-04-10 12:37:12 INFO  Environment:118 - -- Stop server process successfully!
+------------------------------
+All tests were successful! :)
+
+Process finished with exit code 1

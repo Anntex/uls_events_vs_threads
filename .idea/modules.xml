@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/event_vs_thread.iml" filepath="$PROJECT_DIR$/event_vs_thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_thread_based_server/java_thread_based_server.iml" filepath="$PROJECT_DIR$/java_thread_based_server/java_thread_based_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadtester/loadtester.iml" filepath="$PROJECT_DIR$/loadtester/loadtester.iml" />
+    </modules>
+  </component>
+</project>
+

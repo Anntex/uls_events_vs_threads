@@ -1,0 +1,71 @@
+    // ---------------------------------------
+    // PROPERTIES
+    // ---------------------------------------
+
+    private AsynchronousChannelGroup asynchronousChannelGroup = null;
+    private AsynchronousServerSocketChannel server = null;
+    private long clientIds = 0;
+    private List<ClientService> connections = new ArrayList<>();
+
+    // ---------------------------------------
+    // METHODS
+    // ---------------------------------------
+
+    @Override
+    public void start(boolean parallelProgress) throws IOException, InterruptedException, ExecutionException
+    {
+        // create new SocketAddress to bind socket listener to this port
+        SocketAddress address = new InetSocketAddress(ServerConfig.serverPort);
+
+        this.asynchronousChannelGroup = AsynchronousChannelGroup.withThreadPool(Executors.newSingleThreadExecutor());
+
+        // open new socket channel and bind the port to the channel, each incoming request on
+        // this port will be processed asynchronously
+        this.server = AsynchronousServerSocketChannel.open(this.asynchronousChannelGroup).bind(address);
+
+        // call the server socket channel to accept incoming connections. The accept call always returns immediately,
+        // and — unlike ServerSocketChannel.accept(), which returns a SocketChannel — it returns a
+        // Future<AsynchronousSocketChannel> object that can be used to retrieve an
+        // AsynchronousSocketChannel at a later time.
+        Future<AsynchronousSocketChannel> future = server.accept();
+
+        // wait for the accept to finish
+/*        AsynchronousSocketChannel worker = future.get();
+        System.out.println("Accept completed");*/
+
+/*        server.accept(null, new CompletionHandler<AsynchronousSocketChannel, Object>()
+        {
+            @Override
+            public void completed(AsynchronousSocketChannel channel, Object attachment)
+            {
+                // accept the nex incoming connection and bind same completion handler
+                server.accept(null, this);
+                // pass the socket channel to a new instance of ClientService
+                ClientService client = new ClientService(++clientIds, channel);
+                client.run();
+                connections.add(client);
+            }
+
+            @Override
+            public void failed(Throwable exc, Object attachment)
+            {
+                log.error("Error: no more connections possible!", exc);
+            }
+        });*/
+    }
+
+    @Override
+    public void stop() throws IOException
+    {
+        if (this.server != null)
+        {
+            this.server.close();
+            this.server = null;
+        }
+
+        if (this.asynchronousChannelGroup != null)
+        {
+            this.asynchronousChannelGroup.shutdown();
+            this.asynchronousChannelGroup = null;
+        }
+    }
