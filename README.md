@@ -1,5 +1,5 @@
 ## Welcome to the event-drive vs. thread-based architecture project page!
-This project deals with the study of different server architectures in regard to a large number of incoming and outgoing connections, I/O operations, as well as the transfer of data over these connections. The goal of this project is to identify the strengths, weaknesses and an ideal use of the different architecture models under the terms of load tests.
+This project deals with the study on different server architectures in regard to a large number of incoming and outgoing connections, I/O operations, as well as the transfer of data over these connections. The goal of this project is to identify the strengths, weaknesses and an ideal use of the different architecture models under the terms of load tests.
 
 In order to enable a quality assessment to the comparison of thread-based and event-driven architecture, load tests of the architecture models were carried out. The project consists of three modules:
 
